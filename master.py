@@ -62,6 +62,15 @@ class Master(kmeans_pb2_grpc.KMeansClusterServicer):
                 self.centroids = new_centroids
                 logging.info(f"Updated centroids: {self.centroids}")
 
+    def spawn_mapper_Reducer(self):
+        for i in range(self.m):
+            command=f'python mapper.py --mapper_id {i}'
+            threading.Thread(target=lambda:os.system(command)).start()
+        for i in range(self.r):
+            command=f'python reducer.py --reducer_id {i}'
+            threading.Thread(target=lambda:os.system(command)).start()
+    
+
     def serve(self):
         server = grpc.server(futures.ThreadPoolExecutor(max_workers=10))
         kmeans_pb2_grpc.add_KMeansClusterServicer_to_server(self, server)
