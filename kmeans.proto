@@ -1,0 +1,42 @@
+syntax = "proto3";
+
+package kmeans;
+
+service KMeansCluster {
+  rpc SendDataToMapper(MapperRequest) returns (MapperResponse);
+
+  rpc ReceiveUpdatedCentroids(ReducerResponse) returns (Acknowledgement);
+
+  rpc ProcessDataForReducer(ReducerRequest) returns (ReducerResponse);
+}
+
+message MapperRequest {
+  int32 mapper_id = 1;
+  repeated Centroid centroids = 2;
+  int32 range_start = 3;
+  int32 range_end = 4;
+}
+
+message MapperResponse {
+  int32 mapper_id = 1;
+  string status = 2; // SUCCESS or FAILURE
+}
+
+message ReducerRequest {
+  int32 reducer_id = 1;
+}
+
+message ReducerResponse {
+  int32 reducer_id = 1;
+  repeated Centroid new_centroids = 2;
+  string status = 3; // SUCCESS or FAILURE
+}
+
+// Acknowledgement to reducer response
+message Acknowledgement {
+  string message = 1; 
+}
+
+message Centroid {
+  repeated double coordinates = 1;
+}

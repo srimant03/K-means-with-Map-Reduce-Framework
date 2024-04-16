@@ -1,47 +1,70 @@
+import grpc
 import os
+from concurrent import futures
+import numpy as np
+import logging
 
-def map_function(input_split, centroids):
-    #for each point in the input_split, find the nearest centroid and emit (centroid, point)
-    result = []
-    for point in input_split:
-        min_dist = float('inf')
-        nearest_centroid = None
-        for centroid in centroids:
-            dist = sum([(a - b) ** 2 for a, b in zip(point, centroid)]) ** 0.5
-            if dist < min_dist:
-                min_dist = dist
-                nearest_centroid = centroid
-        result.append((nearest_centroid, point))
-    return result
+import kmeans_pb2
+import kmeans_pb2_grpc
 
-def partition(mapped_values, num_reducers, mapper_id):
-    #partition the mapped_values to num_reducers partitions
-    partitions = [[] for _ in range(num_reducers)]
-    for centroid, point in mapped_values:
-        partitions[hash(centroid) % num_reducers].append((centroid, point))
-    
-    mapper_dir = 'mapper_' + str(mapper_id)
-    if not os.path.exists(mapper_dir):
-        os.makedirs(mapper_dir)
-    for i, partition in enumerate(partitions):
-        with open(mapper_dir + '/partition_' + str(i) + '.txt', 'w') as f:
-            for centroid, point in partition:
-                f.write(str(centroid) + ' ' + str(point) + '\n')
+class Mapper(kmeans_pb2_grpc.KMeansClusterServicer):
+    def __init__(self, data_file='points.txt'):
+        self.data_file = data_file
 
-def run_mapper(input_split, centroids, num_reducers, mapper_id):
-    mapped_values = map_function(input_split, centroids)
-    partition(mapped_values, num_reducers, mapper_id)
+    def read_data_segment(self, start_index, end_index):
+        data = []
+        with open(self.data_file, 'r') as file:
+            for i, line in enumerate(file):
+                if start_index <= i < end_index:
+                    data.append(list(map(float, line.strip().split())))
+        return data
 
-    #after running partition function, each mapper must return success to master then master will call reducer
+    def calculate_distance(self, point, centroid):
+        return np.sqrt(sum((p - c) ** 2 for p, c in zip(point, centroid)))
 
-    #add code for grpc/sending reply(success) to master
+    def map_function(self, input_split, centroids):
+        result = []
+        for point in input_split:
+            min_dist = float('inf')
+            nearest_centroid = None
+            for centroid in centroids:
+                dist = self.calculate_distance(point, centroid)
+                if dist < min_dist:
+                    min_dist = dist
+                    nearest_centroid = centroid
+            result.append((nearest_centroid, point))
+        return result
+
+    def partition(self, mapped_values, num_reducers):
+        partitions = [[] for _ in range(num_reducers)]
+        for centroid, point in mapped_values:
+            partitions[hash(tuple(centroid)) % num_reducers].append((centroid, point))
+        return partitions
+
+    def SendDataToMapper(self, request, context):
+        centroids = [list(centroid.coordinates) for centroid in request.centroids]
+        input_split = self.read_data_segment(request.range_start, request.range_end)
+        mapped_values = self.map_function(input_split, centroids)
+        partitions = self.partition(mapped_values, request.num_reducers)
+
+        mapper_dir = f'mapper_{request.mapper_id}'
+        if not os.path.exists(mapper_dir):
+            os.makedirs(mapper_dir)
+
+        for i, partition in enumerate(partitions):
+            with open(os.path.join(mapper_dir, f'partition_{i}.txt'), 'w') as f:
+                for centroid, point in partition:
+                    f.write(f"{centroid} {point}\n")
+
+        return kmeans_pb2.MapperResponse(mapper_id=request.mapper_id, status="SUCCESS")
+
+def serve():
+    server = grpc.server(futures.ThreadPoolExecutor(max_workers=10))
+    kmeans_pb2_grpc.add_KMeansClusterServicer_to_server(Mapper(), server)
+    server.add_insecure_port('[::]:50052')
+    server.start()
+    server.wait_for_termination()
 
 if __name__ == '__main__':
-    
-    #accept grpc call from master here
-    #code for grpc and call to run_mapper 
-    input_split = [[1, 2], [3, 4], [5, 6], [7, 8], [9, 10]]
-    centroids = [[1, 2], [3, 4]]
-    num_reducers = 2
-    mapper_id = 1
-    run_mapper(input_split, centroids, num_reducers, mapper_id)
+    logging.basicConfig(filename='mapper_log.txt', level=logging.INFO)
+    serve()
