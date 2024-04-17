@@ -32,7 +32,7 @@ class Reducer(kmeans_pb2_grpc.KMeansClusterServicer):
         fail = random.random() < 0.5
         if fail:
             logging.error(f"Intentional failure for reducer {request.reducer_id}")
-            return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+            return kmeans_pb2.ReducerResponse(reducer_id=request.reducer_id, status="FAILURE")
 
         intermediate_values = []
         stub = kmeans_pb2_grpc.KMeansClusterStub(grpc.insecure_channel('localhost:5001'))

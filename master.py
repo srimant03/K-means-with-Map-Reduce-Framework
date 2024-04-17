@@ -64,7 +64,7 @@ class Master(kmeans_pb2_grpc.KMeansClusterServicer):
     #     response = mapper_stub.SendDataToMapper(request)
     #     mapper_responses.append(response)
     #     logging.info(f"Mapper {idx} response: {response.status}")
-    def spawn_and_grpc_to_mapper(self, idx, range_start, range_end, mapper_responses, retry_count=5):
+    def spawn_and_grpc_to_mapper(self, idx, range_start, range_end, mapper_responses, retry_count=15):
         attempts = 0
         while attempts < retry_count:
             try:
@@ -87,17 +87,17 @@ class Master(kmeans_pb2_grpc.KMeansClusterServicer):
                     break
                 else:
                     attempts += 1
-                    logging.info(f"Mapper {idx} attempt {attempts}: FAILED, retrying...")
+                    logging.info(f"Intentional Failure by Mapper {idx} attempt {attempts}: FAILED, retrying...")
             except grpc.RpcError as e:
                 logging.error(f"RPC Error for mapper {idx}: {str(e)}, retrying...")
                 attempts += 1
                 self.restart_mapper(idx) 
                 time.sleep(1) 
         if attempts == retry_count:
-            logging.error(f"Mapper {idx} failed after {retry_count} attempts and was restarted")
+            logging.error(f"Mapper {idx} failed after {retry_count} attempts and was not restarted")
 
     
-    def spawn_and_grpc_to_reducer(self, idx, reducer_responses, retry_count=5):
+    def spawn_and_grpc_to_reducer(self, idx, reducer_responses, retry_count=15):
         attempts=0
         while attempts<retry_count:
             try:
@@ -105,8 +105,13 @@ class Master(kmeans_pb2_grpc.KMeansClusterServicer):
                 channel = grpc.insecure_channel(f'localhost:{port}')
                 reducer_stub = kmeans_pb2_grpc.KMeansClusterStub(channel)
                 response = reducer_stub.ProcessDataForReducer(kmeans_pb2.ReducerRequest(reducer_id=idx, num_mappers=self.m))
-                reducer_responses.append(response)
-                logging.info(f"Reducer {idx} response: {response.status}")
+                if response.status == "SUCCESS":
+                    logging.info(f"Reducer {idx} response: {response.status}")
+                    reducer_responses.append(response)
+                    return  
+                else:
+                    logging.warning(f"Reducer {idx} attempt {attempts + 1}: FAILED, status: {response.status}")
+                    attempts += 1
             except grpc.RpcError as e:
                 logging.error(f"RPC Error for reducer {idx}: {str(e)}, retrying...")
                 attempts += 1
