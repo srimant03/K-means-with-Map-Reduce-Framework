@@ -83,6 +83,7 @@ class Master(kmeans_pb2_grpc.KMeansClusterServicer):
 
                 response = mapper_stub.SendDataToMapper(request)
                 if response.status == "SUCCESS":
+                    logging.info(f"Mapper {idx} response: {response.status}")
                     mapper_responses[idx] = response
                     break
                 else:
