@@ -1,0 +1,106 @@
+INFO:root:Initial centroids: [[88.28421977908025, 12.067049557489574], [2.4253966361924117, 14.200140998826638], [81.430136979439, 50.33034624768575], [24.281737705586114, 48.02641007037477], [30.2214411954406, 60.63826278594955]]
+INFO:root:Starting iteration 1
+INFO:root:Mapper 0 spawned on port 5001
+INFO:root:Mapper 1 spawned on port 5002
+INFO:root:Mapper 2 spawned on port 5003
+INFO:root:Mapper 3 spawned on port 5004
+INFO:root:Mapper 1 response: SUCCESS
+INFO:root:Mapper 3 response: SUCCESS
+INFO:root:Mapper 2 response: SUCCESS
+INFO:root:Mapper 0 response: SUCCESS
+INFO:root:Reducer 0 spawned on port 6001
+INFO:root:Reducer 1 spawned on port 6002
+INFO:root:Reducer 2 spawned on port 6003
+INFO:root:Reducer 3 spawned on port 6004
+INFO:root:Reducer 4 spawned on port 6005
+INFO:root:Reducer 1 response: SUCCESS
+INFO:root:Reducer 0 response: SUCCESS
+INFO:root:Reducer 3 response: SUCCESS
+INFO:root:Reducer 4 response: SUCCESS
+INFO:root:Reducer 2 response: SUCCESS
+INFO:root:New centroids: [[2.4889853005428675, 15.868564041872869], [29.259615504778292, 44.71356044396013], [88.28421977908025, 12.067049557489574], [78.45961024698572, 49.53106372222794], [23.860369254811488, 74.24312355848332]]
+INFO:root:Updated centroids: [[2.4889853005428675, 15.868564041872869], [29.259615504778292, 44.71356044396013], [88.28421977908025, 12.067049557489574], [78.45961024698572, 49.53106372222794], [23.860369254811488, 74.24312355848332]]
+INFO:root:Starting iteration 2
+INFO:root:Mapper 0 spawned on port 5001
+INFO:root:Mapper 1 spawned on port 5002
+INFO:root:Mapper 2 spawned on port 5003
+INFO:root:Mapper 3 spawned on port 5004
+INFO:root:Mapper 0 response: SUCCESS
+INFO:root:Mapper 1 response: SUCCESS
+INFO:root:Mapper 2 response: SUCCESS
+INFO:root:Mapper 3 response: SUCCESS
+INFO:root:Reducer 0 spawned on port 6001
+INFO:root:Reducer 1 spawned on port 6002
+INFO:root:Reducer 2 spawned on port 6003
+INFO:root:Reducer 3 spawned on port 6004
+INFO:root:Reducer 4 spawned on port 6005
+INFO:root:Reducer 0 response: SUCCESS
+INFO:root:Reducer 1 response: SUCCESS
+INFO:root:Reducer 3 response: SUCCESS
+INFO:root:Reducer 4 response: SUCCESS
+INFO:root:Reducer 2 response: SUCCESS
+INFO:root:New centroids: [[29.259615504778292, 44.71356044396013], [78.45961024698572, 49.53106372222794], [23.860369254811488, 74.24312355848332], [88.28421977908025, 12.067049557489574], [2.4889853005428675, 15.868564041872869]]
+INFO:root:Updated centroids: [[29.259615504778292, 44.71356044396013], [78.45961024698572, 49.53106372222794], [23.860369254811488, 74.24312355848332], [88.28421977908025, 12.067049557489574], [2.4889853005428675, 15.868564041872869]]
+INFO:root:Starting iteration 3
+INFO:root:Mapper 0 spawned on port 5001
+INFO:root:Mapper 1 spawned on port 5002
+INFO:root:Mapper 2 spawned on port 5003
+INFO:root:Mapper 3 spawned on port 5004
+INFO:root:Mapper 1 response: SUCCESS
+INFO:root:Mapper 0 response: SUCCESS
+INFO:root:Mapper 2 response: SUCCESS
+INFO:root:Mapper 3 response: SUCCESS
+INFO:root:Reducer 0 spawned on port 6001
+INFO:root:Reducer 1 spawned on port 6002
+INFO:root:Reducer 2 spawned on port 6003
+INFO:root:Reducer 3 spawned on port 6004
+INFO:root:Reducer 4 spawned on port 6005
+INFO:root:Reducer 1 response: SUCCESS
+INFO:root:Reducer 3 response: SUCCESS
+INFO:root:Reducer 4 response: SUCCESS
+INFO:root:Reducer 2 response: SUCCESS
+INFO:root:Reducer 0 response: SUCCESS
+INFO:root:New centroids: [[23.860369254811488, 74.24312355848332], [88.28421977908025, 12.067049557489574], [2.4889853005428675, 15.868564041872869], [29.259615504778292, 44.71356044396013], [78.45961024698572, 49.53106372222794]]
+INFO:root:Updated centroids: [[23.860369254811488, 74.24312355848332], [88.28421977908025, 12.067049557489574], [2.4889853005428675, 15.868564041872869], [29.259615504778292, 44.71356044396013], [78.45961024698572, 49.53106372222794]]
+INFO:root:Starting iteration 4
+INFO:root:Mapper 0 spawned on port 5001
+INFO:root:Mapper 1 spawned on port 5002
+INFO:root:Mapper 2 spawned on port 5003
+INFO:root:Mapper 3 spawned on port 5004
+INFO:root:Mapper 1 response: SUCCESS
+INFO:root:Mapper 0 response: SUCCESS
+INFO:root:Mapper 2 response: SUCCESS
+INFO:root:Mapper 3 response: SUCCESS
+INFO:root:Reducer 0 spawned on port 6001
+INFO:root:Reducer 1 spawned on port 6002
+INFO:root:Reducer 2 spawned on port 6003
+INFO:root:Reducer 3 spawned on port 6004
+INFO:root:Reducer 4 spawned on port 6005
+INFO:root:Reducer 0 response: SUCCESS
+INFO:root:Reducer 2 response: SUCCESS
+INFO:root:Reducer 3 response: SUCCESS
+INFO:root:Reducer 4 response: SUCCESS
+INFO:root:Reducer 1 response: SUCCESS
+INFO:root:New centroids: [[29.259615504778292, 44.71356044396013], [78.45961024698572, 49.53106372222794], [2.4889853005428675, 15.868564041872869], [23.860369254811488, 74.24312355848332], [88.28421977908025, 12.067049557489574]]
+INFO:root:Updated centroids: [[29.259615504778292, 44.71356044396013], [78.45961024698572, 49.53106372222794], [2.4889853005428675, 15.868564041872869], [23.860369254811488, 74.24312355848332], [88.28421977908025, 12.067049557489574]]
+INFO:root:Starting iteration 5
+INFO:root:Mapper 0 spawned on port 5001
+INFO:root:Mapper 1 spawned on port 5002
+INFO:root:Mapper 2 spawned on port 5003
+INFO:root:Mapper 3 spawned on port 5004
+INFO:root:Mapper 0 response: SUCCESS
+INFO:root:Mapper 1 response: SUCCESS
+INFO:root:Mapper 2 response: SUCCESS
+INFO:root:Mapper 3 response: SUCCESS
+INFO:root:Reducer 0 spawned on port 6001
+INFO:root:Reducer 1 spawned on port 6002
+INFO:root:Reducer 2 spawned on port 6003
+INFO:root:Reducer 3 spawned on port 6004
+INFO:root:Reducer 4 spawned on port 6005
+INFO:root:Reducer 0 response: SUCCESS
+INFO:root:Reducer 3 response: SUCCESS
+INFO:root:Reducer 2 response: SUCCESS
+INFO:root:Reducer 4 response: SUCCESS
+INFO:root:Reducer 1 response: SUCCESS
+INFO:root:New centroids: [[29.259615504778292, 44.71356044396013], [78.45961024698572, 49.53106372222794], [2.4889853005428675, 15.868564041872869], [23.860369254811488, 74.24312355848332], [88.28421977908025, 12.067049557489574]]
+INFO:root:Convergence reached.

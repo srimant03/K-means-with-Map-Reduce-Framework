@@ -8,6 +8,8 @@ service KMeansCluster {
   rpc ReceiveUpdatedCentroids(ReducerResponse) returns (Acknowledgement);
 
   rpc ProcessDataForReducer(ReducerRequest) returns (ReducerResponse);
+
+  rpc send_intermediate_values_to_reducer(IntermediateRequest) returns (IntermediateResponse);
 }
 
 message MapperRequest {
@@ -15,6 +17,7 @@ message MapperRequest {
   repeated Centroid centroids = 2;
   int32 range_start = 3;
   int32 range_end = 4;
+  int32 num_red = 5;
 }
 
 message MapperResponse {
@@ -24,12 +27,23 @@ message MapperResponse {
 
 message ReducerRequest {
   int32 reducer_id = 1;
+  int32 num_mappers = 2;
 }
 
 message ReducerResponse {
   int32 reducer_id = 1;
   repeated Centroid new_centroids = 2;
   string status = 3; // SUCCESS or FAILURE
+}
+
+message IntermediateRequest {
+  int32 reducer_id = 1;
+  int32 num_mappers = 2;
+}
+
+message IntermediateResponse {
+  int32 reducer_id = 1;
+  repeated string data = 2;
 }
 
 // Acknowledgement to reducer response

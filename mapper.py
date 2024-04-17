@@ -3,12 +3,13 @@ import os
 from concurrent import futures
 import numpy as np
 import logging
+import sys
 
 import kmeans_pb2
 import kmeans_pb2_grpc
 
 class Mapper(kmeans_pb2_grpc.KMeansClusterServicer):
-    def __init__(self, data_file='points.txt'):
+    def __init__(self, data_file='data.txt'):
         self.data_file = data_file
 
     def read_data_segment(self, start_index, end_index):
@@ -16,7 +17,8 @@ class Mapper(kmeans_pb2_grpc.KMeansClusterServicer):
         with open(self.data_file, 'r') as file:
             for i, line in enumerate(file):
                 if start_index <= i < end_index:
-                    data.append(list(map(float, line.strip().split())))
+                    #seperate the line by comma to get x and y coordinates
+                    data.append(list(map(float, line.strip().split(','))))
         return data
 
     def calculate_distance(self, point, centroid):
@@ -45,7 +47,7 @@ class Mapper(kmeans_pb2_grpc.KMeansClusterServicer):
         centroids = [list(centroid.coordinates) for centroid in request.centroids]
         input_split = self.read_data_segment(request.range_start, request.range_end)
         mapped_values = self.map_function(input_split, centroids)
-        partitions = self.partition(mapped_values, request.num_reducers)
+        partitions = self.partition(mapped_values, request.num_red)
 
         mapper_dir = f'mapper_{request.mapper_id}'
         if not os.path.exists(mapper_dir):
@@ -57,14 +59,28 @@ class Mapper(kmeans_pb2_grpc.KMeansClusterServicer):
                     f.write(f"{centroid} {point}\n")
 
         return kmeans_pb2.MapperResponse(mapper_id=request.mapper_id, status="SUCCESS")
+    
+    def send_intermediate_values_to_reducer(self, request, context):
+        intermediate_values = []
+        for i in range(request.num_mappers):
+            mapper_dir = f'mapper_{i}'
+            with open(os.path.join(mapper_dir, f'partition_{request.reducer_id}.txt'), 'r') as file:
+                lines = file.readlines()
+                for line in lines:
+                    intermediate_values.append(line)
+        return kmeans_pb2.IntermediateResponse(reducer_id=request.reducer_id, data=intermediate_values)
 
 def serve():
     server = grpc.server(futures.ThreadPoolExecutor(max_workers=10))
     kmeans_pb2_grpc.add_KMeansClusterServicer_to_server(Mapper(), server)
-    server.add_insecure_port('[::]:50052')
+    #server.add_insecure_port('[::]:50052')
+    server.add_insecure_port(f'[::]:{port}')
     server.start()
     server.wait_for_termination()
 
 if __name__ == '__main__':
     logging.basicConfig(filename='mapper_log.txt', level=logging.INFO)
+    #take port number as input
+    port = sys.argv[1]
+    print("Mapper started")
     serve()

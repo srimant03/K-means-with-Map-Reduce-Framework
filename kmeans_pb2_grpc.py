@@ -6,8 +6,7 @@ import kmeans_pb2 as kmeans__pb2
 
 
 class KMeansClusterStub(object):
-    """The service definition.
-    """
+    """Missing associated documentation comment in .proto file."""
 
     def __init__(self, channel):
         """Constructor.
@@ -30,29 +29,36 @@ class KMeansClusterStub(object):
                 request_serializer=kmeans__pb2.ReducerRequest.SerializeToString,
                 response_deserializer=kmeans__pb2.ReducerResponse.FromString,
                 )
+        self.send_intermediate_values_to_reducer = channel.unary_unary(
+                '/kmeans.KMeansCluster/send_intermediate_values_to_reducer',
+                request_serializer=kmeans__pb2.IntermediateRequest.SerializeToString,
+                response_deserializer=kmeans__pb2.IntermediateResponse.FromString,
+                )
 
 
 class KMeansClusterServicer(object):
-    """The service definition.
-    """
+    """Missing associated documentation comment in .proto file."""
 
     def SendDataToMapper(self, request, context):
-        """Sends the initial or updated centroids to mappers
-        """
+        """Missing associated documentation comment in .proto file."""
         context.set_code(grpc.StatusCode.UNIMPLEMENTED)
         context.set_details('Method not implemented!')
         raise NotImplementedError('Method not implemented!')
 
     def ReceiveUpdatedCentroids(self, request, context):
-        """Receives the aggregated and updated centroids from reducers
-        """
+        """Missing associated documentation comment in .proto file."""
         context.set_code(grpc.StatusCode.UNIMPLEMENTED)
         context.set_details('Method not implemented!')
         raise NotImplementedError('Method not implemented!')
 
     def ProcessDataForReducer(self, request, context):
-        """Master requests reducer to process data and return new centroids
-        """
+        """Missing associated documentation comment in .proto file."""
+        context.set_code(grpc.StatusCode.UNIMPLEMENTED)
+        context.set_details('Method not implemented!')
+        raise NotImplementedError('Method not implemented!')
+
+    def send_intermediate_values_to_reducer(self, request, context):
+        """Missing associated documentation comment in .proto file."""
         context.set_code(grpc.StatusCode.UNIMPLEMENTED)
         context.set_details('Method not implemented!')
         raise NotImplementedError('Method not implemented!')
@@ -75,6 +81,11 @@ def add_KMeansClusterServicer_to_server(servicer, server):
                     request_deserializer=kmeans__pb2.ReducerRequest.FromString,
                     response_serializer=kmeans__pb2.ReducerResponse.SerializeToString,
             ),
+            'send_intermediate_values_to_reducer': grpc.unary_unary_rpc_method_handler(
+                    servicer.send_intermediate_values_to_reducer,
+                    request_deserializer=kmeans__pb2.IntermediateRequest.FromString,
+                    response_serializer=kmeans__pb2.IntermediateResponse.SerializeToString,
+            ),
     }
     generic_handler = grpc.method_handlers_generic_handler(
             'kmeans.KMeansCluster', rpc_method_handlers)
@@ -83,8 +94,7 @@ def add_KMeansClusterServicer_to_server(servicer, server):
 
  # This class is part of an EXPERIMENTAL API.
 class KMeansCluster(object):
-    """The service definition.
-    """
+    """Missing associated documentation comment in .proto file."""
 
     @staticmethod
     def SendDataToMapper(request,
@@ -134,5 +144,22 @@ class KMeansCluster(object):
         return grpc.experimental.unary_unary(request, target, '/kmeans.KMeansCluster/ProcessDataForReducer',
             kmeans__pb2.ReducerRequest.SerializeToString,
             kmeans__pb2.ReducerResponse.FromString,
+            options, channel_credentials,
+            insecure, call_credentials, compression, wait_for_ready, timeout, metadata)
+
+    @staticmethod
+    def send_intermediate_values_to_reducer(request,
+            target,
+            options=(),
+            channel_credentials=None,
+            call_credentials=None,
+            insecure=False,
+            compression=None,
+            wait_for_ready=None,
+            timeout=None,
+            metadata=None):
+        return grpc.experimental.unary_unary(request, target, '/kmeans.KMeansCluster/send_intermediate_values_to_reducer',
+            kmeans__pb2.IntermediateRequest.SerializeToString,
+            kmeans__pb2.IntermediateResponse.FromString,
             options, channel_credentials,
             insecure, call_credentials, compression, wait_for_ready, timeout, metadata)
