@@ -36,30 +36,9 @@ class Master(kmeans_pb2_grpc.KMeansClusterServicer):
         return True
     
     def spawn_and_grpc_to_mapper(self, idx, range_start, range_end, mapper_responses):
-        #command = f'python3 mapper.py --port={5000 + idx}'
-        #print(f"Command: {command}")
-        #command = f'python3 mapper.py {5002 + idx}'
-        #os.system(command)                
-        '''request = kmeans_pb2.MapperRequest()
-        request.mapper_id = idx
-        request.range_start = range_start
-        request.range_end = range_end
-        request.num_red = self.r
-        for centroid in self.centroids:
-            centroid_message = request.centroids.add()
-            centroid_message.coordinates.extend(centroid)
-        
-        print(request.centroids)
-
-        response = self.mapper_stub.SendDataToMapper(request)
-        print(f"Mapper {idx} response: {response.status}")
-        mapper_responses.append(response)
-        logging.info(f"Mapper {idx} response: {response.status}")'''
-
         port = 5001 + idx
         channel = grpc.insecure_channel(f'localhost:{port}')
         mapper_stub = kmeans_pb2_grpc.KMeansClusterStub(channel)
-
         request = kmeans_pb2.MapperRequest()
         request.mapper_id = idx
         request.range_start = range_start
@@ -69,29 +48,16 @@ class Master(kmeans_pb2_grpc.KMeansClusterServicer):
             centroid_message = request.centroids.add()
             centroid_message.coordinates.extend(centroid)
 
+        logging.info(f'gRPC call to mapper {idx} with range {range_start} to {range_end}')
         response = mapper_stub.SendDataToMapper(request)
         mapper_responses.append(response)
         logging.info(f"Mapper {idx} response: {response.status}")
     
     def spawn_and_grpc_to_reducer(self, idx, reducer_responses):
-        #command = 'python3 reducer.py'
-        #print(f"Command: {command}")
-        #command = f'python3 reducer.py {6000 + idx}'
-        #os.system(command)               
-        #response = self.reducer_stub.ProcessDataForReducer(kmeans_pb2.ReducerRequest(reducer_id=idx, num_mappers=self.m))
-        #print(f"Reducer {idx} response: {response.status}")
-        #reducer_responses.append(response)
-        #logging.info(f"Reducer {idx} response: {response.status}")
-        '''print("reducer",idx)
-        response = self.reducer_stub.ProcessDataForReducer(kmeans_pb2.ReducerRequest(reducer_id=idx, num_mappers=self.m))
-        print(f"Reducer {idx} response: {response.status}")
-        reducer_responses.append(response)
-        print(response.new_centroids)
-        logging.info(f"Reducer {idx} response: {response.status}")'''
-
         port = 6001 + idx
         channel = grpc.insecure_channel(f'localhost:{port}')
         reducer_stub = kmeans_pb2_grpc.KMeansClusterStub(channel)
+        logging.info(f'gRPC call to reducer {idx}')
         response = reducer_stub.ProcessDataForReducer(kmeans_pb2.ReducerRequest(reducer_id=idx, num_mappers=self.m))
         reducer_responses.append(response)
         logging.info(f"Reducer {idx} response: {response.status}")
@@ -136,10 +102,6 @@ class Master(kmeans_pb2_grpc.KMeansClusterServicer):
                 time.sleep(1)
                     
                 for idx in range(self.r):
-                    '''request = kmeans_pb2.ReducerRequest(reducer_id=idx, num_mappers=self.m)
-                    response = self.reducer_stub.ProcessDataForReducer(request)
-                    reducer_responses.append(response)
-                    new_centroids.extend(response.new_centroids)'''
                     print("threading",idx)
                     x=threading.Thread(target=self.spawn_and_grpc_to_reducer, args=(idx, reducer_responses))
                     x.start()
@@ -163,6 +125,10 @@ class Master(kmeans_pb2_grpc.KMeansClusterServicer):
             
             if self.has_converged(self.centroids, new_centro):
                 logging.info("Convergence reached.")
+                #write the final centroids to a file centroids.txt
+                with open('centroids.txt', 'w') as file:
+                    for centroid in new_centro:
+                        file.write(','.join(map(str, centroid)) + '\n')
                 break
             else:
                 self.centroids = new_centro
@@ -170,16 +136,7 @@ class Master(kmeans_pb2_grpc.KMeansClusterServicer):
             
             #close all mapper and reducer processes
             os.system('pkill -f mapper.py')
-            os.system('pkill -f reducer.py')
-
-    '''def spawn_mapper_Reducer(self):
-        for i in range(self.m):
-            command=f'python mapper.py --mapper_id {i}'
-            threading.Thread(target=lambda:os.system(command)).start()
-        for i in range(self.r):
-            command=f'python reducer.py --reducer_id {i}'
-            threading.Thread(target=lambda:os.system(command)).start()'''
-    
+            os.system('pkill -f reducer.py')    
 
     def serve(self):
         run_thread = threading.Thread(target=self.run)

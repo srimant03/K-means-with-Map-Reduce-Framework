@@ -44,6 +44,7 @@ class Mapper(kmeans_pb2_grpc.KMeansClusterServicer):
         return partitions
 
     def SendDataToMapper(self, request, context):
+        logging.info(f"gRPC Call: Mapper {request.mapper_id} received data from master")
         centroids = [list(centroid.coordinates) for centroid in request.centroids]
         input_split = self.read_data_segment(request.range_start, request.range_end)
         mapped_values = self.map_function(input_split, centroids)
@@ -61,6 +62,7 @@ class Mapper(kmeans_pb2_grpc.KMeansClusterServicer):
         return kmeans_pb2.MapperResponse(mapper_id=request.mapper_id, status="SUCCESS")
     
     def send_intermediate_values_to_reducer(self, request, context):
+        logging.info(f"gRPC Call: Reducer {request.reducer_id} requesting data from mapper")
         intermediate_values = []
         for i in range(request.num_mappers):
             mapper_dir = f'mapper_{i}'
@@ -83,4 +85,5 @@ if __name__ == '__main__':
     #take port number as input
     port = sys.argv[1]
     print("Mapper started")
+    logging.info(f"Mapper server started at port {port}")
     serve()
