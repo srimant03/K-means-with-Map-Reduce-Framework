@@ -4,7 +4,7 @@ from concurrent import futures
 import numpy as np
 import logging
 import sys
-
+import random
 import kmeans_pb2
 import kmeans_pb2_grpc
 
@@ -44,6 +44,11 @@ class Mapper(kmeans_pb2_grpc.KMeansClusterServicer):
         return partitions
 
     def SendDataToMapper(self, request, context):
+        fail = random.random() < 0.5
+        if fail:
+            logging.error(f"Intentional failure for mapper {request.mapper_id}")
+            return kmeans_pb2.MapperResponse(mapper_id=request.mapper_id, status="FAILURE")
+
         centroids = [list(centroid.coordinates) for centroid in request.centroids]
         input_split = self.read_data_segment(request.range_start, request.range_end)
         mapped_values = self.map_function(input_split, centroids)

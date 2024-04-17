@@ -34,67 +34,86 @@ class Master(kmeans_pb2_grpc.KMeansClusterServicer):
             if np.linalg.norm(np.array(old) - np.array(new)) > threshold:
                 return False
         return True
-    
-    def spawn_and_grpc_to_mapper(self, idx, range_start, range_end, mapper_responses):
-        #command = f'python3 mapper.py --port={5000 + idx}'
-        #print(f"Command: {command}")
-        #command = f'python3 mapper.py {5002 + idx}'
-        #os.system(command)                
-        '''request = kmeans_pb2.MapperRequest()
-        request.mapper_id = idx
-        request.range_start = range_start
-        request.range_end = range_end
-        request.num_red = self.r
-        for centroid in self.centroids:
-            centroid_message = request.centroids.add()
-            centroid_message.coordinates.extend(centroid)
-        
-        print(request.centroids)
-
-        response = self.mapper_stub.SendDataToMapper(request)
-        print(f"Mapper {idx} response: {response.status}")
-        mapper_responses.append(response)
-        logging.info(f"Mapper {idx} response: {response.status}")'''
-
+    def restart_mapper(self, idx):
         port = 5001 + idx
-        channel = grpc.insecure_channel(f'localhost:{port}')
-        mapper_stub = kmeans_pb2_grpc.KMeansClusterStub(channel)
-
-        request = kmeans_pb2.MapperRequest()
-        request.mapper_id = idx
-        request.range_start = range_start
-        request.range_end = range_end
-        request.num_red = self.r
-        for centroid in self.centroids:
-            centroid_message = request.centroids.add()
-            centroid_message.coordinates.extend(centroid)
-
-        response = mapper_stub.SendDataToMapper(request)
-        mapper_responses.append(response)
-        logging.info(f"Mapper {idx} response: {response.status}")
-    
-    def spawn_and_grpc_to_reducer(self, idx, reducer_responses):
-        #command = 'python3 reducer.py'
-        #print(f"Command: {command}")
-        #command = f'python3 reducer.py {6000 + idx}'
-        #os.system(command)               
-        #response = self.reducer_stub.ProcessDataForReducer(kmeans_pb2.ReducerRequest(reducer_id=idx, num_mappers=self.m))
-        #print(f"Reducer {idx} response: {response.status}")
-        #reducer_responses.append(response)
-        #logging.info(f"Reducer {idx} response: {response.status}")
-        '''print("reducer",idx)
-        response = self.reducer_stub.ProcessDataForReducer(kmeans_pb2.ReducerRequest(reducer_id=idx, num_mappers=self.m))
-        print(f"Reducer {idx} response: {response.status}")
-        reducer_responses.append(response)
-        print(response.new_centroids)
-        logging.info(f"Reducer {idx} response: {response.status}")'''
-
+        command = ['python3', 'mapper.py', str(port)]
+        subprocess.Popen(command)
+        logging.info(f"Mapper {idx} restarted on port {port}")
+        time.sleep(1)
+    def restart_reducer(self, idx):
         port = 6001 + idx
-        channel = grpc.insecure_channel(f'localhost:{port}')
-        reducer_stub = kmeans_pb2_grpc.KMeansClusterStub(channel)
-        response = reducer_stub.ProcessDataForReducer(kmeans_pb2.ReducerRequest(reducer_id=idx, num_mappers=self.m))
-        reducer_responses.append(response)
-        logging.info(f"Reducer {idx} response: {response.status}")
+        command = ['python3', 'reducer.py', str(port)]
+        subprocess.Popen(command)
+        logging.info(f"Reducer {idx} spawned on port {port}")
+        time.sleep(1)
+
+    # def spawn_and_grpc_to_mapper(self, idx, range_start, range_end, mapper_responses):
+    #     port = 5001 + idx
+    #     channel = grpc.insecure_channel(f'localhost:{port}')
+    #     mapper_stub = kmeans_pb2_grpc.KMeansClusterStub(channel)
+
+    #     request = kmeans_pb2.MapperRequest()
+    #     request.mapper_id = idx
+    #     request.range_start = range_start
+    #     request.range_end = range_end
+    #     request.num_red = self.r
+    #     for centroid in self.centroids:
+    #         centroid_message = request.centroids.add()
+    #         centroid_message.coordinates.extend(centroid)
+
+    #     response = mapper_stub.SendDataToMapper(request)
+    #     mapper_responses.append(response)
+    #     logging.info(f"Mapper {idx} response: {response.status}")
+    def spawn_and_grpc_to_mapper(self, idx, range_start, range_end, mapper_responses, retry_count=5):
+        attempts = 0
+        while attempts < retry_count:
+            try:
+                port = 5001 + idx
+                channel = grpc.insecure_channel(f'localhost:{port}')
+                mapper_stub = kmeans_pb2_grpc.KMeansClusterStub(channel)
+                
+                request = kmeans_pb2.MapperRequest()
+                request.mapper_id = idx
+                request.range_start = range_start
+                request.range_end = range_end
+                request.num_red = self.r
+                for centroid in self.centroids:
+                    centroid_message = request.centroids.add()
+                    centroid_message.coordinates.extend(centroid)
+
+                response = mapper_stub.SendDataToMapper(request)
+                if response.status == "SUCCESS":
+                    mapper_responses[idx] = response
+                    break
+                else:
+                    attempts += 1
+                    logging.info(f"Mapper {idx} attempt {attempts}: FAILED, retrying...")
+            except grpc.RpcError as e:
+                logging.error(f"RPC Error for mapper {idx}: {str(e)}, retrying...")
+                attempts += 1
+                self.restart_mapper(idx) 
+                time.sleep(1) 
+        if attempts == retry_count:
+            logging.error(f"Mapper {idx} failed after {retry_count} attempts and was restarted")
+
+    
+    def spawn_and_grpc_to_reducer(self, idx, reducer_responses, retry_count=5):
+        attempts=0
+        while attempts<retry_count:
+            try:
+                port = 6001 + idx
+                channel = grpc.insecure_channel(f'localhost:{port}')
+                reducer_stub = kmeans_pb2_grpc.KMeansClusterStub(channel)
+                response = reducer_stub.ProcessDataForReducer(kmeans_pb2.ReducerRequest(reducer_id=idx, num_mappers=self.m))
+                reducer_responses.append(response)
+                logging.info(f"Reducer {idx} response: {response.status}")
+            except grpc.RpcError as e:
+                logging.error(f"RPC Error for reducer {idx}: {str(e)}, retrying...")
+                attempts += 1
+                self.restart_reducer(idx) 
+                time.sleep(1) 
+        if attempts == retry_count:
+            logging.error(f"Reducer {idx} failed after {retry_count} attempts and was restarted")
            
     def run(self):
         logging.basicConfig(filename='dump.txt', level=logging.DEBUG)
@@ -102,7 +121,8 @@ class Master(kmeans_pb2_grpc.KMeansClusterServicer):
 
         for iteration in range(self.max_iter):
             logging.info(f"Starting iteration {iteration + 1}")
-            mapper_responses = []
+            # mapper_responses = []
+            mapper_responses = [None] * self.m
             t = []
 
             for idx in range(self.m):
@@ -172,23 +192,11 @@ class Master(kmeans_pb2_grpc.KMeansClusterServicer):
             os.system('pkill -f mapper.py')
             os.system('pkill -f reducer.py')
 
-    '''def spawn_mapper_Reducer(self):
-        for i in range(self.m):
-            command=f'python mapper.py --mapper_id {i}'
-            threading.Thread(target=lambda:os.system(command)).start()
-        for i in range(self.r):
-            command=f'python reducer.py --reducer_id {i}'
-            threading.Thread(target=lambda:os.system(command)).start()'''
     
 
     def serve(self):
         run_thread = threading.Thread(target=self.run)
         run_thread.start()
-        #server = grpc.server(futures.ThreadPoolExecutor(max_workers=10))
-        #kmeans_pb2_grpc.add_KMeansClusterServicer_to_server(self, server)
-        #server.add_insecure_port('[::]:5000')
-        #server.start()
-        #server.wait_for_termination()
 
 if __name__ == '__main__':
     M = input("Enter the number of mappers: ")

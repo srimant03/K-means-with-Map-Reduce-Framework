@@ -7,16 +7,12 @@ import re
 import sys
 import kmeans_pb2
 import kmeans_pb2_grpc
+import random
 
 class Reducer(kmeans_pb2_grpc.KMeansClusterServicer):
     def shuffle_and_sort(self, intermediate_values):
         sorted_intermediate_values = sorted(intermediate_values, key=lambda x: x[0])
         grouped_values = {}
-        '''for key, value in sorted_intermediate_values:
-            if key not in grouped_values:
-                grouped_values[key] = []
-            grouped_values[key].append(value)
-        return grouped_values'''
         for i in sorted_intermediate_values:
             x = tuple(i[0])
             if x not in grouped_values:
@@ -25,10 +21,6 @@ class Reducer(kmeans_pb2_grpc.KMeansClusterServicer):
         return grouped_values
 
     def reduce_function(self, centroid_id, grouped_values):
-        '''points = grouped_values[centroid_id]
-        new_centroid = [sum(x) / len(points) for x in zip(*points)]
-        return centroid_id, new_centroid'''
-        #find new centroids
         updated = {}
         for key, value in grouped_values.items():
             points = grouped_values[key]
@@ -37,22 +29,12 @@ class Reducer(kmeans_pb2_grpc.KMeansClusterServicer):
         return updated
         
     def ProcessDataForReducer(self, request, context):
-        intermediate_values = []
-        '''for i in range(request.num_mappers):
-            mapper_dir = f'mapper_{i}'
-            with open(os.path.join(mapper_dir, f'partition_{request.reducer_id}.txt'), 'r') as file:
-                lines = file.readlines()
-                print(lines)
-                for line in lines:
-                    print(line)
-                    centroid, point = line.split(',')
-                    print(centroid)
-                    print(point)
-                    intermediate_values.append((eval(centroid), eval(point)))'''
-        
-        #print(f"Reducer {request.reducer_id} received intermediate values: {intermediate_values}")
+        fail = random.random() < 0.5
+        if fail:
+            logging.error(f"Intentional failure for reducer {request.reducer_id}")
+            return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
 
-        #perform a grpc call to the mapper to get the intermediate values
+        intermediate_values = []
         stub = kmeans_pb2_grpc.KMeansClusterStub(grpc.insecure_channel('localhost:5001'))
         response = stub.send_intermediate_values_to_reducer(kmeans_pb2.ReducerRequest(reducer_id=request.reducer_id, num_mappers=request.num_mappers))
 
@@ -71,8 +53,6 @@ class Reducer(kmeans_pb2_grpc.KMeansClusterServicer):
             os.makedirs(output_dir)
         output_path = os.path.join(output_dir, 'output.txt')
         with open(output_path, 'w') as f:
-            '''for centroid_id, new_centroid in new_centroids:
-                f.write(f"{centroid_id} {new_centroid}\n")'''
             for key, value in new_centroids.items():
                 f.write(f"{key} {value}\n")
 

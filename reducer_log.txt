@@ -1,0 +1,1440 @@
+ERROR:root:Intentional failure for reducer 0
+ERROR:root:Intentional failure for reducer 2
+ERROR:root:Intentional failure for reducer 1
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 3
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 1
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 2
+ERROR:root:Intentional failure for reducer 0
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 3
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 1
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 2
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 3
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 0
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 1
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 2
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 3
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 0
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 3
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 2
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 1
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 0
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 0
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 3
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 1
+ERROR:root:Intentional failure for reducer 2
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 0
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 1
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 3
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 2
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 0
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 1
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 3
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 2
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 0
+ERROR:root:Intentional failure for reducer 1
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 3
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 2
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 0
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 1
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 2
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 3
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 0
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 2
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 3
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 1
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 0
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 2
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 1
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 3
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 0
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 2
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 3
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 1
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 0
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 2
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 3
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 1
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 0
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 3
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 2
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 1
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 0
+ERROR:root:Intentional failure for reducer 3
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 1
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 2
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 3
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 0
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 1
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 2
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 3
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 0
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 2
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 1
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 3
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 0
+ERROR:root:Intentional failure for reducer 1
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 2
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 3
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 1
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 0
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 2
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 1
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 2
+ERROR:root:Intentional failure for reducer 3
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 0
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 3
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 2
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 0
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 1
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 2
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 1
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 0
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 3
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 2
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 1
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 0
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 3
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 2
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 0
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 1
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 3
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 0
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 3
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 1
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 2
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 3
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 0
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 1
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 2
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 0
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 3
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 1
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 2
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 0
+ERROR:root:Intentional failure for reducer 3
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 1
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 2
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 3
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 0
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 1
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 2
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 1
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 2
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 3
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 0
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 2
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 1
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 3
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 0
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 3
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 1
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 2
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 0
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 2
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 3
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 1
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 0
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 3
+ERROR:root:Intentional failure for reducer 2
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 1
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 0
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 0
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 1
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 3
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 2
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 0
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 1
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 3
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 2
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 1
+ERROR:root:Intentional failure for reducer 0
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 3
+ERROR:root:Intentional failure for reducer 2
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 0
+ERROR:root:Intentional failure for reducer 1
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 2
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 3
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 0
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 1
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 2
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 3
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 0
+ERROR:root:Intentional failure for reducer 1
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 2
+ERROR:root:Intentional failure for reducer 3
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 0
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 2
+ERROR:root:Intentional failure for reducer 3
+ERROR:root:Intentional failure for reducer 1
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 0
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 1
+ERROR:root:Intentional failure for reducer 2
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 3
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 0
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 2
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 1
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 3
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 0
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 2
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 1
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.
+ERROR:root:Intentional failure for reducer 3
+ERROR:grpc._server:Exception calling application: Protocol message ReducerResponse has no "mapper_id" field.
+Traceback (most recent call last):
+  File "/home/young_dragon/.local/lib/python3.8/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "reducer.py", line 35, in ProcessDataForReducer
+    return kmeans_pb2.ReducerResponse(mapper_id=request.reducer_id, status="FAILURE")
+ValueError: Protocol message ReducerResponse has no "mapper_id" field.

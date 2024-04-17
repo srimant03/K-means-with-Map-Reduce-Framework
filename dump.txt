@@ -1,106 +1,483 @@
-INFO:root:Initial centroids: [[88.28421977908025, 12.067049557489574], [2.4253966361924117, 14.200140998826638], [81.430136979439, 50.33034624768575], [24.281737705586114, 48.02641007037477], [30.2214411954406, 60.63826278594955]]
+INFO:root:Initial centroids: [[85.32433236307622, 38.85085293948647], [31.557122052707076, 36.90041258086754], [37.59627649460666, 83.10255966867024]]
 INFO:root:Starting iteration 1
 INFO:root:Mapper 0 spawned on port 5001
 INFO:root:Mapper 1 spawned on port 5002
 INFO:root:Mapper 2 spawned on port 5003
 INFO:root:Mapper 3 spawned on port 5004
-INFO:root:Mapper 1 response: SUCCESS
-INFO:root:Mapper 3 response: SUCCESS
-INFO:root:Mapper 2 response: SUCCESS
-INFO:root:Mapper 0 response: SUCCESS
+INFO:root:Mapper 4 spawned on port 5005
+INFO:root:Mapper 2 attempt 1: FAILED, retrying...
+INFO:root:Mapper 4 attempt 1: FAILED, retrying...
+INFO:root:Mapper 3 attempt 1: FAILED, retrying...
+INFO:root:Mapper 3 attempt 2: FAILED, retrying...
+INFO:root:Mapper 3 attempt 3: FAILED, retrying...
+INFO:root:Mapper 3 attempt 4: FAILED, retrying...
 INFO:root:Reducer 0 spawned on port 6001
 INFO:root:Reducer 1 spawned on port 6002
 INFO:root:Reducer 2 spawned on port 6003
 INFO:root:Reducer 3 spawned on port 6004
-INFO:root:Reducer 4 spawned on port 6005
-INFO:root:Reducer 1 response: SUCCESS
+ERROR:root:RPC Error for reducer 1: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Protocol message ReducerResponse has no "mapper_id" field."
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"Exception calling application: Protocol message ReducerResponse has no \"mapper_id\" field.", grpc_status:2, created_time:"2024-04-17T21:59:00.631088955+05:30"}"
+>, retrying...
+INFO:root:Reducer 1 spawned on port 6002
+ERROR:root:RPC Error for reducer 2: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Protocol message ReducerResponse has no "mapper_id" field."
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"Exception calling application: Protocol message ReducerResponse has no \"mapper_id\" field.", grpc_status:2, created_time:"2024-04-17T21:59:00.632265128+05:30"}"
+>, retrying...
+INFO:root:Reducer 2 spawned on port 6003
+INFO:root:Reducer 3 response: SUCCESS
 INFO:root:Reducer 0 response: SUCCESS
 INFO:root:Reducer 3 response: SUCCESS
-INFO:root:Reducer 4 response: SUCCESS
+INFO:root:Reducer 0 response: SUCCESS
+ERROR:root:RPC Error for reducer 3: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Protocol message ReducerResponse has no "mapper_id" field."
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-04-17T21:59:00.657140151+05:30", grpc_status:2, grpc_message:"Exception calling application: Protocol message ReducerResponse has no \"mapper_id\" field."}"
+>, retrying...
+ERROR:root:RPC Error for reducer 0: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Protocol message ReducerResponse has no "mapper_id" field."
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-04-17T21:59:00.658919204+05:30", grpc_status:2, grpc_message:"Exception calling application: Protocol message ReducerResponse has no \"mapper_id\" field."}"
+>, retrying...
+INFO:root:Reducer 3 spawned on port 6004
+INFO:root:Reducer 0 spawned on port 6001
+INFO:root:Reducer 1 response: SUCCESS
+ERROR:root:RPC Error for reducer 2: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Protocol message ReducerResponse has no "mapper_id" field."
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-04-17T21:59:02.652223715+05:30", grpc_status:2, grpc_message:"Exception calling application: Protocol message ReducerResponse has no \"mapper_id\" field."}"
+>, retrying...
+ERROR:root:RPC Error for reducer 1: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Protocol message ReducerResponse has no "mapper_id" field."
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"Exception calling application: Protocol message ReducerResponse has no \"mapper_id\" field.", grpc_status:2, created_time:"2024-04-17T21:59:02.653654223+05:30"}"
+>, retrying...
+INFO:root:Reducer 2 spawned on port 6003
+INFO:root:Reducer 1 spawned on port 6002
+ERROR:root:RPC Error for reducer 3: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Protocol message ReducerResponse has no "mapper_id" field."
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"Exception calling application: Protocol message ReducerResponse has no \"mapper_id\" field.", grpc_status:2, created_time:"2024-04-17T21:59:02.695874816+05:30"}"
+>, retrying...
+INFO:root:Reducer 0 response: SUCCESS
+INFO:root:Reducer 3 spawned on port 6004
+INFO:root:Reducer 0 response: SUCCESS
+INFO:root:Reducer 0 response: SUCCESS
+ERROR:root:RPC Error for reducer 0: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Protocol message ReducerResponse has no "mapper_id" field."
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-04-17T21:59:02.720172427+05:30", grpc_status:2, grpc_message:"Exception calling application: Protocol message ReducerResponse has no \"mapper_id\" field."}"
+>, retrying...
+INFO:root:Reducer 0 spawned on port 6001
+INFO:root:Reducer 1 response: SUCCESS
 INFO:root:Reducer 2 response: SUCCESS
-INFO:root:New centroids: [[2.4889853005428675, 15.868564041872869], [29.259615504778292, 44.71356044396013], [88.28421977908025, 12.067049557489574], [78.45961024698572, 49.53106372222794], [23.860369254811488, 74.24312355848332]]
-INFO:root:Updated centroids: [[2.4889853005428675, 15.868564041872869], [29.259615504778292, 44.71356044396013], [88.28421977908025, 12.067049557489574], [78.45961024698572, 49.53106372222794], [23.860369254811488, 74.24312355848332]]
+INFO:root:Reducer 2 response: SUCCESS
+INFO:root:Reducer 1 response: SUCCESS
+INFO:root:Reducer 1 response: SUCCESS
+ERROR:root:RPC Error for reducer 3: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Protocol message ReducerResponse has no "mapper_id" field."
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-04-17T21:59:04.709766016+05:30", grpc_status:2, grpc_message:"Exception calling application: Protocol message ReducerResponse has no \"mapper_id\" field."}"
+>, retrying...
+ERROR:root:RPC Error for reducer 1: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Protocol message ReducerResponse has no "mapper_id" field."
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"Exception calling application: Protocol message ReducerResponse has no \"mapper_id\" field.", grpc_status:2, created_time:"2024-04-17T21:59:04.713948275+05:30"}"
+>, retrying...
+INFO:root:Reducer 2 response: SUCCESS
+INFO:root:Reducer 3 spawned on port 6004
+INFO:root:Reducer 1 spawned on port 6002
+INFO:root:Reducer 2 response: SUCCESS
+ERROR:root:RPC Error for reducer 2: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Protocol message ReducerResponse has no "mapper_id" field."
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-04-17T21:59:04.738943438+05:30", grpc_status:2, grpc_message:"Exception calling application: Protocol message ReducerResponse has no \"mapper_id\" field."}"
+>, retrying...
+INFO:root:Reducer 2 spawned on port 6003
+ERROR:root:RPC Error for reducer 0: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Protocol message ReducerResponse has no "mapper_id" field."
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-04-17T21:59:04.75189249+05:30", grpc_status:2, grpc_message:"Exception calling application: Protocol message ReducerResponse has no \"mapper_id\" field."}"
+>, retrying...
+INFO:root:Reducer 0 spawned on port 6001
+INFO:root:Reducer 3 response: SUCCESS
+INFO:root:Reducer 1 response: SUCCESS
+INFO:root:Reducer 1 response: SUCCESS
+INFO:root:Reducer 3 response: SUCCESS
+ERROR:root:RPC Error for reducer 2: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Protocol message ReducerResponse has no "mapper_id" field."
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-04-17T21:59:06.753404678+05:30", grpc_status:2, grpc_message:"Exception calling application: Protocol message ReducerResponse has no \"mapper_id\" field."}"
+>, retrying...
+INFO:root:Reducer 1 response: SUCCESS
+INFO:root:Reducer 3 response: SUCCESS
+INFO:root:Reducer 1 response: SUCCESS
+INFO:root:Reducer 2 spawned on port 6003
+ERROR:root:RPC Error for reducer 3: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Protocol message ReducerResponse has no "mapper_id" field."
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-04-17T21:59:06.767291028+05:30", grpc_status:2, grpc_message:"Exception calling application: Protocol message ReducerResponse has no \"mapper_id\" field."}"
+>, retrying...
+INFO:root:Reducer 3 spawned on port 6004
+INFO:root:Reducer 0 response: SUCCESS
+INFO:root:Reducer 1 response: SUCCESS
+ERROR:root:RPC Error for reducer 1: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Protocol message ReducerResponse has no "mapper_id" field."
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-04-17T21:59:06.779180277+05:30", grpc_status:2, grpc_message:"Exception calling application: Protocol message ReducerResponse has no \"mapper_id\" field."}"
+>, retrying...
+INFO:root:Reducer 0 response: SUCCESS
+INFO:root:Reducer 1 spawned on port 6002
+INFO:root:Reducer 0 response: SUCCESS
+INFO:root:Reducer 0 response: SUCCESS
+ERROR:root:RPC Error for reducer 0: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Protocol message ReducerResponse has no "mapper_id" field."
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"Exception calling application: Protocol message ReducerResponse has no \"mapper_id\" field.", grpc_status:2, created_time:"2024-04-17T21:59:06.814515675+05:30"}"
+>, retrying...
+INFO:root:Reducer 0 spawned on port 6001
+INFO:root:Reducer 2 response: SUCCESS
+INFO:root:Reducer 2 response: SUCCESS
+INFO:root:Reducer 3 response: SUCCESS
+INFO:root:Reducer 2 response: SUCCESS
+INFO:root:Reducer 3 response: SUCCESS
+INFO:root:Reducer 2 response: SUCCESS
+INFO:root:Reducer 1 response: SUCCESS
+ERROR:root:RPC Error for reducer 2: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Protocol message ReducerResponse has no "mapper_id" field."
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"Exception calling application: Protocol message ReducerResponse has no \"mapper_id\" field.", grpc_status:2, created_time:"2024-04-17T21:59:08.812510372+05:30"}"
+>, retrying...
+ERROR:root:RPC Error for reducer 3: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Protocol message ReducerResponse has no "mapper_id" field."
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"Exception calling application: Protocol message ReducerResponse has no \"mapper_id\" field.", grpc_status:2, created_time:"2024-04-17T21:59:08.814966697+05:30"}"
+>, retrying...
+INFO:root:Reducer 2 spawned on port 6003
+INFO:root:Reducer 1 response: SUCCESS
+INFO:root:Reducer 3 spawned on port 6004
+ERROR:root:RPC Error for reducer 1: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Protocol message ReducerResponse has no "mapper_id" field."
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-04-17T21:59:08.834357137+05:30", grpc_status:2, grpc_message:"Exception calling application: Protocol message ReducerResponse has no \"mapper_id\" field."}"
+>, retrying...
+ERROR:root:RPC Error for reducer 0: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Protocol message ReducerResponse has no "mapper_id" field."
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"Exception calling application: Protocol message ReducerResponse has no \"mapper_id\" field.", grpc_status:2, created_time:"2024-04-17T21:59:08.835486592+05:30"}"
+>, retrying...
+INFO:root:Reducer 1 spawned on port 6002
+INFO:root:Reducer 0 spawned on port 6001
+ERROR:root:Reducer 2 failed after 5 attempts and was restarted
+ERROR:root:Reducer 3 failed after 5 attempts and was restarted
+ERROR:root:Reducer 1 failed after 5 attempts and was restarted
+ERROR:root:Reducer 0 failed after 5 attempts and was restarted
+INFO:root:New centroids: [[19.61037767373516, 38.95431715524587], [19.61037767373516, 38.95431715524587], [80.42453215340463, 42.03826088928027], [19.61037767373516, 38.95431715524587], [19.61037767373516, 38.95431715524587], [19.61037767373516, 38.95431715524587], [80.42453215340463, 42.03826088928027], [24.93588902466952, 75.76240772490188], [24.93588902466952, 75.76240772490188], [80.42453215340463, 42.03826088928027], [80.42453215340463, 42.03826088928027], [24.93588902466952, 75.76240772490188], [24.93588902466952, 75.76240772490188], [80.42453215340463, 42.03826088928027], [80.42453215340463, 42.03826088928027], [80.42453215340463, 42.03826088928027], [80.42453215340463, 42.03826088928027], [19.61037767373516, 38.95431715524587], [80.42453215340463, 42.03826088928027], [19.61037767373516, 38.95431715524587], [19.61037767373516, 38.95431715524587], [19.61037767373516, 38.95431715524587], [24.93588902466952, 75.76240772490188], [24.93588902466952, 75.76240772490188], [24.93588902466952, 75.76240772490188], [24.93588902466952, 75.76240772490188], [80.42453215340463, 42.03826088928027], [80.42453215340463, 42.03826088928027]]
+INFO:root:Updated centroids: [[19.61037767373516, 38.95431715524587], [19.61037767373516, 38.95431715524587], [80.42453215340463, 42.03826088928027], [19.61037767373516, 38.95431715524587], [19.61037767373516, 38.95431715524587], [19.61037767373516, 38.95431715524587], [80.42453215340463, 42.03826088928027], [24.93588902466952, 75.76240772490188], [24.93588902466952, 75.76240772490188], [80.42453215340463, 42.03826088928027], [80.42453215340463, 42.03826088928027], [24.93588902466952, 75.76240772490188], [24.93588902466952, 75.76240772490188], [80.42453215340463, 42.03826088928027], [80.42453215340463, 42.03826088928027], [80.42453215340463, 42.03826088928027], [80.42453215340463, 42.03826088928027], [19.61037767373516, 38.95431715524587], [80.42453215340463, 42.03826088928027], [19.61037767373516, 38.95431715524587], [19.61037767373516, 38.95431715524587], [19.61037767373516, 38.95431715524587], [24.93588902466952, 75.76240772490188], [24.93588902466952, 75.76240772490188], [24.93588902466952, 75.76240772490188], [24.93588902466952, 75.76240772490188], [80.42453215340463, 42.03826088928027], [80.42453215340463, 42.03826088928027]]
 INFO:root:Starting iteration 2
 INFO:root:Mapper 0 spawned on port 5001
 INFO:root:Mapper 1 spawned on port 5002
 INFO:root:Mapper 2 spawned on port 5003
 INFO:root:Mapper 3 spawned on port 5004
-INFO:root:Mapper 0 response: SUCCESS
-INFO:root:Mapper 1 response: SUCCESS
-INFO:root:Mapper 2 response: SUCCESS
-INFO:root:Mapper 3 response: SUCCESS
+INFO:root:Mapper 4 spawned on port 5005
+INFO:root:Mapper 1 attempt 1: FAILED, retrying...
+INFO:root:Mapper 0 attempt 1: FAILED, retrying...
+INFO:root:Mapper 3 attempt 1: FAILED, retrying...
+INFO:root:Mapper 1 attempt 2: FAILED, retrying...
+INFO:root:Mapper 1 attempt 3: FAILED, retrying...
+INFO:root:Mapper 3 attempt 2: FAILED, retrying...
 INFO:root:Reducer 0 spawned on port 6001
 INFO:root:Reducer 1 spawned on port 6002
 INFO:root:Reducer 2 spawned on port 6003
 INFO:root:Reducer 3 spawned on port 6004
-INFO:root:Reducer 4 spawned on port 6005
-INFO:root:Reducer 0 response: SUCCESS
+ERROR:root:RPC Error for reducer 0: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Protocol message ReducerResponse has no "mapper_id" field."
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"Exception calling application: Protocol message ReducerResponse has no \"mapper_id\" field.", grpc_status:2, created_time:"2024-04-17T21:59:12.977779182+05:30"}"
+>, retrying...
+INFO:root:Reducer 0 spawned on port 6001
 INFO:root:Reducer 1 response: SUCCESS
-INFO:root:Reducer 3 response: SUCCESS
-INFO:root:Reducer 4 response: SUCCESS
+ERROR:root:RPC Error for reducer 1: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Protocol message ReducerResponse has no "mapper_id" field."
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"Exception calling application: Protocol message ReducerResponse has no \"mapper_id\" field.", grpc_status:2, created_time:"2024-04-17T21:59:12.992096252+05:30"}"
+>, retrying...
 INFO:root:Reducer 2 response: SUCCESS
-INFO:root:New centroids: [[29.259615504778292, 44.71356044396013], [78.45961024698572, 49.53106372222794], [23.860369254811488, 74.24312355848332], [88.28421977908025, 12.067049557489574], [2.4889853005428675, 15.868564041872869]]
-INFO:root:Updated centroids: [[29.259615504778292, 44.71356044396013], [78.45961024698572, 49.53106372222794], [23.860369254811488, 74.24312355848332], [88.28421977908025, 12.067049557489574], [2.4889853005428675, 15.868564041872869]]
+INFO:root:Reducer 3 response: SUCCESS
+INFO:root:Reducer 1 spawned on port 6002
+INFO:root:Reducer 2 response: SUCCESS
+INFO:root:Reducer 3 response: SUCCESS
+ERROR:root:RPC Error for reducer 3: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Protocol message ReducerResponse has no "mapper_id" field."
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-04-17T21:59:13.013913102+05:30", grpc_status:2, grpc_message:"Exception calling application: Protocol message ReducerResponse has no \"mapper_id\" field."}"
+>, retrying...
+INFO:root:Reducer 2 response: SUCCESS
+INFO:root:Reducer 3 spawned on port 6004
+INFO:root:Reducer 2 response: SUCCESS
+ERROR:root:RPC Error for reducer 2: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Protocol message ReducerResponse has no "mapper_id" field."
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-04-17T21:59:13.03404694+05:30", grpc_status:2, grpc_message:"Exception calling application: Protocol message ReducerResponse has no \"mapper_id\" field."}"
+>, retrying...
+INFO:root:Reducer 2 spawned on port 6003
+INFO:root:Reducer 0 response: SUCCESS
+ERROR:root:RPC Error for reducer 0: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Protocol message ReducerResponse has no "mapper_id" field."
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"Exception calling application: Protocol message ReducerResponse has no \"mapper_id\" field.", grpc_status:2, created_time:"2024-04-17T21:59:15.001190865+05:30"}"
+>, retrying...
+INFO:root:Reducer 0 spawned on port 6001
+ERROR:root:RPC Error for reducer 1: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Protocol message ReducerResponse has no "mapper_id" field."
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"Exception calling application: Protocol message ReducerResponse has no \"mapper_id\" field.", grpc_status:2, created_time:"2024-04-17T21:59:15.009063403+05:30"}"
+>, retrying...
+INFO:root:Reducer 1 spawned on port 6002
+ERROR:root:RPC Error for reducer 3: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Protocol message ReducerResponse has no "mapper_id" field."
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-04-17T21:59:15.027794185+05:30", grpc_status:2, grpc_message:"Exception calling application: Protocol message ReducerResponse has no \"mapper_id\" field."}"
+>, retrying...
+INFO:root:Reducer 3 spawned on port 6004
+INFO:root:Reducer 2 response: SUCCESS
+ERROR:root:RPC Error for reducer 2: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Protocol message ReducerResponse has no "mapper_id" field."
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-04-17T21:59:15.060535072+05:30", grpc_status:2, grpc_message:"Exception calling application: Protocol message ReducerResponse has no \"mapper_id\" field."}"
+>, retrying...
+INFO:root:Reducer 2 spawned on port 6003
+INFO:root:Reducer 0 response: SUCCESS
+ERROR:root:RPC Error for reducer 0: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Protocol message ReducerResponse has no "mapper_id" field."
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"Exception calling application: Protocol message ReducerResponse has no \"mapper_id\" field.", grpc_status:2, created_time:"2024-04-17T21:59:17.021549385+05:30"}"
+>, retrying...
+ERROR:root:RPC Error for reducer 1: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Protocol message ReducerResponse has no "mapper_id" field."
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"Exception calling application: Protocol message ReducerResponse has no \"mapper_id\" field.", grpc_status:2, created_time:"2024-04-17T21:59:17.021611052+05:30"}"
+>, retrying...
+INFO:root:Reducer 0 spawned on port 6001
+INFO:root:Reducer 1 spawned on port 6002
+INFO:root:Reducer 3 response: SUCCESS
+INFO:root:Reducer 3 response: SUCCESS
+INFO:root:Reducer 3 response: SUCCESS
+ERROR:root:RPC Error for reducer 2: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Protocol message ReducerResponse has no "mapper_id" field."
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-04-17T21:59:17.071803091+05:30", grpc_status:2, grpc_message:"Exception calling application: Protocol message ReducerResponse has no \"mapper_id\" field."}"
+>, retrying...
+ERROR:root:RPC Error for reducer 3: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Protocol message ReducerResponse has no "mapper_id" field."
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-04-17T21:59:17.072896986+05:30", grpc_status:2, grpc_message:"Exception calling application: Protocol message ReducerResponse has no \"mapper_id\" field."}"
+>, retrying...
+INFO:root:Reducer 2 spawned on port 6003
+INFO:root:Reducer 3 spawned on port 6004
+ERROR:root:RPC Error for reducer 0: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Protocol message ReducerResponse has no "mapper_id" field."
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-04-17T21:59:19.03841403+05:30", grpc_status:2, grpc_message:"Exception calling application: Protocol message ReducerResponse has no \"mapper_id\" field."}"
+>, retrying...
+ERROR:root:RPC Error for reducer 1: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Protocol message ReducerResponse has no "mapper_id" field."
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"Exception calling application: Protocol message ReducerResponse has no \"mapper_id\" field.", grpc_status:2, created_time:"2024-04-17T21:59:19.039108774+05:30"}"
+>, retrying...
+INFO:root:Reducer 0 spawned on port 6001
+INFO:root:Reducer 1 spawned on port 6002
+ERROR:root:RPC Error for reducer 2: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Protocol message ReducerResponse has no "mapper_id" field."
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-04-17T21:59:19.096579368+05:30", grpc_status:2, grpc_message:"Exception calling application: Protocol message ReducerResponse has no \"mapper_id\" field."}"
+>, retrying...
+ERROR:root:RPC Error for reducer 3: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Protocol message ReducerResponse has no "mapper_id" field."
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-04-17T21:59:19.098635491+05:30", grpc_status:2, grpc_message:"Exception calling application: Protocol message ReducerResponse has no \"mapper_id\" field."}"
+>, retrying...
+INFO:root:Reducer 2 spawned on port 6003
+INFO:root:Reducer 3 spawned on port 6004
+ERROR:root:RPC Error for reducer 0: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Protocol message ReducerResponse has no "mapper_id" field."
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"Exception calling application: Protocol message ReducerResponse has no \"mapper_id\" field.", grpc_status:2, created_time:"2024-04-17T21:59:21.072279396+05:30"}"
+>, retrying...
+INFO:root:Reducer 1 response: SUCCESS
+INFO:root:Reducer 0 spawned on port 6001
+INFO:root:Reducer 1 response: SUCCESS
+ERROR:root:RPC Error for reducer 1: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Protocol message ReducerResponse has no "mapper_id" field."
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-04-17T21:59:21.089152023+05:30", grpc_status:2, grpc_message:"Exception calling application: Protocol message ReducerResponse has no \"mapper_id\" field."}"
+>, retrying...
+INFO:root:Reducer 1 spawned on port 6002
+ERROR:root:RPC Error for reducer 2: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Protocol message ReducerResponse has no "mapper_id" field."
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-04-17T21:59:21.11551856+05:30", grpc_status:2, grpc_message:"Exception calling application: Protocol message ReducerResponse has no \"mapper_id\" field."}"
+>, retrying...
+INFO:root:Reducer 3 response: SUCCESS
+INFO:root:Reducer 2 spawned on port 6003
+ERROR:root:RPC Error for reducer 3: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Protocol message ReducerResponse has no "mapper_id" field."
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-04-17T21:59:21.127555332+05:30", grpc_status:2, grpc_message:"Exception calling application: Protocol message ReducerResponse has no \"mapper_id\" field."}"
+>, retrying...
+INFO:root:Reducer 3 spawned on port 6004
+ERROR:root:Reducer 0 failed after 5 attempts and was restarted
+ERROR:root:Reducer 1 failed after 5 attempts and was restarted
+ERROR:root:Reducer 2 failed after 5 attempts and was restarted
+ERROR:root:Reducer 3 failed after 5 attempts and was restarted
+INFO:root:New centroids: [[23.860369254811488, 74.24312355848332], [23.860369254811488, 74.24312355848332], [20.336072103366487, 35.098561643264375], [80.42453215340463, 42.03826088928027], [20.336072103366487, 35.098561643264375], [80.42453215340463, 42.03826088928027], [23.860369254811488, 74.24312355848332], [23.860369254811488, 74.24312355848332], [23.860369254811488, 74.24312355848332], [23.860369254811488, 74.24312355848332]]
+INFO:root:Updated centroids: [[23.860369254811488, 74.24312355848332], [23.860369254811488, 74.24312355848332], [20.336072103366487, 35.098561643264375], [80.42453215340463, 42.03826088928027], [20.336072103366487, 35.098561643264375], [80.42453215340463, 42.03826088928027], [23.860369254811488, 74.24312355848332], [23.860369254811488, 74.24312355848332], [23.860369254811488, 74.24312355848332], [23.860369254811488, 74.24312355848332]]
 INFO:root:Starting iteration 3
 INFO:root:Mapper 0 spawned on port 5001
 INFO:root:Mapper 1 spawned on port 5002
 INFO:root:Mapper 2 spawned on port 5003
 INFO:root:Mapper 3 spawned on port 5004
-INFO:root:Mapper 1 response: SUCCESS
-INFO:root:Mapper 0 response: SUCCESS
-INFO:root:Mapper 2 response: SUCCESS
-INFO:root:Mapper 3 response: SUCCESS
+INFO:root:Mapper 4 spawned on port 5005
+INFO:root:Mapper 2 attempt 1: FAILED, retrying...
+INFO:root:Mapper 3 attempt 1: FAILED, retrying...
+INFO:root:Mapper 4 attempt 1: FAILED, retrying...
+INFO:root:Mapper 4 attempt 2: FAILED, retrying...
 INFO:root:Reducer 0 spawned on port 6001
 INFO:root:Reducer 1 spawned on port 6002
 INFO:root:Reducer 2 spawned on port 6003
 INFO:root:Reducer 3 spawned on port 6004
-INFO:root:Reducer 4 spawned on port 6005
-INFO:root:Reducer 1 response: SUCCESS
-INFO:root:Reducer 3 response: SUCCESS
-INFO:root:Reducer 4 response: SUCCESS
-INFO:root:Reducer 2 response: SUCCESS
-INFO:root:Reducer 0 response: SUCCESS
-INFO:root:New centroids: [[23.860369254811488, 74.24312355848332], [88.28421977908025, 12.067049557489574], [2.4889853005428675, 15.868564041872869], [29.259615504778292, 44.71356044396013], [78.45961024698572, 49.53106372222794]]
-INFO:root:Updated centroids: [[23.860369254811488, 74.24312355848332], [88.28421977908025, 12.067049557489574], [2.4889853005428675, 15.868564041872869], [29.259615504778292, 44.71356044396013], [78.45961024698572, 49.53106372222794]]
-INFO:root:Starting iteration 4
-INFO:root:Mapper 0 spawned on port 5001
-INFO:root:Mapper 1 spawned on port 5002
-INFO:root:Mapper 2 spawned on port 5003
-INFO:root:Mapper 3 spawned on port 5004
-INFO:root:Mapper 1 response: SUCCESS
-INFO:root:Mapper 0 response: SUCCESS
-INFO:root:Mapper 2 response: SUCCESS
-INFO:root:Mapper 3 response: SUCCESS
+ERROR:root:RPC Error for reducer 0: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Protocol message ReducerResponse has no "mapper_id" field."
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-04-17T21:59:25.223598633+05:30", grpc_status:2, grpc_message:"Exception calling application: Protocol message ReducerResponse has no \"mapper_id\" field."}"
+>, retrying...
+ERROR:root:RPC Error for reducer 1: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Protocol message ReducerResponse has no "mapper_id" field."
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"Exception calling application: Protocol message ReducerResponse has no \"mapper_id\" field.", grpc_status:2, created_time:"2024-04-17T21:59:25.22390598+05:30"}"
+>, retrying...
+ERROR:root:RPC Error for reducer 3: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Protocol message ReducerResponse has no "mapper_id" field."
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-04-17T21:59:25.226566575+05:30", grpc_status:2, grpc_message:"Exception calling application: Protocol message ReducerResponse has no \"mapper_id\" field."}"
+>, retrying...
+ERROR:root:RPC Error for reducer 2: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Protocol message ReducerResponse has no "mapper_id" field."
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"Exception calling application: Protocol message ReducerResponse has no \"mapper_id\" field.", grpc_status:2, created_time:"2024-04-17T21:59:25.224725514+05:30"}"
+>, retrying...
 INFO:root:Reducer 0 spawned on port 6001
 INFO:root:Reducer 1 spawned on port 6002
 INFO:root:Reducer 2 spawned on port 6003
 INFO:root:Reducer 3 spawned on port 6004
-INFO:root:Reducer 4 spawned on port 6005
-INFO:root:Reducer 0 response: SUCCESS
-INFO:root:Reducer 2 response: SUCCESS
-INFO:root:Reducer 3 response: SUCCESS
-INFO:root:Reducer 4 response: SUCCESS
-INFO:root:Reducer 1 response: SUCCESS
-INFO:root:New centroids: [[29.259615504778292, 44.71356044396013], [78.45961024698572, 49.53106372222794], [2.4889853005428675, 15.868564041872869], [23.860369254811488, 74.24312355848332], [88.28421977908025, 12.067049557489574]]
-INFO:root:Updated centroids: [[29.259615504778292, 44.71356044396013], [78.45961024698572, 49.53106372222794], [2.4889853005428675, 15.868564041872869], [23.860369254811488, 74.24312355848332], [88.28421977908025, 12.067049557489574]]
-INFO:root:Starting iteration 5
-INFO:root:Mapper 0 spawned on port 5001
-INFO:root:Mapper 1 spawned on port 5002
-INFO:root:Mapper 2 spawned on port 5003
-INFO:root:Mapper 3 spawned on port 5004
-INFO:root:Mapper 0 response: SUCCESS
-INFO:root:Mapper 1 response: SUCCESS
-INFO:root:Mapper 2 response: SUCCESS
-INFO:root:Mapper 3 response: SUCCESS
+ERROR:root:RPC Error for reducer 0: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Protocol message ReducerResponse has no "mapper_id" field."
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-04-17T21:59:27.243029763+05:30", grpc_status:2, grpc_message:"Exception calling application: Protocol message ReducerResponse has no \"mapper_id\" field."}"
+>, retrying...
 INFO:root:Reducer 0 spawned on port 6001
+ERROR:root:RPC Error for reducer 2: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Protocol message ReducerResponse has no "mapper_id" field."
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"Exception calling application: Protocol message ReducerResponse has no \"mapper_id\" field.", grpc_status:2, created_time:"2024-04-17T21:59:27.268423105+05:30"}"
+>, retrying...
+ERROR:root:RPC Error for reducer 1: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Protocol message ReducerResponse has no "mapper_id" field."
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-04-17T21:59:27.268911087+05:30", grpc_status:2, grpc_message:"Exception calling application: Protocol message ReducerResponse has no \"mapper_id\" field."}"
+>, retrying...
+ERROR:root:RPC Error for reducer 3: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Protocol message ReducerResponse has no "mapper_id" field."
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"Exception calling application: Protocol message ReducerResponse has no \"mapper_id\" field.", grpc_status:2, created_time:"2024-04-17T21:59:27.268911047+05:30"}"
+>, retrying...
 INFO:root:Reducer 1 spawned on port 6002
 INFO:root:Reducer 2 spawned on port 6003
 INFO:root:Reducer 3 spawned on port 6004
-INFO:root:Reducer 4 spawned on port 6005
-INFO:root:Reducer 0 response: SUCCESS
+ERROR:root:RPC Error for reducer 0: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Protocol message ReducerResponse has no "mapper_id" field."
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-04-17T21:59:29.270915091+05:30", grpc_status:2, grpc_message:"Exception calling application: Protocol message ReducerResponse has no \"mapper_id\" field."}"
+>, retrying...
+INFO:root:Reducer 0 spawned on port 6001
+ERROR:root:RPC Error for reducer 1: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Protocol message ReducerResponse has no "mapper_id" field."
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-04-17T21:59:29.312621774+05:30", grpc_status:2, grpc_message:"Exception calling application: Protocol message ReducerResponse has no \"mapper_id\" field."}"
+>, retrying...
+ERROR:root:RPC Error for reducer 2: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Protocol message ReducerResponse has no "mapper_id" field."
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"Exception calling application: Protocol message ReducerResponse has no \"mapper_id\" field.", grpc_status:2, created_time:"2024-04-17T21:59:29.313002579+05:30"}"
+>, retrying...
+INFO:root:Reducer 1 spawned on port 6002
+INFO:root:Reducer 2 spawned on port 6003
 INFO:root:Reducer 3 response: SUCCESS
-INFO:root:Reducer 2 response: SUCCESS
-INFO:root:Reducer 4 response: SUCCESS
+INFO:root:Reducer 3 response: SUCCESS
+ERROR:root:RPC Error for reducer 3: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Protocol message ReducerResponse has no "mapper_id" field."
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"Exception calling application: Protocol message ReducerResponse has no \"mapper_id\" field.", grpc_status:2, created_time:"2024-04-17T21:59:29.342283988+05:30"}"
+>, retrying...
+INFO:root:Reducer 3 spawned on port 6004
+INFO:root:Reducer 0 response: SUCCESS
+INFO:root:Reducer 0 response: SUCCESS
+ERROR:root:RPC Error for reducer 0: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Protocol message ReducerResponse has no "mapper_id" field."
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-04-17T21:59:31.306807394+05:30", grpc_status:2, grpc_message:"Exception calling application: Protocol message ReducerResponse has no \"mapper_id\" field."}"
+>, retrying...
+INFO:root:Reducer 0 spawned on port 6001
+ERROR:root:RPC Error for reducer 2: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Protocol message ReducerResponse has no "mapper_id" field."
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-04-17T21:59:31.33164202+05:30", grpc_status:2, grpc_message:"Exception calling application: Protocol message ReducerResponse has no \"mapper_id\" field."}"
+>, retrying...
+INFO:root:Reducer 2 spawned on port 6003
 INFO:root:Reducer 1 response: SUCCESS
-INFO:root:New centroids: [[29.259615504778292, 44.71356044396013], [78.45961024698572, 49.53106372222794], [2.4889853005428675, 15.868564041872869], [23.860369254811488, 74.24312355848332], [88.28421977908025, 12.067049557489574]]
-INFO:root:Convergence reached.
+ERROR:root:RPC Error for reducer 1: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Protocol message ReducerResponse has no "mapper_id" field."
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-04-17T21:59:31.342547755+05:30", grpc_status:2, grpc_message:"Exception calling application: Protocol message ReducerResponse has no \"mapper_id\" field."}"
+>, retrying...
+ERROR:root:RPC Error for reducer 3: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Protocol message ReducerResponse has no "mapper_id" field."
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"Exception calling application: Protocol message ReducerResponse has no \"mapper_id\" field.", grpc_status:2, created_time:"2024-04-17T21:59:31.357435153+05:30"}"
+>, retrying...
+INFO:root:Reducer 1 spawned on port 6002
+INFO:root:Reducer 3 spawned on port 6004
+ERROR:root:RPC Error for reducer 0: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Protocol message ReducerResponse has no "mapper_id" field."
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-04-17T21:59:33.317633399+05:30", grpc_status:2, grpc_message:"Exception calling application: Protocol message ReducerResponse has no \"mapper_id\" field."}"
+>, retrying...
+INFO:root:Reducer 0 spawned on port 6001
+INFO:root:Reducer 2 response: SUCCESS
+INFO:root:Reducer 2 response: SUCCESS
+ERROR:root:RPC Error for reducer 2: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Protocol message ReducerResponse has no "mapper_id" field."
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-04-17T21:59:33.356542274+05:30", grpc_status:2, grpc_message:"Exception calling application: Protocol message ReducerResponse has no \"mapper_id\" field."}"
+>, retrying...
+INFO:root:Reducer 2 spawned on port 6003
+ERROR:root:RPC Error for reducer 1: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Protocol message ReducerResponse has no "mapper_id" field."
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"Exception calling application: Protocol message ReducerResponse has no \"mapper_id\" field.", grpc_status:2, created_time:"2024-04-17T21:59:33.373289101+05:30"}"
+>, retrying...
+ERROR:root:RPC Error for reducer 3: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Protocol message ReducerResponse has no "mapper_id" field."
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-04-17T21:59:33.378428134+05:30", grpc_status:2, grpc_message:"Exception calling application: Protocol message ReducerResponse has no \"mapper_id\" field."}"
+>, retrying...
+INFO:root:Reducer 1 spawned on port 6002
+INFO:root:Reducer 3 spawned on port 6004
+ERROR:root:Reducer 0 failed after 5 attempts and was restarted
+ERROR:root:Reducer 2 failed after 5 attempts and was restarted
+ERROR:root:Reducer 1 failed after 5 attempts and was restarted
+ERROR:root:Reducer 3 failed after 5 attempts and was restarted
+INFO:root:New centroids: [[20.336072103366487, 35.098561643264375], [20.336072103366487, 35.098561643264375], [80.42453215340463, 42.03826088928027], [80.42453215340463, 42.03826088928027], [23.860369254811488, 74.24312355848332], [23.860369254811488, 74.24312355848332]]
+INFO:root:Updated centroids: [[20.336072103366487, 35.098561643264375], [20.336072103366487, 35.098561643264375], [80.42453215340463, 42.03826088928027], [80.42453215340463, 42.03826088928027], [23.860369254811488, 74.24312355848332], [23.860369254811488, 74.24312355848332]]
