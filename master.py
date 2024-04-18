@@ -29,6 +29,12 @@ class Master(kmeans_pb2_grpc.KMeansClusterServicer):
     def assign_k_centroids(self):
         return random.sample(self.input, self.k)
 
+
+    def write_centroids(self, centroids):
+        with open('centroids.txt', 'w') as file:
+            for centroid in centroids:
+                file.write(f"{','.join(map(str, centroid))}\n")
+                
     def has_converged(self, old_centroids, new_centroids, threshold=0.0001):
         for old, new in zip(old_centroids, new_centroids):
             if np.linalg.norm(np.array(old) - np.array(new)) > threshold:
@@ -47,23 +53,6 @@ class Master(kmeans_pb2_grpc.KMeansClusterServicer):
         logging.info(f"Reducer {idx} spawned on port {port}")
         time.sleep(1)
 
-    # def spawn_and_grpc_to_mapper(self, idx, range_start, range_end, mapper_responses):
-    #     port = 5001 + idx
-    #     channel = grpc.insecure_channel(f'localhost:{port}')
-    #     mapper_stub = kmeans_pb2_grpc.KMeansClusterStub(channel)
-
-    #     request = kmeans_pb2.MapperRequest()
-    #     request.mapper_id = idx
-    #     request.range_start = range_start
-    #     request.range_end = range_end
-    #     request.num_red = self.r
-    #     for centroid in self.centroids:
-    #         centroid_message = request.centroids.add()
-    #         centroid_message.coordinates.extend(centroid)
-
-    #     response = mapper_stub.SendDataToMapper(request)
-    #     mapper_responses.append(response)
-    #     logging.info(f"Mapper {idx} response: {response.status}")
     def spawn_and_grpc_to_mapper(self, idx, range_start, range_end, mapper_responses, retry_count=15):
         attempts = 0
         while attempts < retry_count:
@@ -80,7 +69,7 @@ class Master(kmeans_pb2_grpc.KMeansClusterServicer):
                 for centroid in self.centroids:
                     centroid_message = request.centroids.add()
                     centroid_message.coordinates.extend(centroid)
-
+                logging.info(f'gRPC call to mapper {idx} with range {range_start} to {range_end}')
                 response = mapper_stub.SendDataToMapper(request)
                 if response.status == "SUCCESS":
                     logging.info(f"Mapper {idx} response: {response.status}")
@@ -105,13 +94,14 @@ class Master(kmeans_pb2_grpc.KMeansClusterServicer):
                 port = 6001 + idx
                 channel = grpc.insecure_channel(f'localhost:{port}')
                 reducer_stub = kmeans_pb2_grpc.KMeansClusterStub(channel)
+                logging.info(f'gRPC call to reducer {idx}')
                 response = reducer_stub.ProcessDataForReducer(kmeans_pb2.ReducerRequest(reducer_id=idx, num_mappers=self.m))
                 if response.status == "SUCCESS":
                     logging.info(f"Reducer {idx} response: {response.status}")
                     reducer_responses.append(response)
                     return  
                 else:
-                    logging.warning(f"Reducer {idx} attempt {attempts + 1}: FAILED, status: {response.status}")
+                    logging.warning(f"Intentional : Reducer {idx} attempt {attempts + 1}: FAILED, status: {response.status}")
                     attempts += 1
             except grpc.RpcError as e:
                 logging.error(f"RPC Error for reducer {idx}: {str(e)}, retrying...")
@@ -189,9 +179,16 @@ class Master(kmeans_pb2_grpc.KMeansClusterServicer):
             
             if self.has_converged(self.centroids, new_centro):
                 logging.info("Convergence reached.")
+                with open('centroids.txt', 'w') as file:
+                    for centroid in new_centro:
+                        file.write(','.join(map(str, centroid)) + '\n')
                 break
             else:
                 self.centroids = new_centro
+                if(iteration==(self.max_iter-1)):
+                    with open('centroids.txt', 'w') as file:
+                        for centroid in new_centro:
+                            file.write(','.join(map(str, centroid)) + '\n')
                 logging.info(f"Updated centroids: {self.centroids}")
             
             #close all mapper and reducer processes

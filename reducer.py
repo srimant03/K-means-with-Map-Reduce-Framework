@@ -29,15 +29,17 @@ class Reducer(kmeans_pb2_grpc.KMeansClusterServicer):
         return updated
         
     def ProcessDataForReducer(self, request, context):
+        logging.info(f"Reducer {request.reducer_id} received request from master")
         fail = random.random() < 0.5
         if fail:
             logging.error(f"Intentional failure for reducer {request.reducer_id}")
             return kmeans_pb2.ReducerResponse(reducer_id=request.reducer_id, status="FAILURE")
 
         intermediate_values = []
+        logging.info(f"Reducer {request.reducer_id} sending request to mapper")
         stub = kmeans_pb2_grpc.KMeansClusterStub(grpc.insecure_channel('localhost:5001'))
         response = stub.send_intermediate_values_to_reducer(kmeans_pb2.ReducerRequest(reducer_id=request.reducer_id, num_mappers=request.num_mappers))
-
+        logging.info(f"Reducer {request.reducer_id} received intermediate values from mapper")
         for line in response.data:
             line = line.strip()
             sublists = re.findall(r'\[.*?\]', line)
@@ -84,4 +86,5 @@ if __name__ == '__main__':
     port = sys.argv[1]
     logging.basicConfig(filename='reducer_log.txt', level=logging.INFO)
     print("Reducer server started.")
+    logging.info(f"Reducer server started at port {port}")
     serve()

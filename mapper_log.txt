@@ -102,3 +102,656 @@ ERROR:root:Intentional failure for mapper 3
 ERROR:root:Intentional failure for mapper 4
 ERROR:root:Intentional failure for mapper 0
 ERROR:root:Intentional failure for mapper 4
+ERROR:root:Intentional failure for mapper 1
+ERROR:root:Intentional failure for mapper 7
+ERROR:root:Intentional failure for mapper 5
+ERROR:root:Intentional failure for mapper 2
+ERROR:root:Intentional failure for mapper 1
+ERROR:root:Intentional failure for mapper 4
+ERROR:root:Intentional failure for mapper 1
+ERROR:root:Intentional failure for mapper 6
+ERROR:root:Intentional failure for mapper 7
+ERROR:root:Intentional failure for mapper 4
+ERROR:root:Intentional failure for mapper 6
+ERROR:root:Intentional failure for mapper 4
+ERROR:root:Intentional failure for mapper 6
+ERROR:root:Intentional failure for mapper 0
+ERROR:root:Intentional failure for mapper 1
+ERROR:root:Intentional failure for mapper 4
+ERROR:root:Intentional failure for mapper 3
+ERROR:root:Intentional failure for mapper 4
+ERROR:root:Intentional failure for mapper 7
+ERROR:root:Intentional failure for mapper 6
+ERROR:root:Intentional failure for mapper 3
+ERROR:root:Intentional failure for mapper 4
+ERROR:root:Intentional failure for mapper 3
+ERROR:root:Intentional failure for mapper 4
+ERROR:root:Intentional failure for mapper 3
+ERROR:root:Intentional failure for mapper 4
+ERROR:root:Intentional failure for mapper 4
+ERROR:root:Intentional failure for mapper 0
+ERROR:root:Intentional failure for mapper 2
+ERROR:root:Intentional failure for mapper 2
+ERROR:root:Intentional failure for mapper 5
+ERROR:root:Intentional failure for mapper 3
+ERROR:root:Intentional failure for mapper 5
+ERROR:root:Intentional failure for mapper 3
+ERROR:root:Intentional failure for mapper 3
+ERROR:root:Intentional failure for mapper 1
+ERROR:root:Intentional failure for mapper 2
+ERROR:root:Intentional failure for mapper 2
+ERROR:root:Intentional failure for mapper 6
+ERROR:root:Intentional failure for mapper 2
+ERROR:root:Intentional failure for mapper 5
+ERROR:root:Intentional failure for mapper 3
+ERROR:root:Intentional failure for mapper 2
+ERROR:root:Intentional failure for mapper 1
+ERROR:root:Intentional failure for mapper 1
+ERROR:root:Intentional failure for mapper 1
+ERROR:root:Intentional failure for mapper 1
+ERROR:root:Intentional failure for mapper 3
+ERROR:root:Intentional failure for mapper 3
+ERROR:root:Intentional failure for mapper 0
+ERROR:root:Intentional failure for mapper 0
+ERROR:root:Intentional failure for mapper 4
+ERROR:root:Intentional failure for mapper 0
+ERROR:root:Intentional failure for mapper 5
+ERROR:root:Intentional failure for mapper 4
+ERROR:root:Intentional failure for mapper 0
+ERROR:root:Intentional failure for mapper 4
+ERROR:root:Intentional failure for mapper 4
+ERROR:root:Intentional failure for mapper 3
+ERROR:root:Intentional failure for mapper 0
+ERROR:root:Intentional failure for mapper 5
+ERROR:root:Intentional failure for mapper 1
+ERROR:root:Intentional failure for mapper 3
+ERROR:root:Intentional failure for mapper 4
+ERROR:root:Intentional failure for mapper 1
+ERROR:root:Intentional failure for mapper 3
+ERROR:root:Intentional failure for mapper 4
+ERROR:root:Intentional failure for mapper 5
+ERROR:root:Intentional failure for mapper 3
+ERROR:root:Intentional failure for mapper 1
+ERROR:root:Intentional failure for mapper 3
+ERROR:root:Intentional failure for mapper 1
+ERROR:root:Intentional failure for mapper 3
+ERROR:root:Intentional failure for mapper 3
+ERROR:root:Intentional failure for mapper 0
+ERROR:root:Intentional failure for mapper 0
+ERROR:root:Intentional failure for mapper 0
+ERROR:root:Intentional failure for mapper 0
+ERROR:root:Intentional failure for mapper 0
+ERROR:root:Intentional failure for mapper 1
+ERROR:root:Intentional failure for mapper 3
+ERROR:root:Intentional failure for mapper 0
+ERROR:root:Intentional failure for mapper 4
+ERROR:root:Intentional failure for mapper 1
+ERROR:root:Intentional failure for mapper 2
+ERROR:root:Intentional failure for mapper 0
+ERROR:root:Intentional failure for mapper 4
+ERROR:root:Intentional failure for mapper 1
+ERROR:root:Intentional failure for mapper 1
+ERROR:root:Intentional failure for mapper 4
+ERROR:root:Intentional failure for mapper 1
+ERROR:root:Intentional failure for mapper 1
+ERROR:root:Intentional failure for mapper 1
+ERROR:root:Intentional failure for mapper 1
+ERROR:root:Intentional failure for mapper 0
+ERROR:root:Intentional failure for mapper 4
+ERROR:root:Intentional failure for mapper 2
+ERROR:root:Intentional failure for mapper 1
+ERROR:root:Intentional failure for mapper 2
+ERROR:root:Intentional failure for mapper 4
+ERROR:root:Intentional failure for mapper 0
+ERROR:root:Intentional failure for mapper 1
+ERROR:root:Intentional failure for mapper 3
+ERROR:root:Intentional failure for mapper 1
+ERROR:root:Intentional failure for mapper 3
+ERROR:root:Intentional failure for mapper 4
+ERROR:root:Intentional failure for mapper 3
+ERROR:root:Intentional failure for mapper 4
+ERROR:root:Intentional failure for mapper 3
+ERROR:root:Intentional failure for mapper 5
+ERROR:root:Intentional failure for mapper 3
+ERROR:root:Intentional failure for mapper 5
+ERROR:root:Intentional failure for mapper 3
+ERROR:root:Intentional failure for mapper 4
+ERROR:root:Intentional failure for mapper 3
+ERROR:root:Intentional failure for mapper 2
+ERROR:root:Intentional failure for mapper 5
+ERROR:root:Intentional failure for mapper 2
+ERROR:root:Intentional failure for mapper 0
+ERROR:root:Intentional failure for mapper 1
+ERROR:root:Intentional failure for mapper 3
+ERROR:root:Intentional failure for mapper 1
+ERROR:root:Intentional failure for mapper 1
+ERROR:root:Intentional failure for mapper 1
+ERROR:root:Intentional failure for mapper 4
+ERROR:root:Intentional failure for mapper 0
+ERROR:root:Intentional failure for mapper 1
+ERROR:root:Intentional failure for mapper 2
+ERROR:root:Intentional failure for mapper 3
+ERROR:root:Intentional failure for mapper 0
+ERROR:root:Intentional failure for mapper 1
+ERROR:root:Intentional failure for mapper 0
+ERROR:root:Intentional failure for mapper 5
+ERROR:root:Intentional failure for mapper 1
+ERROR:root:Intentional failure for mapper 1
+ERROR:root:Intentional failure for mapper 4
+ERROR:root:Intentional failure for mapper 1
+ERROR:root:Intentional failure for mapper 4
+ERROR:root:Intentional failure for mapper 1
+ERROR:root:Intentional failure for mapper 1
+ERROR:root:Intentional failure for mapper 4
+ERROR:root:Intentional failure for mapper 3
+ERROR:root:Intentional failure for mapper 3
+ERROR:root:Intentional failure for mapper 4
+ERROR:root:Intentional failure for mapper 3
+ERROR:root:Intentional failure for mapper 4
+ERROR:root:Intentional failure for mapper 3
+ERROR:root:Intentional failure for mapper 3
+ERROR:root:Intentional failure for mapper 3
+ERROR:root:Intentional failure for mapper 3
+ERROR:root:Intentional failure for mapper 0
+ERROR:root:Intentional failure for mapper 3
+ERROR:root:Intentional failure for mapper 0
+ERROR:root:Intentional failure for mapper 5
+ERROR:root:Intentional failure for mapper 0
+ERROR:root:Intentional failure for mapper 0
+ERROR:root:Intentional failure for mapper 5
+ERROR:root:Intentional failure for mapper 0
+ERROR:root:Intentional failure for mapper 0
+ERROR:root:Intentional failure for mapper 1
+ERROR:root:Intentional failure for mapper 1
+ERROR:root:Intentional failure for mapper 2
+ERROR:root:Intentional failure for mapper 2
+ERROR:root:Intentional failure for mapper 2
+ERROR:root:Intentional failure for mapper 2
+ERROR:root:Intentional failure for mapper 0
+ERROR:root:Intentional failure for mapper 2
+ERROR:root:Intentional failure for mapper 0
+ERROR:root:Intentional failure for mapper 5
+ERROR:root:Intentional failure for mapper 4
+ERROR:root:Intentional failure for mapper 4
+ERROR:root:Intentional failure for mapper 0
+ERROR:root:Intentional failure for mapper 1
+ERROR:root:Intentional failure for mapper 2
+ERROR:root:Intentional failure for mapper 4
+ERROR:root:Intentional failure for mapper 0
+ERROR:root:Intentional failure for mapper 2
+ERROR:root:Intentional failure for mapper 0
+ERROR:root:Intentional failure for mapper 5
+ERROR:root:Intentional failure for mapper 0
+ERROR:root:Intentional failure for mapper 0
+ERROR:root:Intentional failure for mapper 0
+ERROR:root:Intentional failure for mapper 0
+ERROR:root:Intentional failure for mapper 2
+ERROR:root:Intentional failure for mapper 3
+ERROR:root:Intentional failure for mapper 2
+ERROR:root:Intentional failure for mapper 5
+ERROR:root:Intentional failure for mapper 3
+ERROR:root:Intentional failure for mapper 2
+ERROR:root:Intentional failure for mapper 5
+ERROR:root:Intentional failure for mapper 2
+ERROR:root:Intentional failure for mapper 0
+ERROR:root:Intentional failure for mapper 0
+ERROR:root:Intentional failure for mapper 4
+ERROR:root:Intentional failure for mapper 5
+ERROR:root:Intentional failure for mapper 4
+ERROR:root:Intentional failure for mapper 3
+ERROR:root:Intentional failure for mapper 5
+ERROR:root:Intentional failure for mapper 3
+ERROR:root:Intentional failure for mapper 5
+ERROR:root:Intentional failure for mapper 3
+ERROR:root:Intentional failure for mapper 2
+ERROR:root:Intentional failure for mapper 3
+ERROR:root:Intentional failure for mapper 5
+ERROR:root:Intentional failure for mapper 5
+ERROR:root:Intentional failure for mapper 1
+ERROR:root:Intentional failure for mapper 5
+ERROR:root:Intentional failure for mapper 1
+ERROR:root:Intentional failure for mapper 3
+ERROR:root:Intentional failure for mapper 2
+ERROR:root:Intentional failure for mapper 4
+ERROR:root:Intentional failure for mapper 2
+ERROR:root:Intentional failure for mapper 1
+ERROR:root:Intentional failure for mapper 2
+ERROR:root:Intentional failure for mapper 4
+ERROR:root:Intentional failure for mapper 1
+ERROR:root:Intentional failure for mapper 2
+ERROR:root:Intentional failure for mapper 2
+ERROR:root:Intentional failure for mapper 2
+ERROR:root:Intentional failure for mapper 2
+ERROR:root:Intentional failure for mapper 1
+ERROR:root:Intentional failure for mapper 0
+ERROR:root:Intentional failure for mapper 2
+ERROR:root:Intentional failure for mapper 3
+ERROR:root:Intentional failure for mapper 3
+ERROR:root:Intentional failure for mapper 2
+ERROR:root:Intentional failure for mapper 0
+ERROR:root:Intentional failure for mapper 2
+ERROR:root:Intentional failure for mapper 0
+ERROR:root:Intentional failure for mapper 2
+ERROR:root:Intentional failure for mapper 3
+ERROR:root:Intentional failure for mapper 0
+ERROR:root:Intentional failure for mapper 4
+ERROR:root:Intentional failure for mapper 4
+ERROR:root:Intentional failure for mapper 4
+ERROR:root:Intentional failure for mapper 1
+ERROR:root:Intentional failure for mapper 4
+ERROR:root:Intentional failure for mapper 5
+ERROR:root:Intentional failure for mapper 1
+ERROR:root:Intentional failure for mapper 4
+ERROR:root:Intentional failure for mapper 2
+ERROR:root:Intentional failure for mapper 1
+ERROR:root:Intentional failure for mapper 2
+ERROR:root:Intentional failure for mapper 2
+ERROR:root:Intentional failure for mapper 5
+ERROR:root:Intentional failure for mapper 1
+ERROR:root:Intentional failure for mapper 4
+ERROR:root:Intentional failure for mapper 4
+ERROR:root:Intentional failure for mapper 5
+ERROR:root:Intentional failure for mapper 5
+ERROR:root:Intentional failure for mapper 4
+ERROR:root:Intentional failure for mapper 2
+ERROR:root:Intentional failure for mapper 5
+ERROR:root:Intentional failure for mapper 2
+INFO:root:Mapper server started at port 5004
+INFO:root:Mapper server started at port 5005
+INFO:root:Mapper server started at port 5007
+INFO:root:Mapper server started at port 5006
+INFO:root:Mapper server started at port 5003
+INFO:root:Mapper server started at port 5002
+INFO:root:Mapper server started at port 5001
+INFO:root:Mapper server started at port 5008
+INFO:root:gRPC Call: Mapper 7 received data from master
+INFO:root:gRPC Call: Mapper 0 received data from master
+INFO:root:gRPC Call: Mapper 4 received data from master
+INFO:root:gRPC Call: Mapper 5 received data from master
+INFO:root:gRPC Call: Mapper 2 received data from master
+INFO:root:gRPC Call: Mapper 6 received data from master
+ERROR:root:Intentional failure for mapper 7
+ERROR:root:Intentional failure for mapper 5
+ERROR:root:Intentional failure for mapper 4
+ERROR:root:Intentional failure for mapper 6
+ERROR:root:Intentional failure for mapper 2
+INFO:root:gRPC Call: Mapper 7 received data from master
+INFO:root:gRPC Call: Mapper 6 received data from master
+ERROR:root:Intentional failure for mapper 6
+INFO:root:gRPC Call: Mapper 5 received data from master
+INFO:root:gRPC Call: Mapper 2 received data from master
+ERROR:root:Intentional failure for mapper 5
+INFO:root:gRPC Call: Mapper 6 received data from master
+ERROR:root:Intentional failure for mapper 6
+INFO:root:gRPC Call: Mapper 5 received data from master
+INFO:root:gRPC Call: Mapper 6 received data from master
+ERROR:root:Intentional failure for mapper 6
+INFO:root:gRPC Call: Mapper 6 received data from master
+INFO:root:gRPC Call: Reducer 3 requesting data from mapper
+INFO:root:gRPC Call: Reducer 4 requesting data from mapper
+INFO:root:Mapper server started at port 5002
+INFO:root:Mapper server started at port 5006
+INFO:root:Mapper server started at port 5007
+INFO:root:Mapper server started at port 5005
+INFO:root:Mapper server started at port 5004
+INFO:root:Mapper server started at port 5001
+INFO:root:Mapper server started at port 5008
+INFO:root:Mapper server started at port 5003
+INFO:root:gRPC Call: Mapper 1 received data from master
+ERROR:root:Intentional failure for mapper 1
+INFO:root:gRPC Call: Mapper 3 received data from master
+ERROR:root:Intentional failure for mapper 3
+INFO:root:gRPC Call: Mapper 2 received data from master
+INFO:root:gRPC Call: Mapper 0 received data from master
+ERROR:root:Intentional failure for mapper 0
+INFO:root:gRPC Call: Mapper 5 received data from master
+INFO:root:gRPC Call: Mapper 1 received data from master
+INFO:root:gRPC Call: Mapper 4 received data from master
+ERROR:root:Intentional failure for mapper 4
+INFO:root:gRPC Call: Mapper 3 received data from master
+ERROR:root:Intentional failure for mapper 3
+INFO:root:gRPC Call: Mapper 6 received data from master
+INFO:root:gRPC Call: Mapper 7 received data from master
+INFO:root:gRPC Call: Mapper 0 received data from master
+INFO:root:gRPC Call: Mapper 3 received data from master
+ERROR:root:Intentional failure for mapper 3
+INFO:root:gRPC Call: Mapper 4 received data from master
+ERROR:root:Intentional failure for mapper 4
+INFO:root:gRPC Call: Mapper 3 received data from master
+INFO:root:gRPC Call: Mapper 4 received data from master
+ERROR:root:Intentional failure for mapper 4
+INFO:root:gRPC Call: Mapper 4 received data from master
+ERROR:root:Intentional failure for mapper 4
+INFO:root:gRPC Call: Mapper 4 received data from master
+INFO:root:gRPC Call: Reducer 1 requesting data from mapper
+INFO:root:gRPC Call: Reducer 4 requesting data from mapper
+INFO:root:gRPC Call: Reducer 3 requesting data from mapper
+INFO:root:gRPC Call: Reducer 5 requesting data from mapper
+INFO:root:gRPC Call: Reducer 0 requesting data from mapper
+INFO:root:gRPC Call: Reducer 2 requesting data from mapper
+INFO:root:Mapper server started at port 5001
+INFO:root:Mapper server started at port 5002
+INFO:root:Mapper server started at port 5003
+INFO:root:Mapper server started at port 5004
+INFO:root:Mapper server started at port 5005
+INFO:root:Mapper server started at port 5006
+INFO:root:Mapper server started at port 5007
+INFO:root:Mapper server started at port 5008
+INFO:root:gRPC Call: Mapper 1 received data from master
+INFO:root:gRPC Call: Mapper 2 received data from master
+INFO:root:gRPC Call: Mapper 3 received data from master
+ERROR:root:Intentional failure for mapper 3
+INFO:root:gRPC Call: Mapper 4 received data from master
+INFO:root:gRPC Call: Mapper 5 received data from master
+ERROR:root:Intentional failure for mapper 5
+INFO:root:gRPC Call: Mapper 6 received data from master
+ERROR:root:Intentional failure for mapper 6
+INFO:root:gRPC Call: Mapper 7 received data from master
+INFO:root:gRPC Call: Mapper 0 received data from master
+ERROR:root:Intentional failure for mapper 0
+ERROR:root:Intentional failure for mapper 7
+INFO:root:gRPC Call: Mapper 3 received data from master
+ERROR:root:Intentional failure for mapper 3
+INFO:root:gRPC Call: Mapper 5 received data from master
+INFO:root:gRPC Call: Mapper 6 received data from master
+ERROR:root:Intentional failure for mapper 6
+INFO:root:gRPC Call: Mapper 0 received data from master
+INFO:root:gRPC Call: Mapper 7 received data from master
+INFO:root:gRPC Call: Mapper 3 received data from master
+ERROR:root:Intentional failure for mapper 3
+INFO:root:gRPC Call: Mapper 6 received data from master
+ERROR:root:Intentional failure for mapper 6
+INFO:root:gRPC Call: Mapper 3 received data from master
+ERROR:root:Intentional failure for mapper 3
+INFO:root:gRPC Call: Mapper 6 received data from master
+INFO:root:gRPC Call: Mapper 3 received data from master
+ERROR:root:Intentional failure for mapper 3
+INFO:root:gRPC Call: Mapper 3 received data from master
+INFO:root:gRPC Call: Reducer 0 requesting data from mapper
+INFO:root:gRPC Call: Reducer 2 requesting data from mapper
+INFO:root:gRPC Call: Reducer 1 requesting data from mapper
+INFO:root:gRPC Call: Reducer 3 requesting data from mapper
+INFO:root:gRPC Call: Reducer 4 requesting data from mapper
+INFO:root:gRPC Call: Reducer 5 requesting data from mapper
+INFO:root:Mapper server started at port 5002
+INFO:root:Mapper server started at port 5001
+INFO:root:Mapper server started at port 5004
+INFO:root:Mapper server started at port 5003
+INFO:root:Mapper server started at port 5005
+INFO:root:Mapper server started at port 5007
+INFO:root:Mapper server started at port 5006
+INFO:root:Mapper server started at port 5008
+INFO:root:gRPC Call: Mapper 1 received data from master
+ERROR:root:Intentional failure for mapper 1
+INFO:root:gRPC Call: Mapper 3 received data from master
+ERROR:root:Intentional failure for mapper 3
+INFO:root:gRPC Call: Mapper 4 received data from master
+ERROR:root:Intentional failure for mapper 4
+INFO:root:gRPC Call: Mapper 2 received data from master
+ERROR:root:Intentional failure for mapper 2
+INFO:root:gRPC Call: Mapper 0 received data from master
+ERROR:root:Intentional failure for mapper 0
+INFO:root:gRPC Call: Mapper 5 received data from master
+ERROR:root:Intentional failure for mapper 5
+INFO:root:gRPC Call: Mapper 3 received data from master
+INFO:root:gRPC Call: Mapper 6 received data from master
+INFO:root:gRPC Call: Mapper 0 received data from master
+INFO:root:gRPC Call: Mapper 7 received data from master
+INFO:root:gRPC Call: Mapper 2 received data from master
+INFO:root:gRPC Call: Mapper 4 received data from master
+ERROR:root:Intentional failure for mapper 4
+INFO:root:gRPC Call: Mapper 1 received data from master
+INFO:root:gRPC Call: Mapper 5 received data from master
+ERROR:root:Intentional failure for mapper 5
+INFO:root:gRPC Call: Mapper 4 received data from master
+INFO:root:gRPC Call: Mapper 5 received data from master
+ERROR:root:Intentional failure for mapper 5
+INFO:root:gRPC Call: Mapper 5 received data from master
+INFO:root:gRPC Call: Reducer 1 requesting data from mapper
+INFO:root:gRPC Call: Reducer 5 requesting data from mapper
+INFO:root:gRPC Call: Reducer 3 requesting data from mapper
+INFO:root:gRPC Call: Reducer 0 requesting data from mapper
+INFO:root:gRPC Call: Reducer 2 requesting data from mapper
+INFO:root:gRPC Call: Reducer 4 requesting data from mapper
+INFO:root:Mapper server started at port 5002
+INFO:root:Mapper server started at port 5004
+INFO:root:Mapper server started at port 5001
+INFO:root:Mapper server started at port 5005
+INFO:root:Mapper server started at port 5006
+INFO:root:Mapper server started at port 5003
+INFO:root:Mapper server started at port 5007
+INFO:root:Mapper server started at port 5008
+INFO:root:gRPC Call: Mapper 0 received data from master
+INFO:root:gRPC Call: Mapper 1 received data from master
+INFO:root:gRPC Call: Mapper 2 received data from master
+INFO:root:gRPC Call: Mapper 3 received data from master
+ERROR:root:Intentional failure for mapper 3
+INFO:root:gRPC Call: Mapper 4 received data from master
+ERROR:root:Intentional failure for mapper 4
+INFO:root:gRPC Call: Mapper 5 received data from master
+INFO:root:gRPC Call: Mapper 3 received data from master
+INFO:root:gRPC Call: Mapper 6 received data from master
+ERROR:root:Intentional failure for mapper 3
+INFO:root:gRPC Call: Mapper 7 received data from master
+INFO:root:gRPC Call: Mapper 4 received data from master
+ERROR:root:Intentional failure for mapper 4
+INFO:root:gRPC Call: Mapper 3 received data from master
+INFO:root:gRPC Call: Mapper 4 received data from master
+INFO:root:gRPC Call: Reducer 0 requesting data from mapper
+INFO:root:gRPC Call: Reducer 3 requesting data from mapper
+INFO:root:gRPC Call: Reducer 2 requesting data from mapper
+INFO:root:gRPC Call: Reducer 5 requesting data from mapper
+INFO:root:gRPC Call: Reducer 4 requesting data from mapper
+INFO:root:gRPC Call: Reducer 1 requesting data from mapper
+INFO:root:Mapper server started at port 5002
+INFO:root:Mapper server started at port 5001
+INFO:root:Mapper server started at port 5003
+INFO:root:Mapper server started at port 5005
+INFO:root:Mapper server started at port 5004
+INFO:root:Mapper server started at port 5006
+INFO:root:Mapper server started at port 5008
+INFO:root:Mapper server started at port 5007
+INFO:root:gRPC Call: Mapper 0 received data from master
+ERROR:root:Intentional failure for mapper 0
+INFO:root:gRPC Call: Mapper 1 received data from master
+INFO:root:gRPC Call: Mapper 2 received data from master
+INFO:root:gRPC Call: Mapper 3 received data from master
+ERROR:root:Intentional failure for mapper 3
+INFO:root:gRPC Call: Mapper 4 received data from master
+ERROR:root:Intentional failure for mapper 4
+INFO:root:gRPC Call: Mapper 5 received data from master
+INFO:root:gRPC Call: Mapper 0 received data from master
+ERROR:root:Intentional failure for mapper 0
+INFO:root:gRPC Call: Mapper 6 received data from master
+INFO:root:gRPC Call: Mapper 3 received data from master
+ERROR:root:Intentional failure for mapper 3
+INFO:root:gRPC Call: Mapper 7 received data from master
+INFO:root:gRPC Call: Mapper 4 received data from master
+INFO:root:gRPC Call: Mapper 0 received data from master
+INFO:root:gRPC Call: Mapper 3 received data from master
+INFO:root:gRPC Call: Reducer 0 requesting data from mapper
+INFO:root:gRPC Call: Reducer 3 requesting data from mapper
+INFO:root:gRPC Call: Reducer 1 requesting data from mapper
+INFO:root:gRPC Call: Reducer 5 requesting data from mapper
+INFO:root:gRPC Call: Reducer 4 requesting data from mapper
+INFO:root:gRPC Call: Reducer 2 requesting data from mapper
+INFO:root:Mapper server started at port 5001
+INFO:root:Mapper server started at port 5002
+INFO:root:Mapper server started at port 5003
+INFO:root:Mapper server started at port 5004
+INFO:root:Mapper server started at port 5007
+INFO:root:Mapper server started at port 5005
+INFO:root:Mapper server started at port 5006
+INFO:root:Mapper server started at port 5008
+INFO:root:gRPC Call: Mapper 0 received data from master
+ERROR:root:Intentional failure for mapper 0
+INFO:root:gRPC Call: Mapper 1 received data from master
+ERROR:root:Intentional failure for mapper 1
+INFO:root:gRPC Call: Mapper 2 received data from master
+ERROR:root:Intentional failure for mapper 2
+INFO:root:gRPC Call: Mapper 3 received data from master
+ERROR:root:Intentional failure for mapper 3
+INFO:root:gRPC Call: Mapper 0 received data from master
+ERROR:root:Intentional failure for mapper 0
+INFO:root:gRPC Call: Mapper 4 received data from master
+ERROR:root:Intentional failure for mapper 4
+INFO:root:gRPC Call: Mapper 1 received data from master
+ERROR:root:Intentional failure for mapper 1
+INFO:root:gRPC Call: Mapper 2 received data from master
+INFO:root:gRPC Call: Mapper 5 received data from master
+ERROR:root:Intentional failure for mapper 5
+INFO:root:gRPC Call: Mapper 0 received data from master
+INFO:root:gRPC Call: Mapper 3 received data from master
+INFO:root:gRPC Call: Mapper 7 received data from master
+ERROR:root:Intentional failure for mapper 7
+INFO:root:gRPC Call: Mapper 6 received data from master
+ERROR:root:Intentional failure for mapper 6
+INFO:root:gRPC Call: Mapper 4 received data from master
+INFO:root:gRPC Call: Mapper 1 received data from master
+ERROR:root:Intentional failure for mapper 1
+INFO:root:gRPC Call: Mapper 5 received data from master
+ERROR:root:Intentional failure for mapper 5
+INFO:root:gRPC Call: Mapper 7 received data from master
+INFO:root:gRPC Call: Mapper 6 received data from master
+ERROR:root:Intentional failure for mapper 6
+INFO:root:gRPC Call: Mapper 1 received data from master
+ERROR:root:Intentional failure for mapper 1
+INFO:root:gRPC Call: Mapper 5 received data from master
+INFO:root:gRPC Call: Mapper 6 received data from master
+ERROR:root:Intentional failure for mapper 5
+INFO:root:gRPC Call: Mapper 1 received data from master
+ERROR:root:Intentional failure for mapper 1
+INFO:root:gRPC Call: Mapper 5 received data from master
+INFO:root:gRPC Call: Mapper 1 received data from master
+ERROR:root:Intentional failure for mapper 1
+INFO:root:gRPC Call: Mapper 1 received data from master
+ERROR:root:Intentional failure for mapper 1
+INFO:root:gRPC Call: Mapper 1 received data from master
+INFO:root:gRPC Call: Reducer 0 requesting data from mapper
+INFO:root:gRPC Call: Reducer 3 requesting data from mapper
+INFO:root:gRPC Call: Reducer 5 requesting data from mapper
+INFO:root:gRPC Call: Reducer 2 requesting data from mapper
+INFO:root:gRPC Call: Reducer 4 requesting data from mapper
+INFO:root:gRPC Call: Reducer 1 requesting data from mapper
+INFO:root:Mapper server started at port 5001
+INFO:root:Mapper server started at port 5002
+INFO:root:Mapper server started at port 5007
+INFO:root:Mapper server started at port 5005
+INFO:root:Mapper server started at port 5004
+INFO:root:Mapper server started at port 5003
+INFO:root:Mapper server started at port 5006
+INFO:root:Mapper server started at port 5008
+INFO:root:gRPC Call: Mapper 0 received data from master
+ERROR:root:Intentional failure for mapper 0
+INFO:root:gRPC Call: Mapper 1 received data from master
+ERROR:root:Intentional failure for mapper 1
+INFO:root:gRPC Call: Mapper 2 received data from master
+ERROR:root:Intentional failure for mapper 2
+INFO:root:gRPC Call: Mapper 3 received data from master
+ERROR:root:Intentional failure for mapper 3
+INFO:root:gRPC Call: Mapper 4 received data from master
+ERROR:root:Intentional failure for mapper 4
+INFO:root:gRPC Call: Mapper 5 received data from master
+ERROR:root:Intentional failure for mapper 5
+INFO:root:gRPC Call: Mapper 0 received data from master
+INFO:root:gRPC Call: Mapper 6 received data from master
+INFO:root:gRPC Call: Mapper 1 received data from master
+ERROR:root:Intentional failure for mapper 1
+INFO:root:gRPC Call: Mapper 2 received data from master
+ERROR:root:Intentional failure for mapper 2
+INFO:root:gRPC Call: Mapper 4 received data from master
+ERROR:root:Intentional failure for mapper 4
+INFO:root:gRPC Call: Mapper 7 received data from master
+INFO:root:gRPC Call: Mapper 3 received data from master
+ERROR:root:Intentional failure for mapper 3
+INFO:root:gRPC Call: Mapper 5 received data from master
+INFO:root:gRPC Call: Mapper 2 received data from master
+INFO:root:gRPC Call: Mapper 1 received data from master
+INFO:root:gRPC Call: Mapper 4 received data from master
+ERROR:root:Intentional failure for mapper 4
+INFO:root:gRPC Call: Mapper 3 received data from master
+INFO:root:gRPC Call: Mapper 4 received data from master
+ERROR:root:Intentional failure for mapper 4
+INFO:root:gRPC Call: Mapper 4 received data from master
+INFO:root:gRPC Call: Reducer 1 requesting data from mapper
+INFO:root:gRPC Call: Reducer 4 requesting data from mapper
+INFO:root:gRPC Call: Reducer 3 requesting data from mapper
+INFO:root:gRPC Call: Reducer 2 requesting data from mapper
+INFO:root:gRPC Call: Reducer 5 requesting data from mapper
+INFO:root:gRPC Call: Reducer 0 requesting data from mapper
+INFO:root:Mapper server started at port 5001
+INFO:root:Mapper server started at port 5002
+INFO:root:Mapper server started at port 5003
+INFO:root:Mapper server started at port 5004
+INFO:root:Mapper server started at port 5005
+INFO:root:Mapper server started at port 5007
+INFO:root:Mapper server started at port 5008
+INFO:root:Mapper server started at port 5006
+INFO:root:gRPC Call: Mapper 0 received data from master
+INFO:root:gRPC Call: Mapper 3 received data from master
+ERROR:root:Intentional failure for mapper 3
+INFO:root:gRPC Call: Mapper 4 received data from master
+ERROR:root:Intentional failure for mapper 4
+INFO:root:gRPC Call: Mapper 5 received data from master
+ERROR:root:Intentional failure for mapper 5
+INFO:root:gRPC Call: Mapper 1 received data from master
+INFO:root:gRPC Call: Mapper 2 received data from master
+ERROR:root:Intentional failure for mapper 1
+INFO:root:gRPC Call: Mapper 4 received data from master
+ERROR:root:Intentional failure for mapper 4
+INFO:root:gRPC Call: Mapper 6 received data from master
+ERROR:root:Intentional failure for mapper 6
+INFO:root:gRPC Call: Mapper 5 received data from master
+ERROR:root:Intentional failure for mapper 5
+INFO:root:gRPC Call: Mapper 1 received data from master
+ERROR:root:Intentional failure for mapper 1
+INFO:root:gRPC Call: Mapper 3 received data from master
+INFO:root:gRPC Call: Mapper 4 received data from master
+ERROR:root:Intentional failure for mapper 4
+INFO:root:gRPC Call: Mapper 7 received data from master
+INFO:root:gRPC Call: Mapper 5 received data from master
+INFO:root:gRPC Call: Mapper 6 received data from master
+INFO:root:gRPC Call: Mapper 1 received data from master
+INFO:root:gRPC Call: Mapper 4 received data from master
+INFO:root:gRPC Call: Reducer 1 requesting data from mapper
+INFO:root:gRPC Call: Reducer 0 requesting data from mapper
+INFO:root:gRPC Call: Reducer 4 requesting data from mapper
+INFO:root:gRPC Call: Reducer 2 requesting data from mapper
+INFO:root:gRPC Call: Reducer 3 requesting data from mapper
+INFO:root:gRPC Call: Reducer 5 requesting data from mapper
+INFO:root:Mapper server started at port 5002
+INFO:root:Mapper server started at port 5001
+INFO:root:Mapper server started at port 5004
+INFO:root:Mapper server started at port 5003
+INFO:root:Mapper server started at port 5005
+INFO:root:Mapper server started at port 5007
+INFO:root:Mapper server started at port 5006
+INFO:root:Mapper server started at port 5008
+INFO:root:gRPC Call: Mapper 0 received data from master
+ERROR:root:Intentional failure for mapper 0
+INFO:root:gRPC Call: Mapper 2 received data from master
+ERROR:root:Intentional failure for mapper 2
+INFO:root:gRPC Call: Mapper 1 received data from master
+INFO:root:gRPC Call: Mapper 3 received data from master
+INFO:root:gRPC Call: Mapper 4 received data from master
+ERROR:root:Intentional failure for mapper 3
+ERROR:root:Intentional failure for mapper 4
+INFO:root:gRPC Call: Mapper 5 received data from master
+INFO:root:gRPC Call: Mapper 7 received data from master
+INFO:root:gRPC Call: Mapper 6 received data from master
+INFO:root:gRPC Call: Mapper 0 received data from master
+ERROR:root:Intentional failure for mapper 0
+INFO:root:gRPC Call: Mapper 3 received data from master
+INFO:root:gRPC Call: Mapper 2 received data from master
+INFO:root:gRPC Call: Mapper 0 received data from master
+INFO:root:gRPC Call: Mapper 4 received data from master
+ERROR:root:Intentional failure for mapper 4
+INFO:root:gRPC Call: Mapper 4 received data from master
+ERROR:root:Intentional failure for mapper 4
+INFO:root:gRPC Call: Mapper 4 received data from master
+INFO:root:gRPC Call: Reducer 0 requesting data from mapper
+INFO:root:gRPC Call: Reducer 1 requesting data from mapper
+INFO:root:gRPC Call: Reducer 4 requesting data from mapper
+INFO:root:gRPC Call: Reducer 5 requesting data from mapper
+INFO:root:gRPC Call: Reducer 2 requesting data from mapper
+INFO:root:gRPC Call: Reducer 3 requesting data from mapper

@@ -1,82 +1,747 @@
-INFO:root:Initial centroids: [[2.552573964893323, 17.536987084919097], [30.2214411954406, 60.63826278594955], [37.59627649460666, 83.10255966867024]]
+INFO:root:Initial centroids: [[81.430136979439, 50.33034624768575], [30.2214411954406, 60.63826278594955], [65.92469227195072, 51.192695664924834], [22.918984884832927, 86.29388886815464], [85.32433236307622, 38.85085293948647], [2.4253966361924117, 14.200140998826638], [12.289008223892928, 76.22457846480101]]
 INFO:root:Starting iteration 1
 INFO:root:Mapper 0 spawned on port 5001
 INFO:root:Mapper 1 spawned on port 5002
 INFO:root:Mapper 2 spawned on port 5003
 INFO:root:Mapper 3 spawned on port 5004
 INFO:root:Mapper 4 spawned on port 5005
-INFO:root:Intentional Failure by Mapper 3 attempt 1: FAILED, retrying...
+INFO:root:Mapper 5 spawned on port 5006
+INFO:root:Mapper 6 spawned on port 5007
+INFO:root:Mapper 7 spawned on port 5008
+INFO:root:gRPC call to mapper 1 with range 2 to 4
+INFO:root:gRPC call to mapper 0 with range 0 to 2
+INFO:root:gRPC call to mapper 2 with range 4 to 6
+INFO:root:gRPC call to mapper 3 with range 6 to 8
+INFO:root:gRPC call to mapper 4 with range 8 to 10
+INFO:root:gRPC call to mapper 5 with range 10 to 12
+INFO:root:gRPC call to mapper 6 with range 12 to 14
+INFO:root:gRPC call to mapper 7 with range 14 to 20
+INFO:root:Intentional Failure by Mapper 7 attempt 1: FAILED, retrying...
+INFO:root:Intentional Failure by Mapper 6 attempt 1: FAILED, retrying...
 INFO:root:Intentional Failure by Mapper 4 attempt 1: FAILED, retrying...
-INFO:root:Intentional Failure by Mapper 1 attempt 1: FAILED, retrying...
-INFO:root:Intentional Failure by Mapper 1 attempt 2: FAILED, retrying...
-INFO:root:Intentional Failure by Mapper 1 attempt 3: FAILED, retrying...
-INFO:root:Intentional Failure by Mapper 1 attempt 4: FAILED, retrying...
-INFO:root:Intentional Failure by Mapper 1 attempt 5: FAILED, retrying...
-INFO:root:Intentional Failure by Mapper 1 attempt 6: FAILED, retrying...
+INFO:root:Intentional Failure by Mapper 2 attempt 1: FAILED, retrying...
+INFO:root:gRPC call to mapper 7 with range 14 to 20
+INFO:root:Intentional Failure by Mapper 5 attempt 1: FAILED, retrying...
+INFO:root:gRPC call to mapper 6 with range 12 to 14
+INFO:root:Mapper 0 response: SUCCESS
+INFO:root:gRPC call to mapper 4 with range 8 to 10
+INFO:root:gRPC call to mapper 2 with range 4 to 6
+INFO:root:gRPC call to mapper 5 with range 10 to 12
+INFO:root:Intentional Failure by Mapper 6 attempt 2: FAILED, retrying...
+INFO:root:gRPC call to mapper 6 with range 12 to 14
+INFO:root:Intentional Failure by Mapper 5 attempt 2: FAILED, retrying...
+INFO:root:Mapper 7 response: SUCCESS
+INFO:root:gRPC call to mapper 5 with range 10 to 12
+INFO:root:Mapper 2 response: SUCCESS
+INFO:root:Intentional Failure by Mapper 6 attempt 3: FAILED, retrying...
+INFO:root:gRPC call to mapper 6 with range 12 to 14
+INFO:root:Intentional Failure by Mapper 6 attempt 4: FAILED, retrying...
+INFO:root:gRPC call to mapper 6 with range 12 to 14
+INFO:root:Mapper 5 response: SUCCESS
+INFO:root:Mapper 6 response: SUCCESS
+INFO:root:Mapper 1 response: SUCCESS
+INFO:root:Mapper 3 response: SUCCESS
+INFO:root:Mapper 4 response: SUCCESS
 INFO:root:Reducer 0 spawned on port 6001
 INFO:root:Reducer 1 spawned on port 6002
 INFO:root:Reducer 2 spawned on port 6003
 INFO:root:Reducer 3 spawned on port 6004
-INFO:root:Reducer 0 response: SUCCESS
-WARNING:root:Reducer 3 attempt 1: FAILED, status: FAILURE
-INFO:root:Reducer 2 response: SUCCESS
-INFO:root:Reducer 1 response: SUCCESS
+INFO:root:Reducer 4 spawned on port 6005
+INFO:root:Reducer 5 spawned on port 6006
+INFO:root:gRPC call to reducer 0
+INFO:root:gRPC call to reducer 1
+INFO:root:gRPC call to reducer 2
+INFO:root:gRPC call to reducer 3
+INFO:root:gRPC call to reducer 4
+INFO:root:gRPC call to reducer 5
+WARNING:root:Intentional : Reducer 5 attempt 1: FAILED, status: FAILURE
+INFO:root:gRPC call to reducer 5
+WARNING:root:Intentional : Reducer 5 attempt 2: FAILED, status: FAILURE
+INFO:root:gRPC call to reducer 5
 INFO:root:Reducer 3 response: SUCCESS
-INFO:root:New centroids: [[39.25049364151395, 80.16041985282259], [2.4889853005428675, 15.868564041872869], [41.357844451682304, 50.49473530649837]]
-INFO:root:Updated centroids: [[39.25049364151395, 80.16041985282259], [2.4889853005428675, 15.868564041872869], [41.357844451682304, 50.49473530649837]]
+WARNING:root:Intentional : Reducer 4 attempt 1: FAILED, status: FAILURE
+INFO:root:gRPC call to reducer 4
+WARNING:root:Intentional : Reducer 4 attempt 2: FAILED, status: FAILURE
+INFO:root:gRPC call to reducer 4
+WARNING:root:Intentional : Reducer 4 attempt 3: FAILED, status: FAILURE
+INFO:root:gRPC call to reducer 4
+WARNING:root:Intentional : Reducer 5 attempt 3: FAILED, status: FAILURE
+INFO:root:gRPC call to reducer 5
+INFO:root:Reducer 4 response: SUCCESS
+INFO:root:Reducer 2 response: SUCCESS
+WARNING:root:Intentional : Reducer 0 attempt 1: FAILED, status: FAILURE
+INFO:root:Reducer 5 response: SUCCESS
+INFO:root:gRPC call to reducer 0
+INFO:root:Reducer 1 response: SUCCESS
+INFO:root:Reducer 0 response: SUCCESS
+INFO:root:New centroids: [[28.913017569927344, 56.02015399773552], [86.80427607107823, 25.458951248488024], [12.83134019033161, 67.38563055464205], [56.29411351763594, 46.864762670460166], [81.29470817645796, 54.040353142250225], [24.382041519512168, 88.7425694919519], [2.4889853005428675, 15.868564041872869]]
+INFO:root:Updated centroids: [[28.913017569927344, 56.02015399773552], [86.80427607107823, 25.458951248488024], [12.83134019033161, 67.38563055464205], [56.29411351763594, 46.864762670460166], [81.29470817645796, 54.040353142250225], [24.382041519512168, 88.7425694919519], [2.4889853005428675, 15.868564041872869]]
 INFO:root:Starting iteration 2
 INFO:root:Mapper 0 spawned on port 5001
 INFO:root:Mapper 1 spawned on port 5002
 INFO:root:Mapper 2 spawned on port 5003
 INFO:root:Mapper 3 spawned on port 5004
 INFO:root:Mapper 4 spawned on port 5005
-INFO:root:Intentional Failure by Mapper 0 attempt 1: FAILED, retrying...
-INFO:root:Intentional Failure by Mapper 0 attempt 2: FAILED, retrying...
-INFO:root:Intentional Failure by Mapper 2 attempt 1: FAILED, retrying...
+INFO:root:Mapper 5 spawned on port 5006
+INFO:root:Mapper 6 spawned on port 5007
+INFO:root:Mapper 7 spawned on port 5008
+INFO:root:gRPC call to mapper 0 with range 0 to 2
+INFO:root:gRPC call to mapper 1 with range 2 to 4
+INFO:root:gRPC call to mapper 2 with range 4 to 6
+INFO:root:gRPC call to mapper 3 with range 6 to 8
+INFO:root:gRPC call to mapper 4 with range 8 to 10
+INFO:root:gRPC call to mapper 5 with range 10 to 12
+INFO:root:Intentional Failure by Mapper 1 attempt 1: FAILED, retrying...
+INFO:root:gRPC call to mapper 1 with range 2 to 4
 INFO:root:Intentional Failure by Mapper 3 attempt 1: FAILED, retrying...
-INFO:root:Intentional Failure by Mapper 0 attempt 3: FAILED, retrying...
+INFO:root:gRPC call to mapper 6 with range 12 to 14
+INFO:root:gRPC call to mapper 3 with range 6 to 8
+INFO:root:gRPC call to mapper 7 with range 14 to 20
+INFO:root:Intentional Failure by Mapper 0 attempt 1: FAILED, retrying...
+INFO:root:gRPC call to mapper 0 with range 0 to 2
+INFO:root:Mapper 1 response: SUCCESS
+INFO:root:Mapper 5 response: SUCCESS
+INFO:root:Mapper 2 response: SUCCESS
+INFO:root:Intentional Failure by Mapper 4 attempt 1: FAILED, retrying...
 INFO:root:Intentional Failure by Mapper 3 attempt 2: FAILED, retrying...
-INFO:root:Intentional Failure by Mapper 0 attempt 4: FAILED, retrying...
-INFO:root:Intentional Failure by Mapper 0 attempt 5: FAILED, retrying...
-INFO:root:Intentional Failure by Mapper 0 attempt 6: FAILED, retrying...
-INFO:root:Intentional Failure by Mapper 0 attempt 7: FAILED, retrying...
+INFO:root:gRPC call to mapper 4 with range 8 to 10
+INFO:root:gRPC call to mapper 3 with range 6 to 8
+INFO:root:Mapper 7 response: SUCCESS
+INFO:root:Mapper 0 response: SUCCESS
+INFO:root:Intentional Failure by Mapper 3 attempt 3: FAILED, retrying...
+INFO:root:gRPC call to mapper 3 with range 6 to 8
+INFO:root:Mapper 6 response: SUCCESS
+INFO:root:Intentional Failure by Mapper 4 attempt 2: FAILED, retrying...
+INFO:root:gRPC call to mapper 4 with range 8 to 10
+INFO:root:Mapper 3 response: SUCCESS
+INFO:root:Intentional Failure by Mapper 4 attempt 3: FAILED, retrying...
+INFO:root:gRPC call to mapper 4 with range 8 to 10
+INFO:root:Intentional Failure by Mapper 4 attempt 4: FAILED, retrying...
+INFO:root:gRPC call to mapper 4 with range 8 to 10
+INFO:root:Mapper 4 response: SUCCESS
 INFO:root:Reducer 0 spawned on port 6001
 INFO:root:Reducer 1 spawned on port 6002
 INFO:root:Reducer 2 spawned on port 6003
 INFO:root:Reducer 3 spawned on port 6004
-WARNING:root:Reducer 1 attempt 1: FAILED, status: FAILURE
-WARNING:root:Reducer 0 attempt 1: FAILED, status: FAILURE
-WARNING:root:Reducer 0 attempt 2: FAILED, status: FAILURE
-WARNING:root:Reducer 0 attempt 3: FAILED, status: FAILURE
-INFO:root:Reducer 3 response: SUCCESS
+INFO:root:Reducer 4 spawned on port 6005
+INFO:root:Reducer 5 spawned on port 6006
+INFO:root:gRPC call to reducer 0
+INFO:root:gRPC call to reducer 1
+INFO:root:gRPC call to reducer 2
+INFO:root:gRPC call to reducer 3
+INFO:root:gRPC call to reducer 4
+WARNING:root:Intentional : Reducer 0 attempt 1: FAILED, status: FAILURE
+INFO:root:gRPC call to reducer 0
+INFO:root:gRPC call to reducer 5
+WARNING:root:Intentional : Reducer 2 attempt 1: FAILED, status: FAILURE
+INFO:root:gRPC call to reducer 2
+WARNING:root:Intentional : Reducer 0 attempt 2: FAILED, status: FAILURE
+INFO:root:gRPC call to reducer 0
+WARNING:root:Intentional : Reducer 2 attempt 2: FAILED, status: FAILURE
+INFO:root:gRPC call to reducer 2
+WARNING:root:Intentional : Reducer 0 attempt 3: FAILED, status: FAILURE
+INFO:root:gRPC call to reducer 0
 INFO:root:Reducer 1 response: SUCCESS
-INFO:root:Reducer 0 response: SUCCESS
+WARNING:root:Intentional : Reducer 2 attempt 3: FAILED, status: FAILURE
+INFO:root:gRPC call to reducer 2
+WARNING:root:Intentional : Reducer 0 attempt 4: FAILED, status: FAILURE
+INFO:root:gRPC call to reducer 0
+INFO:root:Reducer 4 response: SUCCESS
+WARNING:root:Intentional : Reducer 0 attempt 5: FAILED, status: FAILURE
+INFO:root:gRPC call to reducer 0
+INFO:root:Reducer 3 response: SUCCESS
+INFO:root:Reducer 5 response: SUCCESS
 INFO:root:Reducer 2 response: SUCCESS
-INFO:root:New centroids: [[49.631120647524945, 47.84282313204185], [2.4889853005428675, 15.868564041872869], [23.055166384856737, 80.51996344401492]]
-INFO:root:Updated centroids: [[49.631120647524945, 47.84282313204185], [2.4889853005428675, 15.868564041872869], [23.055166384856737, 80.51996344401492]]
+INFO:root:Reducer 0 response: SUCCESS
+INFO:root:New centroids: [[12.83134019033161, 67.38563055464205], [28.773297208523203, 85.76293480682457], [26.306208228801545, 51.8593786469941], [86.80427607107823, 25.458951248488024], [2.4889853005428675, 15.868564041872869], [56.29411351763594, 46.864762670460166], [81.29470817645796, 54.040353142250225]]
+INFO:root:Updated centroids: [[12.83134019033161, 67.38563055464205], [28.773297208523203, 85.76293480682457], [26.306208228801545, 51.8593786469941], [86.80427607107823, 25.458951248488024], [2.4889853005428675, 15.868564041872869], [56.29411351763594, 46.864762670460166], [81.29470817645796, 54.040353142250225]]
 INFO:root:Starting iteration 3
 INFO:root:Mapper 0 spawned on port 5001
 INFO:root:Mapper 1 spawned on port 5002
 INFO:root:Mapper 2 spawned on port 5003
 INFO:root:Mapper 3 spawned on port 5004
 INFO:root:Mapper 4 spawned on port 5005
-INFO:root:Intentional Failure by Mapper 0 attempt 1: FAILED, retrying...
+INFO:root:Mapper 5 spawned on port 5006
+INFO:root:Mapper 6 spawned on port 5007
+INFO:root:Mapper 7 spawned on port 5008
+INFO:root:gRPC call to mapper 0 with range 0 to 2
+INFO:root:gRPC call to mapper 1 with range 2 to 4
+INFO:root:gRPC call to mapper 2 with range 4 to 6
+INFO:root:gRPC call to mapper 3 with range 6 to 8
+INFO:root:gRPC call to mapper 4 with range 8 to 10
+INFO:root:gRPC call to mapper 5 with range 10 to 12
+INFO:root:gRPC call to mapper 6 with range 12 to 14
+INFO:root:Mapper 1 response: SUCCESS
 INFO:root:Intentional Failure by Mapper 3 attempt 1: FAILED, retrying...
-INFO:root:Intentional Failure by Mapper 4 attempt 1: FAILED, retrying...
-INFO:root:Intentional Failure by Mapper 0 attempt 2: FAILED, retrying...
+INFO:root:gRPC call to mapper 7 with range 14 to 20
+INFO:root:Mapper 2 response: SUCCESS
+INFO:root:Mapper 4 response: SUCCESS
+INFO:root:gRPC call to mapper 3 with range 6 to 8
+INFO:root:Intentional Failure by Mapper 5 attempt 1: FAILED, retrying...
+INFO:root:Intentional Failure by Mapper 6 attempt 1: FAILED, retrying...
+INFO:root:gRPC call to mapper 5 with range 10 to 12
+INFO:root:gRPC call to mapper 6 with range 12 to 14
+INFO:root:Intentional Failure by Mapper 0 attempt 1: FAILED, retrying...
+INFO:root:Intentional Failure by Mapper 7 attempt 1: FAILED, retrying...
 INFO:root:Intentional Failure by Mapper 3 attempt 2: FAILED, retrying...
-INFO:root:Intentional Failure by Mapper 4 attempt 2: FAILED, retrying...
-INFO:root:Intentional Failure by Mapper 0 attempt 3: FAILED, retrying...
-INFO:root:Intentional Failure by Mapper 4 attempt 3: FAILED, retrying...
+INFO:root:gRPC call to mapper 0 with range 0 to 2
+INFO:root:gRPC call to mapper 7 with range 14 to 20
+INFO:root:gRPC call to mapper 3 with range 6 to 8
+INFO:root:Intentional Failure by Mapper 6 attempt 2: FAILED, retrying...
+INFO:root:Mapper 5 response: SUCCESS
+INFO:root:gRPC call to mapper 6 with range 12 to 14
+INFO:root:Intentional Failure by Mapper 3 attempt 3: FAILED, retrying...
+INFO:root:gRPC call to mapper 3 with range 6 to 8
+INFO:root:Mapper 0 response: SUCCESS
+INFO:root:Mapper 7 response: SUCCESS
+INFO:root:Intentional Failure by Mapper 6 attempt 3: FAILED, retrying...
+INFO:root:gRPC call to mapper 6 with range 12 to 14
+INFO:root:Intentional Failure by Mapper 3 attempt 4: FAILED, retrying...
+INFO:root:gRPC call to mapper 3 with range 6 to 8
+INFO:root:Intentional Failure by Mapper 3 attempt 5: FAILED, retrying...
+INFO:root:gRPC call to mapper 3 with range 6 to 8
+INFO:root:Mapper 6 response: SUCCESS
+INFO:root:Mapper 3 response: SUCCESS
 INFO:root:Reducer 0 spawned on port 6001
 INFO:root:Reducer 1 spawned on port 6002
 INFO:root:Reducer 2 spawned on port 6003
 INFO:root:Reducer 3 spawned on port 6004
-WARNING:root:Reducer 0 attempt 1: FAILED, status: FAILURE
-WARNING:root:Reducer 3 attempt 1: FAILED, status: FAILURE
+INFO:root:Reducer 4 spawned on port 6005
+INFO:root:Reducer 5 spawned on port 6006
+INFO:root:gRPC call to reducer 0
+INFO:root:gRPC call to reducer 1
+INFO:root:gRPC call to reducer 2
+INFO:root:gRPC call to reducer 3
+INFO:root:gRPC call to reducer 4
+INFO:root:gRPC call to reducer 5
+WARNING:root:Intentional : Reducer 3 attempt 1: FAILED, status: FAILURE
+INFO:root:gRPC call to reducer 3
+WARNING:root:Intentional : Reducer 4 attempt 1: FAILED, status: FAILURE
+INFO:root:gRPC call to reducer 4
+WARNING:root:Intentional : Reducer 5 attempt 1: FAILED, status: FAILURE
+INFO:root:gRPC call to reducer 5
+WARNING:root:Intentional : Reducer 2 attempt 1: FAILED, status: FAILURE
+INFO:root:gRPC call to reducer 2
+WARNING:root:Intentional : Reducer 5 attempt 2: FAILED, status: FAILURE
+INFO:root:gRPC call to reducer 5
+INFO:root:Reducer 2 response: SUCCESS
 INFO:root:Reducer 1 response: SUCCESS
+INFO:root:Reducer 3 response: SUCCESS
+INFO:root:Reducer 0 response: SUCCESS
+INFO:root:Reducer 4 response: SUCCESS
+INFO:root:Reducer 5 response: SUCCESS
+INFO:root:New centroids: [[26.306208228801545, 51.8593786469941], [2.4889853005428675, 15.868564041872869], [56.29411351763594, 46.864762670460166], [81.29470817645796, 54.040353142250225], [12.83134019033161, 67.38563055464205], [28.773297208523203, 85.76293480682457], [86.80427607107823, 25.458951248488024]]
+INFO:root:Updated centroids: [[26.306208228801545, 51.8593786469941], [2.4889853005428675, 15.868564041872869], [56.29411351763594, 46.864762670460166], [81.29470817645796, 54.040353142250225], [12.83134019033161, 67.38563055464205], [28.773297208523203, 85.76293480682457], [86.80427607107823, 25.458951248488024]]
+INFO:root:Starting iteration 4
+INFO:root:Mapper 0 spawned on port 5001
+INFO:root:Mapper 1 spawned on port 5002
+INFO:root:Mapper 2 spawned on port 5003
+INFO:root:Mapper 3 spawned on port 5004
+INFO:root:Mapper 4 spawned on port 5005
+INFO:root:Mapper 5 spawned on port 5006
+INFO:root:Mapper 6 spawned on port 5007
+INFO:root:Mapper 7 spawned on port 5008
+INFO:root:gRPC call to mapper 0 with range 0 to 2
+INFO:root:gRPC call to mapper 1 with range 2 to 4
+INFO:root:gRPC call to mapper 2 with range 4 to 6
+INFO:root:gRPC call to mapper 3 with range 6 to 8
+INFO:root:gRPC call to mapper 4 with range 8 to 10
+INFO:root:gRPC call to mapper 5 with range 10 to 12
+INFO:root:Intentional Failure by Mapper 3 attempt 1: FAILED, retrying...
+INFO:root:Intentional Failure by Mapper 0 attempt 1: FAILED, retrying...
+INFO:root:gRPC call to mapper 6 with range 12 to 14
+INFO:root:Intentional Failure by Mapper 2 attempt 1: FAILED, retrying...
+INFO:root:gRPC call to mapper 3 with range 6 to 8
+INFO:root:Intentional Failure by Mapper 4 attempt 1: FAILED, retrying...
+INFO:root:Intentional Failure by Mapper 1 attempt 1: FAILED, retrying...
+INFO:root:Intentional Failure by Mapper 5 attempt 1: FAILED, retrying...
+INFO:root:gRPC call to mapper 0 with range 0 to 2
+INFO:root:gRPC call to mapper 7 with range 14 to 20
+INFO:root:gRPC call to mapper 2 with range 4 to 6
+INFO:root:gRPC call to mapper 4 with range 8 to 10
+INFO:root:gRPC call to mapper 1 with range 2 to 4
+INFO:root:gRPC call to mapper 5 with range 10 to 12
+INFO:root:Mapper 3 response: SUCCESS
+INFO:root:Mapper 6 response: SUCCESS
+INFO:root:Intentional Failure by Mapper 4 attempt 2: FAILED, retrying...
+INFO:root:Intentional Failure by Mapper 5 attempt 2: FAILED, retrying...
+INFO:root:gRPC call to mapper 4 with range 8 to 10
+INFO:root:Mapper 1 response: SUCCESS
+INFO:root:Mapper 7 response: SUCCESS
+INFO:root:gRPC call to mapper 5 with range 10 to 12
+INFO:root:Mapper 0 response: SUCCESS
+INFO:root:Mapper 2 response: SUCCESS
+INFO:root:Mapper 4 response: SUCCESS
+INFO:root:Intentional Failure by Mapper 5 attempt 3: FAILED, retrying...
+INFO:root:gRPC call to mapper 5 with range 10 to 12
+INFO:root:Mapper 5 response: SUCCESS
+INFO:root:Reducer 0 spawned on port 6001
+INFO:root:Reducer 1 spawned on port 6002
+INFO:root:Reducer 2 spawned on port 6003
+INFO:root:Reducer 3 spawned on port 6004
+INFO:root:Reducer 4 spawned on port 6005
+INFO:root:Reducer 5 spawned on port 6006
+INFO:root:gRPC call to reducer 0
+INFO:root:gRPC call to reducer 1
+INFO:root:gRPC call to reducer 2
+INFO:root:gRPC call to reducer 3
+INFO:root:gRPC call to reducer 4
+INFO:root:gRPC call to reducer 5
+WARNING:root:Intentional : Reducer 3 attempt 1: FAILED, status: FAILURE
+INFO:root:gRPC call to reducer 3
+WARNING:root:Intentional : Reducer 5 attempt 1: FAILED, status: FAILURE
+INFO:root:gRPC call to reducer 5
+WARNING:root:Intentional : Reducer 2 attempt 1: FAILED, status: FAILURE
+INFO:root:gRPC call to reducer 2
+WARNING:root:Intentional : Reducer 4 attempt 1: FAILED, status: FAILURE
+INFO:root:gRPC call to reducer 4
+INFO:root:Reducer 1 response: SUCCESS
+WARNING:root:Intentional : Reducer 4 attempt 2: FAILED, status: FAILURE
+INFO:root:gRPC call to reducer 4
+INFO:root:Reducer 5 response: SUCCESS
 INFO:root:Reducer 0 response: SUCCESS
 INFO:root:Reducer 3 response: SUCCESS
 INFO:root:Reducer 2 response: SUCCESS
-INFO:root:New centroids: [[2.4889853005428675, 15.868564041872869], [22.927939079080218, 71.95787014749526], [63.078131911079694, 42.20686959670489]]
-INFO:root:Updated centroids: [[2.4889853005428675, 15.868564041872869], [22.927939079080218, 71.95787014749526], [63.078131911079694, 42.20686959670489]]
+INFO:root:Reducer 4 response: SUCCESS
+INFO:root:New centroids: [[26.306208228801545, 51.8593786469941], [28.773297208523203, 85.76293480682457], [86.80427607107823, 25.458951248488024], [2.4889853005428675, 15.868564041872869], [56.29411351763594, 46.864762670460166], [81.29470817645796, 54.040353142250225], [12.83134019033161, 67.38563055464205]]
+INFO:root:Updated centroids: [[26.306208228801545, 51.8593786469941], [28.773297208523203, 85.76293480682457], [86.80427607107823, 25.458951248488024], [2.4889853005428675, 15.868564041872869], [56.29411351763594, 46.864762670460166], [81.29470817645796, 54.040353142250225], [12.83134019033161, 67.38563055464205]]
+INFO:root:Starting iteration 5
+INFO:root:Mapper 0 spawned on port 5001
+INFO:root:Mapper 1 spawned on port 5002
+INFO:root:Mapper 2 spawned on port 5003
+INFO:root:Mapper 3 spawned on port 5004
+INFO:root:Mapper 4 spawned on port 5005
+INFO:root:Mapper 5 spawned on port 5006
+INFO:root:Mapper 6 spawned on port 5007
+INFO:root:Mapper 7 spawned on port 5008
+INFO:root:gRPC call to mapper 0 with range 0 to 2
+INFO:root:gRPC call to mapper 1 with range 2 to 4
+INFO:root:gRPC call to mapper 2 with range 4 to 6
+INFO:root:gRPC call to mapper 3 with range 6 to 8
+INFO:root:gRPC call to mapper 4 with range 8 to 10
+INFO:root:gRPC call to mapper 5 with range 10 to 12
+INFO:root:Mapper 0 response: SUCCESS
+INFO:root:Intentional Failure by Mapper 3 attempt 1: FAILED, retrying...
+INFO:root:gRPC call to mapper 6 with range 12 to 14
+INFO:root:Intentional Failure by Mapper 4 attempt 1: FAILED, retrying...
+INFO:root:gRPC call to mapper 3 with range 6 to 8
+INFO:root:Mapper 2 response: SUCCESS
+INFO:root:gRPC call to mapper 7 with range 14 to 20
+INFO:root:Mapper 1 response: SUCCESS
+INFO:root:Mapper 5 response: SUCCESS
+INFO:root:gRPC call to mapper 4 with range 8 to 10
+INFO:root:Intentional Failure by Mapper 3 attempt 2: FAILED, retrying...
+INFO:root:gRPC call to mapper 3 with range 6 to 8
+INFO:root:Mapper 6 response: SUCCESS
+INFO:root:Intentional Failure by Mapper 4 attempt 2: FAILED, retrying...
+INFO:root:gRPC call to mapper 4 with range 8 to 10
+INFO:root:Mapper 7 response: SUCCESS
+INFO:root:Mapper 3 response: SUCCESS
+INFO:root:Mapper 4 response: SUCCESS
+INFO:root:Reducer 0 spawned on port 6001
+INFO:root:Reducer 1 spawned on port 6002
+INFO:root:Reducer 2 spawned on port 6003
+INFO:root:Reducer 3 spawned on port 6004
+INFO:root:Reducer 4 spawned on port 6005
+INFO:root:Reducer 5 spawned on port 6006
+INFO:root:gRPC call to reducer 0
+INFO:root:gRPC call to reducer 1
+INFO:root:gRPC call to reducer 2
+INFO:root:gRPC call to reducer 3
+INFO:root:gRPC call to reducer 4
+INFO:root:gRPC call to reducer 5
+INFO:root:Reducer 0 response: SUCCESS
+WARNING:root:Intentional : Reducer 1 attempt 1: FAILED, status: FAILURE
+INFO:root:gRPC call to reducer 1
+WARNING:root:Intentional : Reducer 1 attempt 2: FAILED, status: FAILURE
+INFO:root:gRPC call to reducer 1
+INFO:root:Reducer 3 response: SUCCESS
+INFO:root:Reducer 2 response: SUCCESS
+INFO:root:Reducer 5 response: SUCCESS
+INFO:root:Reducer 4 response: SUCCESS
+INFO:root:Reducer 1 response: SUCCESS
+INFO:root:New centroids: [[2.4889853005428675, 15.868564041872869], [56.29411351763594, 46.864762670460166], [81.29470817645796, 54.040353142250225], [28.773297208523203, 85.76293480682457], [86.80427607107823, 25.458951248488024], [12.83134019033161, 67.38563055464205], [26.306208228801545, 51.8593786469941]]
+INFO:root:Updated centroids: [[2.4889853005428675, 15.868564041872869], [56.29411351763594, 46.864762670460166], [81.29470817645796, 54.040353142250225], [28.773297208523203, 85.76293480682457], [86.80427607107823, 25.458951248488024], [12.83134019033161, 67.38563055464205], [26.306208228801545, 51.8593786469941]]
+INFO:root:Starting iteration 6
+INFO:root:Mapper 0 spawned on port 5001
+INFO:root:Mapper 1 spawned on port 5002
+INFO:root:Mapper 2 spawned on port 5003
+INFO:root:Mapper 3 spawned on port 5004
+INFO:root:Mapper 4 spawned on port 5005
+INFO:root:Mapper 5 spawned on port 5006
+INFO:root:Mapper 6 spawned on port 5007
+INFO:root:Mapper 7 spawned on port 5008
+INFO:root:gRPC call to mapper 0 with range 0 to 2
+INFO:root:gRPC call to mapper 1 with range 2 to 4
+INFO:root:gRPC call to mapper 2 with range 4 to 6
+INFO:root:gRPC call to mapper 3 with range 6 to 8
+INFO:root:gRPC call to mapper 4 with range 8 to 10
+INFO:root:Intentional Failure by Mapper 0 attempt 1: FAILED, retrying...
+INFO:root:Mapper 1 response: SUCCESS
+INFO:root:gRPC call to mapper 5 with range 10 to 12
+INFO:root:gRPC call to mapper 0 with range 0 to 2
+INFO:root:Intentional Failure by Mapper 3 attempt 1: FAILED, retrying...
+INFO:root:gRPC call to mapper 6 with range 12 to 14
+INFO:root:Mapper 2 response: SUCCESS
+INFO:root:Intentional Failure by Mapper 4 attempt 1: FAILED, retrying...
+INFO:root:gRPC call to mapper 3 with range 6 to 8
+INFO:root:Intentional Failure by Mapper 0 attempt 2: FAILED, retrying...
+INFO:root:gRPC call to mapper 7 with range 14 to 20
+INFO:root:Mapper 5 response: SUCCESS
+INFO:root:gRPC call to mapper 4 with range 8 to 10
+INFO:root:gRPC call to mapper 0 with range 0 to 2
+INFO:root:Mapper 6 response: SUCCESS
+INFO:root:Intentional Failure by Mapper 3 attempt 2: FAILED, retrying...
+INFO:root:gRPC call to mapper 3 with range 6 to 8
+INFO:root:Mapper 4 response: SUCCESS
+INFO:root:Mapper 7 response: SUCCESS
+INFO:root:Mapper 0 response: SUCCESS
+INFO:root:Mapper 3 response: SUCCESS
+INFO:root:Reducer 0 spawned on port 6001
+INFO:root:Reducer 1 spawned on port 6002
+INFO:root:Reducer 2 spawned on port 6003
+INFO:root:Reducer 3 spawned on port 6004
+INFO:root:Reducer 4 spawned on port 6005
+INFO:root:Reducer 5 spawned on port 6006
+INFO:root:gRPC call to reducer 0
+INFO:root:gRPC call to reducer 1
+INFO:root:gRPC call to reducer 2
+INFO:root:gRPC call to reducer 3
+INFO:root:gRPC call to reducer 4
+INFO:root:gRPC call to reducer 5
+WARNING:root:Intentional : Reducer 1 attempt 1: FAILED, status: FAILURE
+WARNING:root:Intentional : Reducer 2 attempt 1: FAILED, status: FAILURE
+INFO:root:gRPC call to reducer 1
+INFO:root:gRPC call to reducer 2
+WARNING:root:Intentional : Reducer 4 attempt 1: FAILED, status: FAILURE
+INFO:root:gRPC call to reducer 4
+INFO:root:Reducer 0 response: SUCCESS
+WARNING:root:Intentional : Reducer 2 attempt 2: FAILED, status: FAILURE
+INFO:root:gRPC call to reducer 2
+INFO:root:Reducer 3 response: SUCCESS
+INFO:root:Reducer 1 response: SUCCESS
+INFO:root:Reducer 5 response: SUCCESS
+INFO:root:Reducer 2 response: SUCCESS
+INFO:root:Reducer 4 response: SUCCESS
+INFO:root:New centroids: [[2.4889853005428675, 15.868564041872869], [56.29411351763594, 46.864762670460166], [81.29470817645796, 54.040353142250225], [26.306208228801545, 51.8593786469941], [28.773297208523203, 85.76293480682457], [86.80427607107823, 25.458951248488024], [12.83134019033161, 67.38563055464205]]
+INFO:root:Updated centroids: [[2.4889853005428675, 15.868564041872869], [56.29411351763594, 46.864762670460166], [81.29470817645796, 54.040353142250225], [26.306208228801545, 51.8593786469941], [28.773297208523203, 85.76293480682457], [86.80427607107823, 25.458951248488024], [12.83134019033161, 67.38563055464205]]
+INFO:root:Starting iteration 7
+INFO:root:Mapper 0 spawned on port 5001
+INFO:root:Mapper 1 spawned on port 5002
+INFO:root:Mapper 2 spawned on port 5003
+INFO:root:Mapper 3 spawned on port 5004
+INFO:root:Mapper 4 spawned on port 5005
+INFO:root:Mapper 5 spawned on port 5006
+INFO:root:Mapper 6 spawned on port 5007
+INFO:root:Mapper 7 spawned on port 5008
+INFO:root:gRPC call to mapper 0 with range 0 to 2
+INFO:root:gRPC call to mapper 1 with range 2 to 4
+INFO:root:gRPC call to mapper 2 with range 4 to 6
+INFO:root:gRPC call to mapper 3 with range 6 to 8
+INFO:root:Intentional Failure by Mapper 0 attempt 1: FAILED, retrying...
+INFO:root:gRPC call to mapper 0 with range 0 to 2
+INFO:root:gRPC call to mapper 4 with range 8 to 10
+INFO:root:Intentional Failure by Mapper 1 attempt 1: FAILED, retrying...
+INFO:root:Intentional Failure by Mapper 2 attempt 1: FAILED, retrying...
+INFO:root:Intentional Failure by Mapper 3 attempt 1: FAILED, retrying...
+INFO:root:Intentional Failure by Mapper 0 attempt 2: FAILED, retrying...
+INFO:root:gRPC call to mapper 1 with range 2 to 4
+INFO:root:gRPC call to mapper 5 with range 10 to 12
+INFO:root:gRPC call to mapper 2 with range 4 to 6
+INFO:root:Intentional Failure by Mapper 4 attempt 1: FAILED, retrying...
+INFO:root:gRPC call to mapper 6 with range 12 to 14
+INFO:root:gRPC call to mapper 3 with range 6 to 8
+INFO:root:gRPC call to mapper 0 with range 0 to 2
+INFO:root:gRPC call to mapper 7 with range 14 to 20
+INFO:root:gRPC call to mapper 4 with range 8 to 10
+INFO:root:Intentional Failure by Mapper 1 attempt 2: FAILED, retrying...
+INFO:root:Mapper 2 response: SUCCESS
+INFO:root:Intentional Failure by Mapper 5 attempt 1: FAILED, retrying...
+INFO:root:gRPC call to mapper 1 with range 2 to 4
+INFO:root:Mapper 0 response: SUCCESS
+INFO:root:Intentional Failure by Mapper 7 attempt 1: FAILED, retrying...
+INFO:root:Intentional Failure by Mapper 6 attempt 1: FAILED, retrying...
+INFO:root:Mapper 3 response: SUCCESS
+INFO:root:gRPC call to mapper 5 with range 10 to 12
+INFO:root:Mapper 4 response: SUCCESS
+INFO:root:gRPC call to mapper 7 with range 14 to 20
+INFO:root:gRPC call to mapper 6 with range 12 to 14
+INFO:root:Intentional Failure by Mapper 1 attempt 3: FAILED, retrying...
+INFO:root:gRPC call to mapper 1 with range 2 to 4
+INFO:root:Intentional Failure by Mapper 5 attempt 2: FAILED, retrying...
+INFO:root:gRPC call to mapper 5 with range 10 to 12
+INFO:root:Intentional Failure by Mapper 6 attempt 2: FAILED, retrying...
+INFO:root:gRPC call to mapper 6 with range 12 to 14
+INFO:root:Mapper 7 response: SUCCESS
+INFO:root:Intentional Failure by Mapper 1 attempt 4: FAILED, retrying...
+INFO:root:gRPC call to mapper 1 with range 2 to 4
+INFO:root:Intentional Failure by Mapper 5 attempt 3: FAILED, retrying...
+INFO:root:gRPC call to mapper 5 with range 10 to 12
+INFO:root:Mapper 6 response: SUCCESS
+INFO:root:Intentional Failure by Mapper 1 attempt 5: FAILED, retrying...
+INFO:root:gRPC call to mapper 1 with range 2 to 4
+INFO:root:Mapper 5 response: SUCCESS
+INFO:root:Intentional Failure by Mapper 1 attempt 6: FAILED, retrying...
+INFO:root:gRPC call to mapper 1 with range 2 to 4
+INFO:root:Intentional Failure by Mapper 1 attempt 7: FAILED, retrying...
+INFO:root:gRPC call to mapper 1 with range 2 to 4
+INFO:root:Mapper 1 response: SUCCESS
+INFO:root:Reducer 0 spawned on port 6001
+INFO:root:Reducer 1 spawned on port 6002
+INFO:root:Reducer 2 spawned on port 6003
+INFO:root:Reducer 3 spawned on port 6004
+INFO:root:Reducer 4 spawned on port 6005
+INFO:root:Reducer 5 spawned on port 6006
+INFO:root:gRPC call to reducer 0
+INFO:root:gRPC call to reducer 1
+INFO:root:gRPC call to reducer 2
+INFO:root:gRPC call to reducer 3
+INFO:root:gRPC call to reducer 4
+INFO:root:gRPC call to reducer 5
+WARNING:root:Intentional : Reducer 1 attempt 1: FAILED, status: FAILURE
+WARNING:root:Intentional : Reducer 4 attempt 1: FAILED, status: FAILURE
+WARNING:root:Intentional : Reducer 2 attempt 1: FAILED, status: FAILURE
+INFO:root:gRPC call to reducer 1
+INFO:root:Reducer 0 response: SUCCESS
+INFO:root:gRPC call to reducer 4
+INFO:root:gRPC call to reducer 2
+INFO:root:Reducer 3 response: SUCCESS
+WARNING:root:Intentional : Reducer 1 attempt 2: FAILED, status: FAILURE
+INFO:root:gRPC call to reducer 1
+WARNING:root:Intentional : Reducer 4 attempt 2: FAILED, status: FAILURE
+INFO:root:gRPC call to reducer 4
+INFO:root:Reducer 5 response: SUCCESS
+WARNING:root:Intentional : Reducer 4 attempt 3: FAILED, status: FAILURE
+INFO:root:gRPC call to reducer 4
+WARNING:root:Intentional : Reducer 1 attempt 3: FAILED, status: FAILURE
+INFO:root:gRPC call to reducer 1
+INFO:root:Reducer 2 response: SUCCESS
+WARNING:root:Intentional : Reducer 1 attempt 4: FAILED, status: FAILURE
+INFO:root:gRPC call to reducer 1
+INFO:root:Reducer 4 response: SUCCESS
+INFO:root:Reducer 1 response: SUCCESS
+INFO:root:New centroids: [[2.4889853005428675, 15.868564041872869], [56.29411351763594, 46.864762670460166], [81.29470817645796, 54.040353142250225], [28.773297208523203, 85.76293480682457], [86.80427607107823, 25.458951248488024], [12.83134019033161, 67.38563055464205], [26.306208228801545, 51.8593786469941]]
+INFO:root:Updated centroids: [[2.4889853005428675, 15.868564041872869], [56.29411351763594, 46.864762670460166], [81.29470817645796, 54.040353142250225], [28.773297208523203, 85.76293480682457], [86.80427607107823, 25.458951248488024], [12.83134019033161, 67.38563055464205], [26.306208228801545, 51.8593786469941]]
+INFO:root:Starting iteration 8
+INFO:root:Mapper 0 spawned on port 5001
+INFO:root:Mapper 1 spawned on port 5002
+INFO:root:Mapper 2 spawned on port 5003
+INFO:root:Mapper 3 spawned on port 5004
+INFO:root:Mapper 4 spawned on port 5005
+INFO:root:Mapper 5 spawned on port 5006
+INFO:root:Mapper 6 spawned on port 5007
+INFO:root:Mapper 7 spawned on port 5008
+INFO:root:gRPC call to mapper 0 with range 0 to 2
+INFO:root:gRPC call to mapper 1 with range 2 to 4
+INFO:root:gRPC call to mapper 2 with range 4 to 6
+INFO:root:gRPC call to mapper 3 with range 6 to 8
+INFO:root:gRPC call to mapper 4 with range 8 to 10
+INFO:root:Intentional Failure by Mapper 0 attempt 1: FAILED, retrying...
+INFO:root:gRPC call to mapper 5 with range 10 to 12
+INFO:root:Intentional Failure by Mapper 1 attempt 1: FAILED, retrying...
+INFO:root:gRPC call to mapper 0 with range 0 to 2
+INFO:root:Intentional Failure by Mapper 2 attempt 1: FAILED, retrying...
+INFO:root:gRPC call to mapper 6 with range 12 to 14
+INFO:root:Intentional Failure by Mapper 4 attempt 1: FAILED, retrying...
+INFO:root:Intentional Failure by Mapper 3 attempt 1: FAILED, retrying...
+INFO:root:gRPC call to mapper 7 with range 14 to 20
+INFO:root:gRPC call to mapper 1 with range 2 to 4
+INFO:root:gRPC call to mapper 2 with range 4 to 6
+INFO:root:Intentional Failure by Mapper 5 attempt 1: FAILED, retrying...
+INFO:root:gRPC call to mapper 4 with range 8 to 10
+INFO:root:gRPC call to mapper 3 with range 6 to 8
+INFO:root:Mapper 0 response: SUCCESS
+INFO:root:gRPC call to mapper 5 with range 10 to 12
+INFO:root:Mapper 6 response: SUCCESS
+INFO:root:Intentional Failure by Mapper 1 attempt 2: FAILED, retrying...
+INFO:root:Intentional Failure by Mapper 2 attempt 2: FAILED, retrying...
+INFO:root:gRPC call to mapper 1 with range 2 to 4
+INFO:root:gRPC call to mapper 2 with range 4 to 6
+INFO:root:Intentional Failure by Mapper 4 attempt 2: FAILED, retrying...
+INFO:root:Intentional Failure by Mapper 3 attempt 2: FAILED, retrying...
+INFO:root:Mapper 7 response: SUCCESS
+INFO:root:Mapper 5 response: SUCCESS
+INFO:root:gRPC call to mapper 4 with range 8 to 10
+INFO:root:gRPC call to mapper 3 with range 6 to 8
+INFO:root:Mapper 2 response: SUCCESS
+INFO:root:Mapper 1 response: SUCCESS
+INFO:root:Intentional Failure by Mapper 4 attempt 3: FAILED, retrying...
+INFO:root:gRPC call to mapper 4 with range 8 to 10
+INFO:root:Mapper 3 response: SUCCESS
+INFO:root:Intentional Failure by Mapper 4 attempt 4: FAILED, retrying...
+INFO:root:gRPC call to mapper 4 with range 8 to 10
+INFO:root:Mapper 4 response: SUCCESS
+INFO:root:Reducer 0 spawned on port 6001
+INFO:root:Reducer 1 spawned on port 6002
+INFO:root:Reducer 2 spawned on port 6003
+INFO:root:Reducer 3 spawned on port 6004
+INFO:root:Reducer 4 spawned on port 6005
+INFO:root:Reducer 5 spawned on port 6006
+INFO:root:gRPC call to reducer 0
+INFO:root:gRPC call to reducer 1
+INFO:root:gRPC call to reducer 2
+INFO:root:gRPC call to reducer 3
+INFO:root:gRPC call to reducer 4
+INFO:root:gRPC call to reducer 5
+INFO:root:Reducer 1 response: SUCCESS
+WARNING:root:Intentional : Reducer 0 attempt 1: FAILED, status: FAILURE
+INFO:root:gRPC call to reducer 0
+WARNING:root:Intentional : Reducer 5 attempt 1: FAILED, status: FAILURE
+INFO:root:gRPC call to reducer 5
+WARNING:root:Intentional : Reducer 0 attempt 2: FAILED, status: FAILURE
+INFO:root:gRPC call to reducer 0
+WARNING:root:Intentional : Reducer 5 attempt 2: FAILED, status: FAILURE
+INFO:root:gRPC call to reducer 5
+WARNING:root:Intentional : Reducer 5 attempt 3: FAILED, status: FAILURE
+INFO:root:gRPC call to reducer 5
+WARNING:root:Intentional : Reducer 0 attempt 3: FAILED, status: FAILURE
+INFO:root:gRPC call to reducer 0
+WARNING:root:Intentional : Reducer 0 attempt 4: FAILED, status: FAILURE
+INFO:root:gRPC call to reducer 0
+INFO:root:Reducer 4 response: SUCCESS
+INFO:root:Reducer 3 response: SUCCESS
+INFO:root:Reducer 2 response: SUCCESS
+INFO:root:Reducer 5 response: SUCCESS
+INFO:root:Reducer 0 response: SUCCESS
+INFO:root:New centroids: [[26.306208228801545, 51.8593786469941], [12.83134019033161, 67.38563055464205], [28.773297208523203, 85.76293480682457], [86.80427607107823, 25.458951248488024], [2.4889853005428675, 15.868564041872869], [56.29411351763594, 46.864762670460166], [81.29470817645796, 54.040353142250225]]
+INFO:root:Updated centroids: [[26.306208228801545, 51.8593786469941], [12.83134019033161, 67.38563055464205], [28.773297208523203, 85.76293480682457], [86.80427607107823, 25.458951248488024], [2.4889853005428675, 15.868564041872869], [56.29411351763594, 46.864762670460166], [81.29470817645796, 54.040353142250225]]
+INFO:root:Starting iteration 9
+INFO:root:Mapper 0 spawned on port 5001
+INFO:root:Mapper 1 spawned on port 5002
+INFO:root:Mapper 2 spawned on port 5003
+INFO:root:Mapper 3 spawned on port 5004
+INFO:root:Mapper 4 spawned on port 5005
+INFO:root:Mapper 5 spawned on port 5006
+INFO:root:Mapper 6 spawned on port 5007
+INFO:root:Mapper 7 spawned on port 5008
+INFO:root:gRPC call to mapper 0 with range 0 to 2
+INFO:root:gRPC call to mapper 1 with range 2 to 4
+INFO:root:gRPC call to mapper 2 with range 4 to 6
+INFO:root:gRPC call to mapper 3 with range 6 to 8
+INFO:root:gRPC call to mapper 4 with range 8 to 10
+INFO:root:gRPC call to mapper 5 with range 10 to 12
+INFO:root:Intentional Failure by Mapper 4 attempt 1: FAILED, retrying...
+INFO:root:Intentional Failure by Mapper 5 attempt 1: FAILED, retrying...
+INFO:root:Intentional Failure by Mapper 1 attempt 1: FAILED, retrying...
+INFO:root:gRPC call to mapper 6 with range 12 to 14
+INFO:root:Mapper 2 response: SUCCESS
+INFO:root:gRPC call to mapper 4 with range 8 to 10
+INFO:root:Intentional Failure by Mapper 3 attempt 1: FAILED, retrying...
+INFO:root:Mapper 0 response: SUCCESS
+INFO:root:gRPC call to mapper 5 with range 10 to 12
+INFO:root:gRPC call to mapper 7 with range 14 to 20
+INFO:root:gRPC call to mapper 1 with range 2 to 4
+INFO:root:gRPC call to mapper 3 with range 6 to 8
+INFO:root:Intentional Failure by Mapper 4 attempt 2: FAILED, retrying...
+INFO:root:gRPC call to mapper 4 with range 8 to 10
+INFO:root:Intentional Failure by Mapper 5 attempt 2: FAILED, retrying...
+INFO:root:Intentional Failure by Mapper 6 attempt 1: FAILED, retrying...
+INFO:root:gRPC call to mapper 5 with range 10 to 12
+INFO:root:Intentional Failure by Mapper 1 attempt 2: FAILED, retrying...
+INFO:root:gRPC call to mapper 6 with range 12 to 14
+INFO:root:Intentional Failure by Mapper 4 attempt 3: FAILED, retrying...
+INFO:root:Mapper 3 response: SUCCESS
+INFO:root:gRPC call to mapper 1 with range 2 to 4
+INFO:root:gRPC call to mapper 4 with range 8 to 10
+INFO:root:Mapper 5 response: SUCCESS
+INFO:root:Mapper 7 response: SUCCESS
+INFO:root:Mapper 6 response: SUCCESS
+INFO:root:Mapper 4 response: SUCCESS
+INFO:root:Mapper 1 response: SUCCESS
+INFO:root:Reducer 0 spawned on port 6001
+INFO:root:Reducer 1 spawned on port 6002
+INFO:root:Reducer 2 spawned on port 6003
+INFO:root:Reducer 3 spawned on port 6004
+INFO:root:Reducer 4 spawned on port 6005
+INFO:root:Reducer 5 spawned on port 6006
+INFO:root:gRPC call to reducer 0
+INFO:root:gRPC call to reducer 1
+INFO:root:gRPC call to reducer 2
+INFO:root:gRPC call to reducer 3
+INFO:root:gRPC call to reducer 4
+INFO:root:gRPC call to reducer 5
+WARNING:root:Intentional : Reducer 2 attempt 1: FAILED, status: FAILURE
+INFO:root:gRPC call to reducer 2
+WARNING:root:Intentional : Reducer 4 attempt 1: FAILED, status: FAILURE
+INFO:root:gRPC call to reducer 4
+WARNING:root:Intentional : Reducer 5 attempt 1: FAILED, status: FAILURE
+INFO:root:gRPC call to reducer 5
+INFO:root:Reducer 0 response: SUCCESS
+INFO:root:Reducer 1 response: SUCCESS
+WARNING:root:Intentional : Reducer 5 attempt 2: FAILED, status: FAILURE
+INFO:root:gRPC call to reducer 5
+INFO:root:Reducer 2 response: SUCCESS
+INFO:root:Reducer 4 response: SUCCESS
+INFO:root:Reducer 3 response: SUCCESS
+INFO:root:Reducer 5 response: SUCCESS
+INFO:root:New centroids: [[2.4889853005428675, 15.868564041872869], [56.29411351763594, 46.864762670460166], [81.29470817645796, 54.040353142250225], [26.306208228801545, 51.8593786469941], [12.83134019033161, 67.38563055464205], [28.773297208523203, 85.76293480682457], [86.80427607107823, 25.458951248488024]]
+INFO:root:Updated centroids: [[2.4889853005428675, 15.868564041872869], [56.29411351763594, 46.864762670460166], [81.29470817645796, 54.040353142250225], [26.306208228801545, 51.8593786469941], [12.83134019033161, 67.38563055464205], [28.773297208523203, 85.76293480682457], [86.80427607107823, 25.458951248488024]]
+INFO:root:Starting iteration 10
+INFO:root:Mapper 0 spawned on port 5001
+INFO:root:Mapper 1 spawned on port 5002
+INFO:root:Mapper 2 spawned on port 5003
+INFO:root:Mapper 3 spawned on port 5004
+INFO:root:Mapper 4 spawned on port 5005
+INFO:root:Mapper 5 spawned on port 5006
+INFO:root:Mapper 6 spawned on port 5007
+INFO:root:Mapper 7 spawned on port 5008
+INFO:root:gRPC call to mapper 0 with range 0 to 2
+INFO:root:gRPC call to mapper 1 with range 2 to 4
+INFO:root:gRPC call to mapper 2 with range 4 to 6
+INFO:root:gRPC call to mapper 3 with range 6 to 8
+INFO:root:gRPC call to mapper 4 with range 8 to 10
+INFO:root:gRPC call to mapper 5 with range 10 to 12
+INFO:root:gRPC call to mapper 6 with range 12 to 14
+INFO:root:gRPC call to mapper 7 with range 14 to 20
+INFO:root:Intentional Failure by Mapper 0 attempt 1: FAILED, retrying...
+INFO:root:gRPC call to mapper 0 with range 0 to 2
+INFO:root:Intentional Failure by Mapper 3 attempt 1: FAILED, retrying...
+INFO:root:Intentional Failure by Mapper 2 attempt 1: FAILED, retrying...
+INFO:root:Intentional Failure by Mapper 4 attempt 1: FAILED, retrying...
+INFO:root:gRPC call to mapper 3 with range 6 to 8
+INFO:root:Mapper 6 response: SUCCESS
+INFO:root:Mapper 1 response: SUCCESS
+INFO:root:Mapper 5 response: SUCCESS
+INFO:root:gRPC call to mapper 2 with range 4 to 6
+INFO:root:gRPC call to mapper 4 with range 8 to 10
+INFO:root:Intentional Failure by Mapper 0 attempt 2: FAILED, retrying...
+INFO:root:Mapper 7 response: SUCCESS
+INFO:root:gRPC call to mapper 0 with range 0 to 2
+INFO:root:Mapper 3 response: SUCCESS
+INFO:root:Mapper 2 response: SUCCESS
+INFO:root:Mapper 0 response: SUCCESS
+INFO:root:Intentional Failure by Mapper 4 attempt 2: FAILED, retrying...
+INFO:root:gRPC call to mapper 4 with range 8 to 10
+INFO:root:Intentional Failure by Mapper 4 attempt 3: FAILED, retrying...
+INFO:root:gRPC call to mapper 4 with range 8 to 10
+INFO:root:Mapper 4 response: SUCCESS
+INFO:root:Reducer 0 spawned on port 6001
+INFO:root:Reducer 1 spawned on port 6002
+INFO:root:Reducer 2 spawned on port 6003
+INFO:root:Reducer 3 spawned on port 6004
+INFO:root:Reducer 4 spawned on port 6005
+INFO:root:Reducer 5 spawned on port 6006
+INFO:root:gRPC call to reducer 0
+INFO:root:gRPC call to reducer 1
+INFO:root:gRPC call to reducer 2
+INFO:root:gRPC call to reducer 3
+INFO:root:gRPC call to reducer 4
+INFO:root:gRPC call to reducer 5
+WARNING:root:Intentional : Reducer 2 attempt 1: FAILED, status: FAILURE
+INFO:root:gRPC call to reducer 2
+INFO:root:Reducer 0 response: SUCCESS
+INFO:root:Reducer 1 response: SUCCESS
+INFO:root:Reducer 4 response: SUCCESS
+WARNING:root:Intentional : Reducer 3 attempt 1: FAILED, status: FAILURE
+INFO:root:gRPC call to reducer 3
+INFO:root:Reducer 5 response: SUCCESS
+WARNING:root:Intentional : Reducer 3 attempt 2: FAILED, status: FAILURE
+INFO:root:gRPC call to reducer 3
+INFO:root:Reducer 2 response: SUCCESS
+WARNING:root:Intentional : Reducer 3 attempt 3: FAILED, status: FAILURE
+INFO:root:gRPC call to reducer 3
+WARNING:root:Intentional : Reducer 3 attempt 4: FAILED, status: FAILURE
+INFO:root:gRPC call to reducer 3
+INFO:root:Reducer 3 response: SUCCESS
+INFO:root:New centroids: [[2.4889853005428675, 15.868564041872869], [56.29411351763594, 46.864762670460166], [81.29470817645796, 54.040353142250225], [26.306208228801545, 51.8593786469941], [12.83134019033161, 67.38563055464205], [28.773297208523203, 85.76293480682457], [86.80427607107823, 25.458951248488024]]
+INFO:root:Convergence reached.

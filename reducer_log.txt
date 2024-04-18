@@ -53465,3 +53465,624 @@ ERROR:root:Intentional failure for reducer 0
 ERROR:root:Intentional failure for reducer 0
 ERROR:root:Intentional failure for reducer 0
 ERROR:root:Intentional failure for reducer 3
+ERROR:root:Intentional failure for reducer 3
+ERROR:root:Intentional failure for reducer 4
+ERROR:root:Intentional failure for reducer 1
+ERROR:root:Intentional failure for reducer 2
+ERROR:root:Intentional failure for reducer 4
+ERROR:root:Intentional failure for reducer 2
+ERROR:root:Intentional failure for reducer 4
+ERROR:root:Intentional failure for reducer 2
+ERROR:root:Intentional failure for reducer 4
+ERROR:root:Intentional failure for reducer 3
+ERROR:root:Intentional failure for reducer 4
+ERROR:root:Intentional failure for reducer 5
+ERROR:root:Intentional failure for reducer 3
+ERROR:root:Intentional failure for reducer 3
+ERROR:root:Intentional failure for reducer 3
+ERROR:root:Intentional failure for reducer 3
+ERROR:root:Intentional failure for reducer 0
+ERROR:root:Intentional failure for reducer 1
+ERROR:root:Intentional failure for reducer 4
+ERROR:root:Intentional failure for reducer 0
+ERROR:root:Intentional failure for reducer 3
+ERROR:root:Intentional failure for reducer 5
+ERROR:root:Intentional failure for reducer 4
+ERROR:root:Intentional failure for reducer 3
+ERROR:root:Intentional failure for reducer 4
+ERROR:root:Intentional failure for reducer 4
+ERROR:root:Intentional failure for reducer 1
+ERROR:root:Intentional failure for reducer 0
+ERROR:root:Intentional failure for reducer 5
+ERROR:root:Intentional failure for reducer 4
+ERROR:root:Intentional failure for reducer 2
+ERROR:root:Intentional failure for reducer 3
+ERROR:root:Intentional failure for reducer 1
+ERROR:root:Intentional failure for reducer 3
+ERROR:root:Intentional failure for reducer 3
+ERROR:root:Intentional failure for reducer 3
+ERROR:root:Intentional failure for reducer 0
+ERROR:root:Intentional failure for reducer 2
+ERROR:root:Intentional failure for reducer 3
+ERROR:root:Intentional failure for reducer 2
+ERROR:root:Intentional failure for reducer 3
+ERROR:root:Intentional failure for reducer 2
+ERROR:root:Intentional failure for reducer 2
+ERROR:root:Intentional failure for reducer 2
+ERROR:root:Intentional failure for reducer 2
+ERROR:root:Intentional failure for reducer 2
+ERROR:root:Intentional failure for reducer 0
+ERROR:root:Intentional failure for reducer 1
+ERROR:root:Intentional failure for reducer 0
+ERROR:root:Intentional failure for reducer 3
+ERROR:root:Intentional failure for reducer 3
+ERROR:root:Intentional failure for reducer 1
+ERROR:root:Intentional failure for reducer 3
+ERROR:root:Intentional failure for reducer 0
+ERROR:root:Intentional failure for reducer 1
+ERROR:root:Intentional failure for reducer 1
+ERROR:root:Intentional failure for reducer 4
+ERROR:root:Intentional failure for reducer 4
+ERROR:root:Intentional failure for reducer 1
+ERROR:root:Intentional failure for reducer 1
+ERROR:root:Intentional failure for reducer 3
+ERROR:root:Intentional failure for reducer 1
+ERROR:root:Intentional failure for reducer 0
+ERROR:root:Intentional failure for reducer 1
+ERROR:root:Intentional failure for reducer 3
+ERROR:root:Intentional failure for reducer 4
+ERROR:root:Intentional failure for reducer 3
+ERROR:root:Intentional failure for reducer 4
+ERROR:root:Intentional failure for reducer 0
+ERROR:root:Intentional failure for reducer 3
+ERROR:root:Intentional failure for reducer 0
+ERROR:root:Intentional failure for reducer 1
+ERROR:root:Intentional failure for reducer 4
+ERROR:root:Intentional failure for reducer 1
+ERROR:root:Intentional failure for reducer 0
+ERROR:root:Intentional failure for reducer 2
+ERROR:root:Intentional failure for reducer 3
+ERROR:root:Intentional failure for reducer 3
+ERROR:root:Intentional failure for reducer 4
+ERROR:root:Intentional failure for reducer 3
+ERROR:root:Intentional failure for reducer 4
+ERROR:root:Intentional failure for reducer 3
+ERROR:root:Intentional failure for reducer 3
+ERROR:root:Intentional failure for reducer 3
+ERROR:root:Intentional failure for reducer 3
+ERROR:root:Intentional failure for reducer 3
+ERROR:root:Intentional failure for reducer 3
+ERROR:root:Intentional failure for reducer 3
+ERROR:root:Intentional failure for reducer 3
+ERROR:root:Intentional failure for reducer 3
+ERROR:root:Intentional failure for reducer 1
+ERROR:root:Intentional failure for reducer 1
+ERROR:root:Intentional failure for reducer 1
+ERROR:root:Intentional failure for reducer 5
+ERROR:root:Intentional failure for reducer 5
+ERROR:root:Intentional failure for reducer 4
+ERROR:root:Intentional failure for reducer 4
+ERROR:root:Intentional failure for reducer 5
+ERROR:root:Intentional failure for reducer 5
+ERROR:root:Intentional failure for reducer 5
+ERROR:root:Intentional failure for reducer 3
+ERROR:root:Intentional failure for reducer 4
+ERROR:root:Intentional failure for reducer 5
+ERROR:root:Intentional failure for reducer 3
+ERROR:root:Intentional failure for reducer 4
+ERROR:root:Intentional failure for reducer 3
+ERROR:root:Intentional failure for reducer 3
+ERROR:root:Intentional failure for reducer 1
+ERROR:root:Intentional failure for reducer 2
+ERROR:root:Intentional failure for reducer 4
+ERROR:root:Intentional failure for reducer 1
+ERROR:root:Intentional failure for reducer 1
+ERROR:root:Intentional failure for reducer 6
+ERROR:root:Intentional failure for reducer 2
+ERROR:root:Intentional failure for reducer 1
+ERROR:root:Intentional failure for reducer 1
+ERROR:root:Intentional failure for reducer 0
+ERROR:root:Intentional failure for reducer 1
+ERROR:root:Intentional failure for reducer 3
+ERROR:root:Intentional failure for reducer 4
+ERROR:root:Intentional failure for reducer 5
+ERROR:root:Intentional failure for reducer 4
+ERROR:root:Intentional failure for reducer 5
+ERROR:root:Intentional failure for reducer 4
+ERROR:root:Intentional failure for reducer 6
+ERROR:root:Intentional failure for reducer 5
+ERROR:root:Intentional failure for reducer 1
+ERROR:root:Intentional failure for reducer 6
+ERROR:root:Intentional failure for reducer 1
+ERROR:root:Intentional failure for reducer 6
+ERROR:root:Intentional failure for reducer 6
+ERROR:root:Intentional failure for reducer 2
+ERROR:root:Intentional failure for reducer 6
+ERROR:root:Intentional failure for reducer 2
+ERROR:root:Intentional failure for reducer 6
+ERROR:root:Intentional failure for reducer 2
+ERROR:root:Intentional failure for reducer 6
+ERROR:root:Intentional failure for reducer 5
+ERROR:root:Intentional failure for reducer 5
+ERROR:root:Intentional failure for reducer 1
+ERROR:root:Intentional failure for reducer 6
+ERROR:root:Intentional failure for reducer 4
+ERROR:root:Intentional failure for reducer 1
+ERROR:root:Intentional failure for reducer 1
+ERROR:root:Intentional failure for reducer 0
+ERROR:root:Intentional failure for reducer 1
+ERROR:root:Intentional failure for reducer 3
+ERROR:root:Intentional failure for reducer 0
+ERROR:root:Intentional failure for reducer 5
+ERROR:root:Intentional failure for reducer 3
+ERROR:root:Intentional failure for reducer 5
+ERROR:root:Intentional failure for reducer 0
+ERROR:root:Intentional failure for reducer 3
+ERROR:root:Intentional failure for reducer 5
+ERROR:root:Intentional failure for reducer 0
+ERROR:root:Intentional failure for reducer 3
+ERROR:root:Intentional failure for reducer 0
+ERROR:root:Intentional failure for reducer 0
+ERROR:root:Intentional failure for reducer 0
+ERROR:root:Intentional failure for reducer 0
+ERROR:root:Intentional failure for reducer 1
+ERROR:root:Intentional failure for reducer 3
+ERROR:root:Intentional failure for reducer 4
+ERROR:root:Intentional failure for reducer 5
+ERROR:root:Intentional failure for reducer 1
+ERROR:root:Intentional failure for reducer 3
+ERROR:root:Intentional failure for reducer 1
+ERROR:root:Intentional failure for reducer 1
+ERROR:root:Intentional failure for reducer 5
+ERROR:root:Intentional failure for reducer 0
+ERROR:root:Intentional failure for reducer 1
+ERROR:root:Intentional failure for reducer 0
+ERROR:root:Intentional failure for reducer 1
+ERROR:root:Intentional failure for reducer 0
+ERROR:root:Intentional failure for reducer 5
+ERROR:root:Intentional failure for reducer 2
+ERROR:root:Intentional failure for reducer 0
+ERROR:root:Intentional failure for reducer 6
+ERROR:root:Intentional failure for reducer 2
+ERROR:root:Intentional failure for reducer 2
+ERROR:root:Intentional failure for reducer 0
+ERROR:root:Intentional failure for reducer 4
+ERROR:root:Intentional failure for reducer 0
+ERROR:root:Intentional failure for reducer 4
+ERROR:root:Intentional failure for reducer 0
+ERROR:root:Intentional failure for reducer 6
+ERROR:root:Intentional failure for reducer 0
+ERROR:root:Intentional failure for reducer 0
+ERROR:root:Intentional failure for reducer 0
+ERROR:root:Intentional failure for reducer 2
+ERROR:root:Intentional failure for reducer 4
+ERROR:root:Intentional failure for reducer 6
+ERROR:root:Intentional failure for reducer 5
+ERROR:root:Intentional failure for reducer 6
+ERROR:root:Intentional failure for reducer 5
+ERROR:root:Intentional failure for reducer 6
+ERROR:root:Intentional failure for reducer 1
+ERROR:root:Intentional failure for reducer 5
+ERROR:root:Intentional failure for reducer 5
+ERROR:root:Intentional failure for reducer 6
+ERROR:root:Intentional failure for reducer 4
+ERROR:root:Intentional failure for reducer 6
+ERROR:root:Intentional failure for reducer 6
+ERROR:root:Intentional failure for reducer 2
+ERROR:root:Intentional failure for reducer 0
+ERROR:root:Intentional failure for reducer 2
+ERROR:root:Intentional failure for reducer 5
+ERROR:root:Intentional failure for reducer 0
+ERROR:root:Intentional failure for reducer 1
+ERROR:root:Intentional failure for reducer 3
+ERROR:root:Intentional failure for reducer 0
+ERROR:root:Intentional failure for reducer 3
+ERROR:root:Intentional failure for reducer 5
+ERROR:root:Intentional failure for reducer 5
+ERROR:root:Intentional failure for reducer 0
+ERROR:root:Intentional failure for reducer 1
+ERROR:root:Intentional failure for reducer 5
+ERROR:root:Intentional failure for reducer 5
+ERROR:root:Intentional failure for reducer 6
+ERROR:root:Intentional failure for reducer 6
+ERROR:root:Intentional failure for reducer 6
+ERROR:root:Intentional failure for reducer 0
+ERROR:root:Intentional failure for reducer 1
+ERROR:root:Intentional failure for reducer 3
+ERROR:root:Intentional failure for reducer 0
+ERROR:root:Intentional failure for reducer 1
+ERROR:root:Intentional failure for reducer 4
+ERROR:root:Intentional failure for reducer 0
+ERROR:root:Intentional failure for reducer 5
+ERROR:root:Intentional failure for reducer 4
+ERROR:root:Intentional failure for reducer 6
+ERROR:root:Intentional failure for reducer 1
+ERROR:root:Intentional failure for reducer 5
+ERROR:root:Intentional failure for reducer 4
+ERROR:root:Intentional failure for reducer 6
+ERROR:root:Intentional failure for reducer 1
+ERROR:root:Intentional failure for reducer 1
+ERROR:root:Intentional failure for reducer 1
+ERROR:root:Intentional failure for reducer 3
+ERROR:root:Intentional failure for reducer 4
+ERROR:root:Intentional failure for reducer 5
+ERROR:root:Intentional failure for reducer 3
+ERROR:root:Intentional failure for reducer 4
+ERROR:root:Intentional failure for reducer 5
+ERROR:root:Intentional failure for reducer 5
+ERROR:root:Intentional failure for reducer 5
+ERROR:root:Intentional failure for reducer 0
+ERROR:root:Intentional failure for reducer 0
+ERROR:root:Intentional failure for reducer 2
+ERROR:root:Intentional failure for reducer 1
+ERROR:root:Intentional failure for reducer 1
+ERROR:root:Intentional failure for reducer 4
+ERROR:root:Intentional failure for reducer 2
+ERROR:root:Intentional failure for reducer 5
+ERROR:root:Intentional failure for reducer 1
+ERROR:root:Intentional failure for reducer 2
+ERROR:root:Intentional failure for reducer 1
+ERROR:root:Intentional failure for reducer 1
+ERROR:root:Intentional failure for reducer 1
+ERROR:root:Intentional failure for reducer 6
+ERROR:root:Intentional failure for reducer 0
+ERROR:root:Intentional failure for reducer 2
+ERROR:root:Intentional failure for reducer 0
+ERROR:root:Intentional failure for reducer 0
+ERROR:root:Intentional failure for reducer 0
+ERROR:root:Intentional failure for reducer 0
+ERROR:root:Intentional failure for reducer 0
+ERROR:root:Intentional failure for reducer 6
+ERROR:root:Intentional failure for reducer 6
+ERROR:root:Intentional failure for reducer 6
+ERROR:root:Intentional failure for reducer 6
+ERROR:root:Intentional failure for reducer 6
+ERROR:root:Intentional failure for reducer 6
+ERROR:root:Intentional failure for reducer 6
+ERROR:root:Intentional failure for reducer 0
+ERROR:root:Intentional failure for reducer 1
+ERROR:root:Intentional failure for reducer 2
+ERROR:root:Intentional failure for reducer 4
+ERROR:root:Intentional failure for reducer 0
+ERROR:root:Intentional failure for reducer 2
+ERROR:root:Intentional failure for reducer 4
+INFO:root:Reducer server started at port 6001
+INFO:root:Reducer server started at port 6002
+INFO:root:Reducer server started at port 6006
+INFO:root:Reducer server started at port 6003
+INFO:root:Reducer server started at port 6005
+INFO:root:Reducer server started at port 6004
+INFO:root:Reducer 3 received request from master
+INFO:root:Reducer 2 received request from master
+INFO:root:Reducer 2 sending request to mapper
+INFO:root:Reducer 3 sending request to mapper
+INFO:root:Reducer 5 received request from master
+ERROR:root:Intentional failure for reducer 5
+INFO:root:Reducer 5 received request from master
+ERROR:root:Intentional failure for reducer 5
+INFO:root:Reducer 3 received intermediate values from mapper
+ERROR:root:Intentional failure for reducer 4
+ERROR:root:Intentional failure for reducer 4
+INFO:root:Reducer 4 received request from master
+ERROR:root:Intentional failure for reducer 4
+INFO:root:Reducer 4 received request from master
+INFO:root:Reducer 4 sending request to mapper
+ERROR:root:Intentional failure for reducer 5
+INFO:root:Reducer 5 received request from master
+INFO:root:Reducer 5 sending request to mapper
+INFO:root:Reducer 4 received intermediate values from mapper
+INFO:root:Reducer 2 received intermediate values from mapper
+ERROR:root:Intentional failure for reducer 0
+INFO:root:Reducer 5 received intermediate values from mapper
+INFO:root:Reducer server started at port 6002
+INFO:root:Reducer server started at port 6004
+INFO:root:Reducer server started at port 6006
+INFO:root:Reducer server started at port 6005
+INFO:root:Reducer server started at port 6003
+INFO:root:Reducer server started at port 6001
+INFO:root:Reducer 0 received request from master
+ERROR:root:Intentional failure for reducer 0
+INFO:root:Reducer 1 received request from master
+INFO:root:Reducer 1 sending request to mapper
+INFO:root:Reducer 2 received request from master
+ERROR:root:Intentional failure for reducer 2
+INFO:root:Reducer 4 received request from master
+INFO:root:Reducer 4 sending request to mapper
+INFO:root:Reducer 0 received request from master
+ERROR:root:Intentional failure for reducer 0
+INFO:root:Reducer 2 received request from master
+INFO:root:Reducer 5 received request from master
+INFO:root:Reducer 5 sending request to mapper
+ERROR:root:Intentional failure for reducer 2
+INFO:root:Reducer 0 received request from master
+ERROR:root:Intentional failure for reducer 0
+INFO:root:Reducer 1 received intermediate values from mapper
+INFO:root:Reducer 2 received request from master
+ERROR:root:Intentional failure for reducer 2
+INFO:root:Reducer 3 received request from master
+INFO:root:Reducer 3 sending request to mapper
+INFO:root:Reducer 0 received request from master
+ERROR:root:Intentional failure for reducer 0
+INFO:root:Reducer 4 received intermediate values from mapper
+INFO:root:Reducer 2 received request from master
+INFO:root:Reducer 2 sending request to mapper
+INFO:root:Reducer 0 received request from master
+ERROR:root:Intentional failure for reducer 0
+INFO:root:Reducer 0 received request from master
+INFO:root:Reducer 0 sending request to mapper
+INFO:root:Reducer 3 received intermediate values from mapper
+INFO:root:Reducer 5 received intermediate values from mapper
+INFO:root:Reducer 0 received intermediate values from mapper
+INFO:root:Reducer 2 received intermediate values from mapper
+INFO:root:Reducer server started at port 6005
+INFO:root:Reducer server started at port 6002
+INFO:root:Reducer server started at port 6001
+INFO:root:Reducer server started at port 6004
+INFO:root:Reducer server started at port 6006
+INFO:root:Reducer server started at port 6003
+INFO:root:Reducer 0 received request from master
+INFO:root:Reducer 0 sending request to mapper
+INFO:root:Reducer 1 received request from master
+INFO:root:Reducer 1 sending request to mapper
+INFO:root:Reducer 3 received request from master
+ERROR:root:Intentional failure for reducer 3
+INFO:root:Reducer 4 received request from master
+ERROR:root:Intentional failure for reducer 4
+INFO:root:Reducer 5 received request from master
+ERROR:root:Intentional failure for reducer 5
+INFO:root:Reducer 2 received request from master
+ERROR:root:Intentional failure for reducer 2
+INFO:root:Reducer 5 received request from master
+ERROR:root:Intentional failure for reducer 5
+INFO:root:Reducer 2 received request from master
+INFO:root:Reducer 2 sending request to mapper
+INFO:root:Reducer 0 received intermediate values from mapper
+INFO:root:Reducer 2 received intermediate values from mapper
+INFO:root:Reducer 3 received request from master
+INFO:root:Reducer 3 sending request to mapper
+INFO:root:Reducer 1 received intermediate values from mapper
+INFO:root:Reducer 4 received request from master
+INFO:root:Reducer 4 sending request to mapper
+INFO:root:Reducer 3 received intermediate values from mapper
+INFO:root:Reducer 4 received intermediate values from mapper
+INFO:root:Reducer 5 received request from master
+INFO:root:Reducer 5 sending request to mapper
+INFO:root:Reducer 5 received intermediate values from mapper
+INFO:root:Reducer server started at port 6001
+INFO:root:Reducer server started at port 6003
+INFO:root:Reducer server started at port 6006
+INFO:root:Reducer server started at port 6002
+INFO:root:Reducer server started at port 6004
+INFO:root:Reducer server started at port 6005
+INFO:root:Reducer 1 received request from master
+INFO:root:Reducer 1 sending request to mapper
+INFO:root:Reducer 3 received request from master
+ERROR:root:Intentional failure for reducer 3
+INFO:root:Reducer 4 received request from master
+ERROR:root:Intentional failure for reducer 4
+INFO:root:Reducer 5 received request from master
+ERROR:root:Intentional failure for reducer 5
+INFO:root:Reducer 3 received request from master
+INFO:root:Reducer 3 sending request to mapper
+INFO:root:Reducer 5 received request from master
+INFO:root:Reducer 5 sending request to mapper
+INFO:root:Reducer 0 received request from master
+INFO:root:Reducer 0 sending request to mapper
+INFO:root:Reducer 2 received request from master
+ERROR:root:Intentional failure for reducer 2
+INFO:root:Reducer 2 received request from master
+INFO:root:Reducer 2 sending request to mapper
+INFO:root:Reducer 1 received intermediate values from mapper
+INFO:root:Reducer 5 received intermediate values from mapper
+INFO:root:Reducer 4 received request from master
+ERROR:root:Intentional failure for reducer 4
+INFO:root:Reducer 0 received intermediate values from mapper
+INFO:root:Reducer 3 received intermediate values from mapper
+INFO:root:Reducer 4 received request from master
+INFO:root:Reducer 4 sending request to mapper
+INFO:root:Reducer 2 received intermediate values from mapper
+INFO:root:Reducer 4 received intermediate values from mapper
+INFO:root:Reducer server started at port 6005
+INFO:root:Reducer server started at port 6004
+INFO:root:Reducer server started at port 6003
+INFO:root:Reducer server started at port 6001
+INFO:root:Reducer server started at port 6002
+INFO:root:Reducer server started at port 6006
+INFO:root:Reducer 0 received request from master
+INFO:root:Reducer 0 sending request to mapper
+INFO:root:Reducer 2 received request from master
+INFO:root:Reducer 2 sending request to mapper
+INFO:root:Reducer 3 received request from master
+INFO:root:Reducer 3 sending request to mapper
+INFO:root:Reducer 5 received request from master
+INFO:root:Reducer 5 sending request to mapper
+INFO:root:Reducer 0 received intermediate values from mapper
+INFO:root:Reducer 1 received request from master
+ERROR:root:Intentional failure for reducer 1
+INFO:root:Reducer 4 received request from master
+INFO:root:Reducer 4 sending request to mapper
+INFO:root:Reducer 1 received request from master
+ERROR:root:Intentional failure for reducer 1
+INFO:root:Reducer 3 received intermediate values from mapper
+INFO:root:Reducer 1 received request from master
+INFO:root:Reducer 1 sending request to mapper
+INFO:root:Reducer 2 received intermediate values from mapper
+INFO:root:Reducer 5 received intermediate values from mapper
+INFO:root:Reducer 4 received intermediate values from mapper
+INFO:root:Reducer 1 received intermediate values from mapper
+INFO:root:Reducer server started at port 6001
+INFO:root:Reducer server started at port 6002
+INFO:root:Reducer server started at port 6003
+INFO:root:Reducer server started at port 6004
+INFO:root:Reducer server started at port 6006
+INFO:root:Reducer server started at port 6005
+INFO:root:Reducer 0 received request from master
+INFO:root:Reducer 0 sending request to mapper
+INFO:root:Reducer 1 received request from master
+ERROR:root:Intentional failure for reducer 1
+INFO:root:Reducer 2 received request from master
+ERROR:root:Intentional failure for reducer 2
+INFO:root:Reducer 4 received request from master
+ERROR:root:Intentional failure for reducer 4
+INFO:root:Reducer 3 received request from master
+INFO:root:Reducer 3 sending request to mapper
+INFO:root:Reducer 0 received intermediate values from mapper
+INFO:root:Reducer 1 received request from master
+INFO:root:Reducer 5 received request from master
+INFO:root:Reducer 5 sending request to mapper
+INFO:root:Reducer 1 sending request to mapper
+INFO:root:Reducer 4 received request from master
+INFO:root:Reducer 4 sending request to mapper
+INFO:root:Reducer 2 received request from master
+ERROR:root:Intentional failure for reducer 2
+INFO:root:Reducer 3 received intermediate values from mapper
+INFO:root:Reducer 2 received request from master
+INFO:root:Reducer 2 sending request to mapper
+INFO:root:Reducer 1 received intermediate values from mapper
+INFO:root:Reducer 5 received intermediate values from mapper
+INFO:root:Reducer 4 received intermediate values from mapper
+INFO:root:Reducer 2 received intermediate values from mapper
+INFO:root:Reducer server started at port 6001
+INFO:root:Reducer server started at port 6005
+INFO:root:Reducer server started at port 6006
+INFO:root:Reducer server started at port 6002
+INFO:root:Reducer server started at port 6004
+INFO:root:Reducer server started at port 6003
+INFO:root:Reducer 0 received request from master
+INFO:root:Reducer 0 sending request to mapper
+INFO:root:Reducer 1 received request from master
+ERROR:root:Intentional failure for reducer 1
+INFO:root:Reducer 2 received request from master
+ERROR:root:Intentional failure for reducer 2
+INFO:root:Reducer 3 received request from master
+INFO:root:Reducer 3 sending request to mapper
+INFO:root:Reducer 4 received request from master
+ERROR:root:Intentional failure for reducer 4
+INFO:root:Reducer 0 received intermediate values from mapper
+INFO:root:Reducer 5 received request from master
+INFO:root:Reducer 5 sending request to mapper
+INFO:root:Reducer 3 received intermediate values from mapper
+INFO:root:Reducer 1 received request from master
+ERROR:root:Intentional failure for reducer 1
+INFO:root:Reducer 4 received request from master
+ERROR:root:Intentional failure for reducer 4
+INFO:root:Reducer 2 received request from master
+INFO:root:Reducer 2 sending request to mapper
+INFO:root:Reducer 5 received intermediate values from mapper
+INFO:root:Reducer 4 received request from master
+ERROR:root:Intentional failure for reducer 4
+INFO:root:Reducer 1 received request from master
+ERROR:root:Intentional failure for reducer 1
+INFO:root:Reducer 2 received intermediate values from mapper
+INFO:root:Reducer 4 received request from master
+INFO:root:Reducer 4 sending request to mapper
+INFO:root:Reducer 1 received request from master
+ERROR:root:Intentional failure for reducer 1
+INFO:root:Reducer 1 received request from master
+INFO:root:Reducer 1 sending request to mapper
+INFO:root:Reducer 4 received intermediate values from mapper
+INFO:root:Reducer 1 received intermediate values from mapper
+INFO:root:Reducer server started at port 6002
+INFO:root:Reducer server started at port 6003
+INFO:root:Reducer server started at port 6004
+INFO:root:Reducer server started at port 6001
+INFO:root:Reducer server started at port 6005
+INFO:root:Reducer server started at port 6006
+INFO:root:Reducer 1 received request from master
+INFO:root:Reducer 1 sending request to mapper
+INFO:root:Reducer 3 received request from master
+INFO:root:Reducer 3 sending request to mapper
+INFO:root:Reducer 4 received request from master
+INFO:root:Reducer 4 sending request to mapper
+INFO:root:Reducer 1 received intermediate values from mapper
+INFO:root:Reducer 2 received request from master
+INFO:root:Reducer 2 sending request to mapper
+INFO:root:Reducer 0 received request from master
+ERROR:root:Intentional failure for reducer 0
+INFO:root:Reducer 5 received request from master
+ERROR:root:Intentional failure for reducer 5
+INFO:root:Reducer 0 received request from master
+ERROR:root:Intentional failure for reducer 0
+INFO:root:Reducer 5 received request from master
+ERROR:root:Intentional failure for reducer 5
+INFO:root:Reducer 5 received request from master
+ERROR:root:Intentional failure for reducer 5
+INFO:root:Reducer 0 received request from master
+ERROR:root:Intentional failure for reducer 0
+INFO:root:Reducer 5 received request from master
+INFO:root:Reducer 5 sending request to mapper
+INFO:root:Reducer 0 received request from master
+ERROR:root:Intentional failure for reducer 0
+INFO:root:Reducer 4 received intermediate values from mapper
+INFO:root:Reducer 3 received intermediate values from mapper
+INFO:root:Reducer 2 received intermediate values from mapper
+INFO:root:Reducer 0 received request from master
+INFO:root:Reducer 0 sending request to mapper
+INFO:root:Reducer 5 received intermediate values from mapper
+INFO:root:Reducer 0 received intermediate values from mapper
+INFO:root:Reducer server started at port 6003
+INFO:root:Reducer server started at port 6001
+INFO:root:Reducer server started at port 6002
+INFO:root:Reducer server started at port 6004
+INFO:root:Reducer server started at port 6006
+INFO:root:Reducer server started at port 6005
+INFO:root:Reducer 0 received request from master
+INFO:root:Reducer 0 sending request to mapper
+INFO:root:Reducer 1 received request from master
+INFO:root:Reducer 1 sending request to mapper
+INFO:root:Reducer 2 received request from master
+ERROR:root:Intentional failure for reducer 2
+INFO:root:Reducer 4 received request from master
+ERROR:root:Intentional failure for reducer 4
+INFO:root:Reducer 5 received request from master
+ERROR:root:Intentional failure for reducer 5
+INFO:root:Reducer 1 received intermediate values from mapper
+INFO:root:Reducer 0 received intermediate values from mapper
+INFO:root:Reducer 2 received request from master
+INFO:root:Reducer 2 sending request to mapper
+INFO:root:Reducer 4 received request from master
+INFO:root:Reducer 4 sending request to mapper
+INFO:root:Reducer 5 received request from master
+ERROR:root:Intentional failure for reducer 5
+INFO:root:Reducer 3 received request from master
+INFO:root:Reducer 3 sending request to mapper
+INFO:root:Reducer 5 received request from master
+INFO:root:Reducer 2 received intermediate values from mapper
+INFO:root:Reducer 5 sending request to mapper
+INFO:root:Reducer 4 received intermediate values from mapper
+INFO:root:Reducer 3 received intermediate values from mapper
+INFO:root:Reducer 5 received intermediate values from mapper
+INFO:root:Reducer server started at port 6003
+INFO:root:Reducer server started at port 6001
+INFO:root:Reducer server started at port 6005
+INFO:root:Reducer server started at port 6002
+INFO:root:Reducer server started at port 6004
+INFO:root:Reducer server started at port 6006
+INFO:root:Reducer 0 received request from master
+INFO:root:Reducer 0 sending request to mapper
+INFO:root:Reducer 1 received request from master
+INFO:root:Reducer 1 sending request to mapper
+INFO:root:Reducer 2 received request from master
+ERROR:root:Intentional failure for reducer 2
+INFO:root:Reducer 4 received request from master
+INFO:root:Reducer 4 sending request to mapper
+INFO:root:Reducer 0 received intermediate values from mapper
+INFO:root:Reducer 5 received request from master
+INFO:root:Reducer 5 sending request to mapper
+INFO:root:Reducer 1 received intermediate values from mapper
+INFO:root:Reducer 2 received request from master
+INFO:root:Reducer 2 sending request to mapper
+INFO:root:Reducer 4 received intermediate values from mapper
+INFO:root:Reducer 3 received request from master
+ERROR:root:Intentional failure for reducer 3
+INFO:root:Reducer 5 received intermediate values from mapper
+INFO:root:Reducer 3 received request from master
+ERROR:root:Intentional failure for reducer 3
+INFO:root:Reducer 2 received intermediate values from mapper
+INFO:root:Reducer 3 received request from master
+ERROR:root:Intentional failure for reducer 3
+INFO:root:Reducer 3 received request from master
+ERROR:root:Intentional failure for reducer 3
+INFO:root:Reducer 3 received request from master
+INFO:root:Reducer 3 sending request to mapper
+INFO:root:Reducer 3 received intermediate values from mapper
